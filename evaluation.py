@@ -49,7 +49,6 @@ def compare_gene_sets(original, new):
             ])
     return result
 
-
 def export_to_csv(data, filename):
     """
     Export gene set comparison results to CSV.
@@ -71,6 +70,35 @@ def export_to_csv(data, filename):
         writer = csv.writer(file)
         writer.writerow(header)
         writer.writerows(data)
+
+def compute_per_phenotype_prf(original, new, output_csv):
+    """
+    For each gene set present in both original and new:
+    compute precision, recall, F1 and write to CSV:
+    phenotype | precision | recall | f1
+    """
+    rows = []
+    for name, new_genes in new.items():
+        if name not in original:
+            continue
+        orig_genes = original[name]
+
+        tp = len(orig_genes & new_genes)
+        fp = len(new_genes - orig_genes)
+        fn = len(orig_genes - new_genes)
+
+        precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
+        recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
+        f1 = (2 * precision * recall / (precision + recall)
+              if (precision + recall) > 0 else 0.0)
+
+        rows.append([name, precision, recall, f1])
+
+    os.makedirs(os.path.dirname(output_csv), exist_ok=True)
+    with open(output_csv, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Gene Set Name", "Precision", "Recall", "F1"])
+        writer.writerows(rows)
 
 
 def compare_similarity(db1, db2, output_csv="gene_set_similarity.csv"):
@@ -169,6 +197,9 @@ if __name__ == "__main__":
     out_dir = os.path.join(os.path.dirname(new_gmt_file), "evaluation")
     os.makedirs(out_dir, exist_ok=True)
 
+    
+
+
     # Output paths
     comparison_csv = os.path.join(out_dir, "gene_set_comparison.csv")
     similarity_csv = os.path.join(out_dir, "gene_set_similarity.csv")
@@ -181,6 +212,10 @@ if __name__ == "__main__":
     # Compare gene sets
     comparison_result = compare_gene_sets(original_gene_set, new_gene_set)
     export_to_csv(comparison_result, filename=comparison_csv)
+
+    # Compute per-phenotype precision/recall/F1
+    prf_csv = os.path.join(out_dir, "per_phenotype_prf.csv")
+    compute_per_phenotype_prf(original_gene_set, new_gene_set, prf_csv)
 
     # Calculate similarity
     similarity_stats = compare_similarity(original_gene_set, new_gene_set, output_csv=similarity_csv)

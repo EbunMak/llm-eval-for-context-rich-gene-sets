@@ -1,0 +1,13 @@
+=== SUMMARY REPORT ===
+
+=== SIMILARITY METRICS ===
+Overall Database Similarity (% Jaccard): 74.33%
+Unweighted Mean Similarity: 24.34%
+Weighted Mean Similarity: 18.26%
+
+=== GENE COUNTS ===
+Unique genes in ORIGINAL DB: 5093
+Unique genes in NEW DB: 5433
+
+=== COMPARISON TABLE SUMMARY ===
+Gene sets compared: 1230

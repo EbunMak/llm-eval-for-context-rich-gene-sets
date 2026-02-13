@@ -1,0 +1,1231 @@
+Gene Set Name,# Genes DB1,# Genes DB2,# Common,Union Size,% Similarity
+11 pairs of ribs,49,14,2,61,3.28
+2-hydroxyglutarate aciduria,6,5,5,6,83.33
+Abnormal 4th finger morphology,36,2,1,37,2.7
+Abnormal abdomen morphology,893,16,16,893,1.79
+Abnormal acetabulum morphology,609,8,8,609,1.31
+Abnormal activity of mitochondrial respiratory chain,150,127,123,154,79.87
+Abnormal anatomic location of the heart,151,7,6,152,3.95
+Abnormal arm span,11,11,3,19,15.79
+Abnormal auditory evoked potentials,28,6,6,28,21.43
+Abnormal bladder morphology,100,22,11,111,9.91
+Abnormal blistering of the skin,116,38,37,117,31.62
+Abnormal blood gas level,55,3,3,55,5.45
+Abnormal blood inorganic cation concentration,199,36,28,207,13.53
+Abnormal blood sodium concentration,70,17,10,77,12.99
+Abnormal blood urea nitrogen concentration,25,4,3,26,11.54
+Abnormal blood zinc concentration,8,14,3,19,15.79
+Abnormal brain positron emission tomography,24,6,6,24,25.0
+Abnormal branching pattern of the aortic arch,34,2,2,34,5.88
+Abnormal bronchoalveolar lavage fluid morphology,19,12,6,25,24.0
+Abnormal calcification of the carpal bones,6,2,1,7,14.29
+Abnormal calf musculature morphology,98,25,25,98,25.51
+Abnormal cardiac biomarker test,7,15,6,16,37.5
+Abnormal cardiac septum morphology,876,65,55,886,6.21
+Abnormal carotid artery morphology,106,24,14,116,12.07
+Abnormal caudate nucleus morphology,25,10,3,32,9.38
+Abnormal cerebellar cortex morphology,5,1,1,5,20.0
+Abnormal cerebrospinal fluid morphology,682,34,34,682,4.99
+Abnormal cervical spine morphology,36,17,2,51,3.92
+Abnormal chorioretinal morphology,178,35,32,181,17.68
+Abnormal chromosome morphology,14,10,6,18,33.33
+Abnormal circulating adrenocorticotropin concentration,48,20,15,53,28.3
+Abnormal circulating amino acid concentration,184,57,48,193,24.87
+Abnormal circulating bilirubin concentration,142,23,20,145,13.79
+Abnormal circulating carboxylic acid concentration,409,9,9,409,2.2
+Abnormal circulating cholesterol concentration,163,54,40,177,22.6
+Abnormal circulating citrulline concentration,25,4,3,26,11.54
+Abnormal circulating copper concentration,14,16,5,25,20.0
+Abnormal circulating globulin concentration,14,3,2,15,13.33
+Abnormal circulating gonadotropin concentration,131,17,17,131,12.98
+Abnormal circulating insulin concentration,162,35,26,171,15.2
+Abnormal circulating iron concentration,23,16,10,29,34.48
+Abnormal circulating isoleucine concentration,6,7,4,9,44.44
+Abnormal circulating lactate dehydrogenase concentration,102,10,9,103,8.74
+Abnormal circulating lipid concentration,339,94,84,349,24.07
+Abnormal circulating nucleobase concentration,49,2,1,50,2.0
+Abnormal circulating ornithine concentration,5,7,3,9,33.33
+Abnormal circulating serine concentration,5,4,3,6,50.0
+Abnormal circulating sex hormone concentration,123,37,25,135,18.52
+Abnormal corneal epithelium morphology,196,39,26,209,12.44
+Abnormal corneal reflex,12,1,1,12,8.33
+Abnormal corneal thickness,155,24,23,156,14.74
+Abnormal coronary artery origin,8,2,1,9,11.11
+Abnormal corpus striatum morphology,43,18,11,50,22.0
+Abnormal cortical bone morphology,611,30,26,615,4.23
+Abnormal corticospinal tract morphology,50,9,8,51,15.69
+Abnormal curvature of the vertebral column,1518,62,60,1520,3.95
+Abnormal dark-adapted bright flash electroretinogram,19,8,8,19,42.11
+Abnormal dental root morphology,58,23,16,65,24.62
+Abnormal drinking behavior,53,5,4,54,7.41
+Abnormal duodenum morphology,87,9,8,88,9.09
+Abnormal ear morphology,1737,128,128,1737,7.37
+Abnormal eating behavior,129,36,22,143,15.38
+Abnormal electroretinogram,366,140,140,366,38.25
+Abnormal emotional state,711,118,110,719,15.3
+Abnormal endocrine morphology,118,41,40,119,33.61
+Abnormal energy expenditure,12,9,8,13,61.54
+Abnormal enzyme concentration or activity,744,415,414,745,55.57
+Abnormal eosinophil morphology,73,14,5,82,6.1
+Abnormal erythrocyte enzyme concentration or activity,49,20,20,49,40.82
+Abnormal erythrocyte morphology,1245,32,32,1245,2.57
+Abnormal external nose morphology,990,9,9,990,0.91
+Abnormal eyelash morphology,343,23,20,346,5.78
+Abnormal facial expression,191,12,11,192,5.73
+Abnormal facial skeleton morphology,1667,174,174,1667,10.44
+Abnormal fallopian tube morphology,27,13,3,37,8.11
+Abnormal female reproductive system physiology,385,112,111,386,28.76
+Abnormal femur morphology,702,98,97,703,13.8
+Abnormal fetal cardiovascular morphology,53,33,12,74,16.22
+Abnormal fetal genitourinary system morphology,13,2,1,14,7.14
+Abnormal fetal morphology,371,117,93,395,23.54
+Abnormal fontanelle morphology,240,6,6,240,2.5
+Abnormal foot morphology,1783,77,76,1784,4.26
+Abnormal full-field electroretinogram,328,84,83,329,25.23
+Abnormal globus pallidus morphology,27,4,4,27,14.81
+Abnormal hallux morphology,213,4,4,213,1.88
+Abnormal hard palate morphology,85,22,4,103,3.88
+Abnormal head blood vessel morphology,83,3,2,84,2.38
+Abnormal head movements,41,20,6,55,10.91
+Abnormal heart valve morphology,381,72,68,385,17.66
+Abnormal helix morphology,189,10,9,190,4.74
+Abnormal hemoglobin concentration,20,12,12,20,60.0
+Abnormal hindbrain morphology,1071,97,93,1075,8.65
+Abnormal ileum morphology,45,4,3,46,6.52
+Abnormal immune serum protein physiology,48,19,19,48,39.58
+Abnormal incisor morphology,78,28,20,86,23.26
+Abnormal intrahepatic bile duct morphology,32,7,6,33,18.18
+Abnormal iris pigmentation,148,19,19,148,12.84
+Abnormal joint morphology,1486,261,260,1487,17.48
+Abnormal lacrimal duct morphology,57,2,1,58,1.72
+Abnormal larynx morphology,164,15,5,174,2.87
+Abnormal lateral ventricle morphology,131,14,13,132,9.85
+Abnormal left ventricular end-diastolic volume,23,8,7,24,29.17
+Abnormal length of corpus callosum,10,2,1,11,9.09
+Abnormal leukocyte enzyme concentration or activity,5,6,5,6,83.33
+Abnormal limb epiphysis morphology,189,16,14,191,7.33
+Abnormal liver enzyme activity or concentration,14,16,6,24,25.0
+Abnormal liver metabolite concentration,209,63,54,218,24.77
+Abnormal liver physiology,27,17,16,28,57.14
+Abnormal lower limb epiphysis morphology,148,12,7,153,4.58
+Abnormal lung lobation,44,4,2,46,4.35
+Abnormal lymphatic vessel morphology,18,18,10,26,38.46
+Abnormal macrophage morphology,48,19,15,52,28.85
+Abnormal mast cell morphology,8,11,4,15,26.67
+Abnormal mean corpuscular volume,63,8,7,64,10.94
+Abnormal metabolism,165,179,138,206,66.99
+Abnormal metaphyseal trabeculation,26,5,3,28,10.71
+Abnormal middle phalanx morphology of the hand,71,15,11,75,14.67
+Abnormal mitochondria in muscle tissue,48,28,20,56,35.71
+Abnormal mitral valve physiology,210,19,19,210,9.05
+Abnormal morphology of the great vessels,826,55,49,832,5.89
+Abnormal morphology of the limbic system,52,13,6,59,10.17
+Abnormal morphology of the olfactory bulb,36,7,7,36,19.44
+Abnormal morphology of ulna,177,8,7,178,3.93
+Abnormal motor evoked potentials,12,2,1,13,7.69
+Abnormal muscle fiber alpha dystroglycan,12,12,10,14,71.43
+Abnormal muscle fiber morphology,294,110,110,294,37.41
+Abnormal muscle tissue metabolite concentration,64,29,21,72,29.17
+Abnormal nail attachment,24,3,3,24,12.5
+Abnormal nasal septum morphology,25,14,2,37,5.41
+Abnormal nasal skeleton morphology,12,18,2,28,7.14
+Abnormal nasolacrimal system morphology,83,5,4,84,4.76
+Abnormal nasopharynx morphology,200,8,3,205,1.46
+Abnormal negative emotional state,5,22,3,24,12.5
+Abnormal neuron morphology,85,63,63,85,74.12
+Abnormal nonverbal communicative behavior,121,11,11,121,9.09
+Abnormal number of teeth,864,88,88,864,10.19
+Abnormal odontoid process morphology,34,4,3,35,8.57
+Abnormal ossification involving the femoral head and neck,25,16,1,40,2.5
+Abnormal ovarian morphology,179,53,52,180,28.89
+Abnormal palate morphology,1503,155,147,1511,9.73
+Abnormal palmar dermatoglyphics,769,17,15,771,1.95
+Abnormal pelvic girdle bone morphology,973,21,19,975,1.95
+Abnormal pelvis bone morphology,22,1,1,22,4.55
+Abnormal pericardium morphology,84,15,4,95,4.21
+Abnormal peripheral myelination,113,32,25,120,20.83
+Abnormal peristalsis,25,15,7,33,21.21
+Abnormal periungual morphology,23,3,1,25,4.0
+Abnormal phagocytosis,5,4,3,6,50.0
+Abnormal phalangeal joint morphology of the hand,296,6,5,297,1.68
+Abnormal pituitary gland morphology,360,40,40,360,11.11
+Abnormal pleura morphology,248,15,13,250,5.2
+Abnormal portal venous system morphology,11,12,3,20,15.0
+Abnormal posturing,7,9,3,13,23.08
+Abnormal proximal phalanx morphology of the hand,29,18,11,36,30.56
+Abnormal psychotic pattern,164,28,16,176,9.09
+Abnormal pulmonary valve morphology,57,2,1,58,1.72
+Abnormal pulmonary valve physiology,183,5,4,184,2.17
+Abnormal rapid eye movement sleep,21,11,3,29,10.34
+Abnormal relationship,16,10,2,24,8.33
+Abnormal renal cortex morphology,257,43,32,268,11.94
+Abnormal renal morphology,1159,269,269,1159,23.21
+Abnormal renal physiology,745,264,258,751,34.35
+Abnormal retinal morphology,1120,330,329,1121,29.35
+Abnormal retinal vascular morphology,457,42,36,463,7.78
+Abnormal salivary gland morphology,28,15,7,36,19.44
+Abnormal sclera morphology,643,28,18,653,2.76
+Abnormal shoulder morphology,114,1,1,114,0.88
+Abnormal size of pituitary gland,31,4,4,31,12.9
+Abnormal skull base morphology,739,20,20,739,2.71
+Abnormal speech discrimination,5,9,2,12,16.67
+Abnormal sperm tail morphology,49,32,31,50,62.0
+Abnormal systemic arterial morphology,604,51,50,605,8.26
+Abnormal tarsal ossification,9,2,1,10,10.0
+Abnormal temper tantrums,37,2,1,38,2.63
+Abnormal testis morphology,977,213,192,998,19.24
+Abnormal thalamus morphology,51,9,8,52,15.38
+Abnormal thymus morphology,59,11,10,60,16.67
+Abnormal tissue enzyme concentration or activity,104,79,79,104,75.96
+Abnormal toe morphology,1089,49,49,1089,4.5
+Abnormal toe phalanx morphology,157,4,4,157,2.55
+Abnormal toenail morphology,164,16,12,168,7.14
+Abnormal tongue physiology,101,2,1,102,0.98
+Abnormal tricuspid valve physiology,119,13,7,125,5.6
+Abnormal upper limb metaphysis morphology,18,9,3,24,12.5
+Abnormal ureter morphology,157,27,7,177,3.95
+Abnormal urine carbohydrate level,41,2,1,42,2.38
+Abnormal urine magnesium concentration,10,10,7,13,53.85
+Abnormal urine sodium concentration,18,7,6,19,31.58
+Abnormal uterine cervix morphology,41,22,2,61,3.28
+Abnormal uterus morphology,178,42,41,179,22.91
+Abnormal vascular morphology,1258,390,373,1275,29.25
+Abnormal ventricular axis,5,18,1,22,4.55
+Abnormal ventricular septum morphology,638,37,30,645,4.65
+Abnormal vertebral segmentation and fusion,11,7,6,12,50.0
+Abnormal waist to hip ratio,36,15,8,43,18.6
+Abnormal wrist physiology,31,6,1,36,2.78
+Abnormality iris morphology,533,35,35,533,6.57
+Abnormality of alkaline phosphatase level,137,40,40,137,29.2
+Abnormality of blood circulation,392,152,151,393,38.42
+Abnormality of chorioretinal pigmentation,16,3,3,16,18.75
+Abnormality of chromosome segregation,14,6,6,14,42.86
+Abnormality of connective tissue,1826,502,502,1826,27.49
+Abnormality of cytokine secretion,7,12,5,14,35.71
+Abnormality of dental structure,813,134,133,814,16.34
+Abnormality of endocrine pancreas physiology,31,25,15,41,36.59
+Abnormality of facial musculature,348,29,19,358,5.31
+Abnormality of fibrinolysis,7,1,1,7,14.29
+Abnormality of fluid regulation,800,151,150,801,18.73
+Abnormality of humoral immunity,356,159,158,357,44.26
+Abnormality of jaw muscles,33,15,8,40,20.0
+Abnormality of lens shape,49,17,10,56,17.86
+Abnormality of neuronal migration,476,131,125,482,25.93
+Abnormality of neutrophils,274,107,106,275,38.55
+Abnormality of pain sensation,112,29,29,112,25.89
+Abnormality of peripheral nerve conduction,150,92,86,156,55.13
+Abnormality of prenatal development or birth,1118,589,589,1118,52.68
+Abnormality of prothrombin,102,7,7,102,6.86
+Abnormality of renal excretion,74,53,42,85,49.41
+Abnormality of spinal facet joint,5,2,0,7,0.0
+Abnormality of superoxide metabolism,5,16,4,17,23.53
+Abnormality of the anterior commissure,8,3,2,9,22.22
+Abnormality of the autonomic nervous system,305,58,49,314,15.61
+Abnormality of the bladder,557,160,130,587,22.15
+Abnormality of the breast,472,199,198,473,41.86
+Abnormality of the dentition,1322,217,216,1323,16.33
+Abnormality of the distal phalanges of the toes,30,15,5,40,12.5
+Abnormality of the foot musculature,12,5,1,16,6.25
+Abnormality of the gingiva,261,35,35,261,13.41
+Abnormality of the glabella,29,2,1,30,3.33
+Abnormality of the intrinsic pathway,38,35,8,65,12.31
+Abnormality of the lower urinary tract,901,120,119,902,13.19
+Abnormality of the menstrual cycle,329,57,56,330,16.97
+Abnormality of the middle phalanx of the 5th finger,25,7,3,29,10.34
+Abnormality of the neck,1131,96,95,1132,8.39
+Abnormality of the ovary,238,136,129,245,52.65
+Abnormality of the pancreas,335,140,128,347,36.89
+Abnormality of the parathyroid gland,100,28,28,100,28.0
+Abnormality of the phalanges of the 2nd finger,18,1,1,18,5.56
+Abnormality of the plantar skin of foot,173,11,11,173,6.36
+Abnormality of the proximal phalanx of the 5th finger,5,7,2,10,20.0
+Abnormality of the pulmonary veins,90,13,9,94,9.57
+Abnormality of the pylorus,112,8,3,117,2.56
+Abnormality of the tarsal bones,171,23,18,176,10.23
+Abnormality of the tonsils,40,10,3,47,6.38
+Abnormality of the upper arm,15,3,2,16,12.5
+Abnormality of the upper limb,1945,269,266,1948,13.66
+Abnormality of the upper urinary tract,1501,92,91,1502,6.06
+Abnormality of the urethra,469,31,31,469,6.61
+Abnormality of the vertebral column,1765,179,174,1770,9.83
+Abnormality of the wrist,651,45,42,654,6.42
+Abnormality of thyroid physiology,430,67,58,439,13.21
+Abnormality of upper lip vermillion,493,16,13,496,2.62
+Abnormality of venous physiology,11,4,3,12,25.0
+Abnormality on pulmonary function testing,219,85,74,230,32.17
+Abnormally folded helix,94,2,1,95,1.05
+Absence of pubertal development,31,21,20,32,62.5
+Absence of secondary sex characteristics,44,32,24,52,46.15
+Absence of the sacrum,10,3,1,12,8.33
+Absent brainstem auditory responses,12,13,6,19,31.58
+Absent facial hair,38,12,7,43,16.28
+Absent foveal reflex,20,13,9,24,37.5
+Absent hair,61,26,25,62,40.32
+Absent inner dynein arms,9,15,5,19,26.32
+Absent pubertal growth spurt,5,10,1,14,7.14
+Absent pubic hair,9,3,3,9,33.33
+Absent toenail,19,2,1,20,5.0
+Accelerated skeletal maturation,68,25,17,76,22.37
+Acephalic spermatozoa,7,6,6,7,85.71
+Achilles tendon contracture,54,14,14,54,25.93
+Achromatopsia,5,5,5,5,100.0
+Acquired abnormal hair pattern,46,3,2,47,4.26
+Action tremor,211,31,31,211,14.69
+Acute hepatic failure,35,21,18,38,47.37
+Acute infectious pneumonia,6,2,1,7,14.29
+Acute lymphoblastic leukemia,38,24,23,39,58.97
+Acute myeloid leukemia,76,46,46,76,60.53
+Acute rhabdomyolysis,5,6,5,6,83.33
+Adenocarcinoma of the intestines,58,20,10,68,14.71
+Adenocarcinoma of the small intestine,27,6,6,27,22.22
+Adipose tissue loss,32,31,14,49,28.57
+Adrenal hypoplasia,35,7,6,36,16.67
+Adrenocortical adenoma,9,12,5,16,31.25
+Adrenocortical carcinoma,19,15,14,20,70.0
+Adult onset,1184,57,53,1188,4.46
+Agammaglobulinemia,21,19,13,27,48.15
+Aggressive behavior,303,101,99,305,32.46
+Agyria,18,9,8,19,42.11
+Albinism,20,17,17,20,85.0
+Allodynia,5,10,3,12,25.0
+Alopecia universalis,11,4,3,12,25.0
+Amaurosis fugax,42,8,1,49,2.04
+Amyotrophic lateral sclerosis,49,48,45,52,86.54
+Anal atresia,134,28,26,136,19.12
+Anarthria,16,3,3,16,18.75
+Androgen insufficiency,5,13,1,17,5.88
+Angina pectoris,36,10,10,36,27.78
+Angiofibromas,30,4,3,31,9.68
+Angiosarcoma,2,2,1,3,33.33
+Angulated muscle fibers,8,2,1,9,11.11
+Anhidrosis,38,15,13,40,32.5
+Ankle pain,6,4,3,7,42.86
+Ankyloblepharon,16,4,4,16,25.0
+Anophthalmia,70,24,24,70,34.29
+Anorectal anomaly,181,17,17,181,9.39
+Anorexia,128,32,22,138,15.94
+Anosmia,50,24,24,50,48.0
+Anterior encephalocele,18,5,4,19,21.05
+Anterior pituitary agenesis,10,14,8,16,50.0
+Anterior uveitis,18,6,5,19,26.32
+Anti-thyroglobulin antibody positivity,9,3,3,9,33.33
+Antineutrophil antibody positivity,57,18,9,66,13.64
+Antinuclear antibody positivity,74,21,21,74,28.38
+Aortic aneurysm,190,80,79,191,41.36
+Aortic arch aneurysm,42,9,8,43,18.6
+Aortic valve calcification,10,10,4,16,25.0
+Aplasia cutis congenita,43,18,18,43,41.86
+Aplasia cutis congenita over the scalp vertex,7,7,3,11,27.27
+Aplasia of the ulna,5,3,1,7,14.29
+Appendicular spasticity,438,16,16,438,3.65
+Apraxia,221,53,51,223,22.87
+Aqueductal stenosis,28,14,4,38,10.53
+Areflexia,322,64,60,326,18.4
+Arterial thrombosis,33,18,17,34,50.0
+Arthralgia of the hip,9,12,4,17,23.53
+Aspiration,38,7,6,39,15.38
+Aspiration pneumonia,98,13,6,105,5.71
+Astrocytoma,25,23,19,29,65.52
+Asymmetric septal hypertrophy,13,24,6,31,19.35
+Athetosis,178,15,15,178,8.43
+Atlantoaxial abnormality,14,16,4,26,15.38
+Atresia of the external auditory canal,57,15,14,58,24.14
+Atrial flutter,21,17,6,32,18.75
+Atrioventricular canal defect,69,12,11,70,15.71
+Atrophic scars,63,13,13,63,20.63
+Atypical behavior,1687,241,241,1687,14.29
+Autoimmune thrombocytopenia,39,23,22,40,55.0
+Autoimmunity,313,220,206,327,63.0
+Axial dystonia,16,6,5,17,29.41
+Axillary freckling,5,2,1,6,16.67
+Axillary pterygium,12,7,6,13,46.15
+Barrett esophagus,7,5,4,8,50.0
+Bifid distal phalanx of the thumb,5,1,1,5,20.0
+Bifid epiglottis,7,4,3,8,37.5
+Bilateral choanal atresia,10,3,2,11,18.18
+Bilateral single transverse palmar creases,79,7,3,83,3.61
+Bilateral tonic-clonic seizure with focal onset,54,8,8,54,14.81
+Bile duct proliferation,23,18,5,36,13.89
+Biliary atresia,13,9,5,17,29.41
+Biliary tract abnormality,115,33,27,121,22.31
+Biliary tract neoplasm,16,15,5,26,19.23
+Blepharophimosis,158,33,30,161,18.63
+Blindness,347,145,144,348,41.38
+Blue nevus,11,3,2,12,16.67
+Blurred vision,46,15,7,54,12.96
+Bone cyst,28,15,11,32,34.38
+Bone marrow hypocellularity,628,34,30,632,4.75
+Bowed humerus,10,11,1,20,5.0
+Bradycardia,100,37,37,100,37.0
+Brain stem compression,14,5,1,18,5.56
+Breech presentation,73,7,2,78,2.56
+Broad alveolar ridges,15,4,1,18,5.56
+Broad columella,14,2,2,14,14.29
+Broad distal phalanx of finger,27,12,6,33,18.18
+Broad eyebrow,30,3,2,31,6.45
+Broad first metatarsal,6,2,1,7,14.29
+Broad foot,590,10,7,593,1.18
+Broad forehead,293,33,32,294,10.88
+Broad metatarsal,13,6,1,18,5.56
+Broad nasal tip,165,35,30,170,17.65
+Broad phalanges of the hand,632,2,2,632,0.32
+Broad thumb,620,28,28,620,4.52
+Bronchomalacia,39,12,3,48,6.25
+Bruxism,39,3,2,40,5.0
+Cachexia,98,21,20,99,20.2
+Cafe-au-lait spot,131,18,18,131,13.74
+Calcific stippling,5,4,1,8,12.5
+Calcification of cartilage,12,8,7,13,53.85
+Calf muscle pseudohypertrophy,20,12,7,25,28.0
+Calvarial hyperostosis,9,10,3,16,18.75
+Calvarial osteosclerosis,8,7,3,12,25.0
+Camptodactyly of toe,44,5,5,44,11.36
+Capillary hemangioma,38,17,7,48,14.58
+Carcinoid tumor,12,5,5,12,41.67
+Cardiac rhabdomyoma,5,2,2,5,40.0
+Cardiomegaly,139,36,36,139,25.9
+Carotid artery stenosis,7,11,3,15,20.0
+Caudate atrophy,15,4,4,15,26.67
+Centrally nucleated skeletal muscle fibers,60,19,13,66,19.7
+Cerebellar atrophy,462,246,244,464,52.59
+Cerebellar dentate nucleus calcification,8,6,6,8,75.0
+Cerebellar hemisphere hypoplasia,8,8,1,15,6.67
+Cerebral arteriovenous malformation,7,10,6,11,54.55
+Cerebral cavernous malformation,5,7,4,8,50.0
+Cerebral hamartoma,21,5,4,22,18.18
+Cerebral hemorrhage,72,33,29,76,38.16
+Cerebral inclusion bodies,52,19,16,55,29.09
+Cerebral visual impairment,184,12,11,185,5.95
+Cervical kyphosis,23,11,3,31,9.68
+Cervical lymphadenopathy,10,18,3,25,12.0
+Cheilitis,59,8,3,64,4.69
+Chiari malformation,134,32,32,134,23.88
+Chilblains,12,6,6,12,50.0
+Childhood onset sensorineural hearing impairment,19,26,8,37,21.62
+Chills,21,3,2,22,9.09
+Cholangiocarcinoma,8,13,3,18,16.67
+Cholangitis,28,10,10,28,35.71
+Chondrocalcinosis,22,8,8,22,36.36
+Choreoathetosis,135,32,32,135,23.7
+Chorioretinal atrophy,60,23,23,60,38.33
+Chorioretinal coloboma,51,13,13,51,25.49
+Chronic bronchitis,29,3,2,30,6.67
+Chronic infection,26,11,8,29,27.59
+Chronic leukemia,23,13,13,23,56.52
+Chronic pain,13,15,5,23,21.74
+Chronic pulmonary obstruction,37,23,10,50,20.0
+Chronic rhinitis,62,6,5,63,7.94
+Cirrhosis,167,108,95,180,52.78
+Cleft upper lip,237,36,35,238,14.71
+Clitoral hypertrophy,69,13,11,71,15.49
+Clitoral hypoplasia,33,8,1,40,2.5
+Clonus,131,22,10,143,6.99
+Cloverleaf skull,8,7,3,12,25.0
+Clumsiness,95,16,15,96,15.62
+Coarctation of aorta,155,40,24,171,14.04
+Coiled sperm flagella,36,26,21,41,51.22
+Colon cancer,51,51,34,68,50.0
+Color vision defect,222,39,39,222,17.57
+Color vision test abnormality,10,7,7,10,70.0
+Combined immunodeficiency,43,37,37,43,86.05
+Complete atrioventricular canal defect,18,20,5,33,15.15
+Complete right bundle branch block,57,3,3,57,5.26
+Congenital contracture,193,97,90,200,45.0
+Congenital finger flexion contractures,38,9,4,43,9.3
+Congenital giant melanocytic nevus,7,7,7,7,100.0
+Congenital hypoplastic anemia,5,1,1,5,20.0
+Congenital onset,1177,604,594,1187,50.04
+Conical tooth,57,21,20,58,34.48
+Conjunctival hyperemia,8,1,1,8,12.5
+Convex nasal ridge,119,7,7,119,5.88
+Cor pulmonale,15,2,1,16,6.25
+Corneal dystrophy,39,21,20,40,50.0
+Corneal erosion,111,12,12,111,10.81
+Corneal guttata,6,3,3,6,50.0
+Corneal neovascularization,27,11,5,33,15.15
+Corneal ulceration,90,6,5,91,5.49
+Coronal cleft vertebrae,42,2,2,42,4.76
+Coronary artery aneurysm,7,5,4,8,50.0
+Cough,167,43,36,174,20.69
+Cranial asymmetry,16,2,1,17,5.88
+Cranial nerve compression,610,13,8,615,1.3
+Craniofacial asymmetry,6,13,1,18,5.56
+Craniofacial osteosclerosis,16,11,7,20,35.0
+Crumpled ear,33,2,2,33,6.06
+Cupped ribs,30,2,2,30,6.67
+Curly hair,36,13,12,37,32.43
+Cutaneous cyst,25,8,3,30,10.0
+Cutaneous finger syndactyly,57,18,18,57,31.58
+Cutaneous melanoma,22,18,18,22,81.82
+Cutaneous syndactyly of toes,36,4,3,37,8.11
+Cutis gyrata of scalp,6,4,2,8,25.0
+Death in adolescence,23,2,1,24,4.17
+Death in adulthood,43,17,9,51,17.65
+Death in childhood,138,43,37,144,25.69
+Decreased body weight,1962,268,264,1966,13.43
+Decreased circulating androgen concentration,70,12,8,74,10.81
+Decreased circulating copper concentration,8,9,2,15,13.33
+Decreased circulating parathyroid hormone level,10,6,5,11,45.45
+Decreased circulating renin concentration,13,2,1,14,7.14
+Decreased glomerular filtration rate,30,14,9,35,25.71
+Decreased head circumference,1766,242,227,1781,12.75
+Decreased mean corpuscular hemoglobin concentration,6,2,1,7,14.29
+Decreased miniature endplate potentials,13,8,6,15,40.0
+Decreased number of large peripheral myelinated nerve fibers,20,12,6,26,23.08
+Decreased testicular size,188,39,33,194,17.01
+Decreased total granulocyte count,8,2,1,9,11.11
+Decreased urine output,30,14,6,38,15.79
+Deep venous thrombosis,22,18,15,25,60.0
+Degeneration of anterior horn cells,21,24,12,33,36.36
+Degeneration of the striatum,13,3,3,13,23.08
+Dehydration,113,45,34,124,27.42
+Delayed epiphyseal ossification,57,14,14,57,24.56
+Delayed gross motor development,1002,91,91,1002,9.08
+Delayed somatosensory central conduction time,5,14,1,18,5.56
+Delirium,10,3,2,11,18.18
+Dementia,231,170,160,241,66.39
+Demyelinating motor neuropathy,6,1,1,6,16.67
+Demyelinating peripheral neuropathy,65,16,16,65,24.62
+Dental malocclusion,186,40,39,187,20.86
+Dermal translucency,50,2,2,50,4.0
+Dermatological manifestations of systemic disorders,352,49,39,362,10.77
+Developmental glaucoma,75,25,22,78,28.21
+Deviation of the thumb,55,17,7,65,10.77
+Deviation of toes,646,11,10,647,1.55
+Diaphragmatic weakness,17,16,11,22,50.0
+Diaphyseal dysplasia,5,7,3,9,33.33
+Diarrhea,463,172,172,463,37.15
+Difficulty standing,23,2,1,24,4.17
+Diffuse cerebellar atrophy,21,16,5,32,15.62
+Diffuse palmoplantar hyperkeratosis,10,7,7,10,70.0
+Digenic inheritance,16,9,8,17,47.06
+Digestive system neoplasm,356,164,162,358,45.25
+Dilatation of the bladder,12,20,6,26,23.08
+Dilated cardiomyopathy,186,123,103,206,50.0
+Dilated third ventricle,16,15,3,28,10.71
+Dimple chin,19,2,2,19,10.53
+Discoid lupus rash,39,22,13,48,27.08
+Disproportionate short stature,159,55,51,163,31.29
+Distal lower limb amyotrophy,65,11,10,66,15.15
+Distal lower limb muscle weakness,100,61,53,108,49.07
+Distal peripheral sensory neuropathy,20,3,2,21,9.52
+Distal symphalangism,8,5,4,9,44.44
+Dolichocephaly,237,23,23,237,9.7
+Drusen,120,34,29,125,23.2
+Dry skin,200,47,45,202,22.28
+Duplicated collecting system,26,7,1,32,3.12
+Duplication of thumb phalanx,63,5,3,65,4.62
+Dynein arm defect of respiratory motile cilia,19,12,12,19,63.16
+Dysgammaglobulinemia,5,7,2,10,20.0
+Dyskinesia,207,87,76,218,34.86
+Dysphagia,572,132,125,579,21.59
+Dysphonia,158,19,19,158,12.03
+Dyspnea,540,98,97,541,17.93
+Dystrophic fingernails,32,13,7,38,18.42
+Ear pain,15,2,1,16,6.25
+Early young adult onset,64,28,16,76,21.05
+Easy fatigability,662,27,20,669,2.99
+Ebstein anomaly of the tricuspid valve,6,3,3,6,50.0
+Ecchymosis,86,15,12,89,13.48
+Eclabion,176,3,2,177,1.13
+Ectodermal dysplasia,27,25,23,29,79.31
+Ectopia lentis,80,18,17,81,20.99
+Ectopia pupillae,23,3,3,23,13.04
+Ectopic anterior pituitary gland,9,5,4,10,40.0
+Ectropion,136,21,15,142,10.56
+Elbow contracture,179,29,29,179,16.2
+Elevated circulating aldolase concentration,9,3,1,11,9.09
+Elevated circulating aspartate aminotransferase concentration,89,19,6,102,5.88
+Elevated circulating growth hormone concentration,17,9,8,18,44.44
+Elevated circulating porphyrin concentration,8,12,5,15,33.33
+Elevated hepatic iron concentration,12,15,6,21,28.57
+Elevated urinary delta-aminolevulinic acid,5,5,5,5,100.0
+Elevated urinary vanillylmandelic acid,8,13,4,17,23.53
+Embryonal renal neoplasm,49,10,9,50,18.0
+Emotional lability,168,9,8,169,4.73
+Emphysema,75,32,18,89,20.22
+Enamel hypomineralization,10,22,8,24,33.33
+Enlarged cerebellum,7,2,1,8,12.5
+Enlarged epiphyses,30,6,4,32,12.5
+Enlarged interphalangeal joints,6,1,1,6,16.67
+Enlarged joints,29,3,2,30,6.67
+Enlarged kidney,49,16,16,49,32.65
+Enlarged ovaries,18,9,8,19,42.11
+Enlarged posterior fossa,203,32,18,217,8.29
+Enlarged sylvian cistern,5,1,1,5,20.0
+Enterocolitis,32,12,12,32,37.5
+Entrapment neuropathy,18,14,4,28,14.29
+Enuresis,34,28,17,45,37.78
+Epicanthus,1062,37,37,1062,3.48
+Epidermal acanthosis,55,18,18,55,32.73
+Epididymitis,21,5,4,22,18.18
+Epilepsia partialis continua,12,10,6,16,37.5
+Epileptic spasm,214,104,104,214,48.6
+Erectile dysfunction,79,25,12,92,13.04
+Erosion of oral mucosa,108,11,11,108,10.19
+Eruption failure,17,11,3,25,12.0
+Erythroid hyperplasia,20,16,7,29,24.14
+Esophageal atresia,35,23,11,47,23.4
+Everted lower lip vermilion,143,8,6,145,4.14
+Excessive salivation,171,8,2,177,1.13
+Exercise-induced muscle stiffness,8,5,4,9,44.44
+Exercise-induced rhabdomyolysis,6,7,6,7,85.71
+Exocrine pancreatic insufficiency,72,30,21,81,25.93
+Exodeviation,158,37,11,184,5.98
+Exstrophy,7,14,4,17,23.53
+Extrahepatic cholestasis,10,1,1,10,10.0
+Exudative retinopathy,57,4,3,58,5.17
+Facial hemangioma,21,1,1,21,4.76
+Facial tics,15,2,1,16,6.25
+Failure of eruption of permanent teeth,5,2,1,6,16.67
+Failure to thrive in infancy,129,23,22,130,16.92
+Fair hair,20,10,2,28,7.14
+Fatigable weakness of bulbar muscles,64,2,1,65,1.54
+Fatigue,500,136,130,506,25.69
+Feeding difficulties in infancy,641,80,79,642,12.31
+Female pseudohermaphroditism,7,6,3,10,30.0
+Femur fracture,5,11,3,13,23.08
+Fetal akinesia sequence,34,23,22,35,62.86
+Fetal ultrasound soft marker,129,26,3,152,1.97
+Few cafe-au-lait spots,7,1,1,7,14.29
+Fibroadenoma of the breast,9,4,3,10,30.0
+Finger aplasia,93,8,8,93,8.6
+Finger clinodactyly,532,68,57,543,10.5
+Fingernail dysplasia,16,12,5,23,21.74
+Fingerprint intracellular accumulation of autofluorescent lipopigment storage material,6,7,5,8,62.5
+Flared iliac wing,22,4,1,25,4.0
+Flat face,639,27,26,640,4.06
+Flattened epiphysis,47,4,4,47,8.51
+Floppy infant,194,44,42,196,21.43
+Foam cells,16,14,6,24,25.0
+Focal autonomic seizure,11,12,3,20,15.0
+Focal dystonia,140,36,30,146,20.55
+Focal hyperkinetic seizure,7,12,5,14,35.71
+Focal impaired awareness seizure,177,22,21,178,11.8
+Focal motor status epilepticus,17,13,6,24,25.0
+Focal sensory seizure,18,16,9,25,36.0
+Follicular hyperplasia,15,15,3,27,11.11
+Foot dorsiflexor weakness,147,24,18,153,11.76
+Foot oligodactyly,11,17,7,21,33.33
+Frontal cortical atrophy,13,6,2,17,11.76
+Fulminant hepatic failure,7,3,2,8,25.0
+Functional intestinal obstruction,10,18,4,24,16.67
+Gait ataxia,267,143,140,270,51.85
+Gangrene,56,7,7,56,12.5
+Gastrointestinal arteriovenous malformation,5,3,3,5,60.0
+Gastrointestinal desmoid tumor,7,3,3,7,42.86
+Gastrointestinal eosinophilia,16,6,5,17,29.41
+Gastrointestinal obstruction,93,42,42,93,45.16
+Gastrointestinal ulcer,51,13,12,52,23.08
+Generalized aminoaciduria,15,11,6,20,30.0
+Generalized dystonia,35,19,18,36,50.0
+Generalized edema,27,5,5,27,18.52
+Generalized hyperkeratosis,14,4,3,15,20.0
+Generalized hyperpigmentation,39,8,8,39,20.51
+Generalized hypopigmentation of hair,50,7,7,50,14.0
+Generalized muscle weakness,134,79,73,140,52.14
+Generalized weakness of limb muscles,5,19,3,21,14.29
+Genu valgum,670,30,30,670,4.48
+Giant cell hepatitis,5,3,1,7,14.29
+Giant platelets,12,12,7,17,41.18
+Gingival recession,7,4,3,8,37.5
+Gingivitis,34,10,10,34,29.41
+Glutaric aciduria,7,19,6,20,30.0
+Goiter,62,23,23,62,37.1
+Gonadal neoplasm,106,31,31,106,29.25
+Gonadotropin deficiency,8,7,6,9,66.67
+Hamartomatous polyposis,15,8,8,15,53.33
+Hamstring contractures,9,14,2,21,9.52
+Hand apraxia,6,1,1,6,16.67
+Hand monodactyly,11,9,4,16,25.0
+Hand muscle weakness,51,12,12,51,23.53
+Helicobacter pylori infection,5,1,1,5,20.0
+Hemangioblastoma,18,10,8,20,40.0
+Hemangiomatosis,21,5,4,22,18.18
+Hematemesis,21,13,3,31,9.68
+Hematochezia,42,9,8,43,18.6
+Hemianopia,59,2,2,59,3.39
+Hemihypertrophy,26,19,14,31,45.16
+Hemiplegia,44,34,14,64,21.88
+Hemivertebrae,62,9,9,62,14.52
+Hepatic fibrosis,151,69,61,159,38.36
+Hepatitis,92,62,51,103,49.51
+Hernia,616,158,158,616,25.65
+Herpes simplex encephalitis,10,11,6,15,40.0
+Heterotaxy,30,12,11,31,35.48
+High forehead,313,38,38,313,12.14
+Highly arched eyebrow,226,13,12,227,5.29
+Hip dislocation,755,70,70,755,9.27
+Histiocytosis,6,8,3,11,27.27
+Humeroradial synostosis,11,5,5,11,45.45
+Hydrometrocolpos,29,2,2,29,6.9
+Hydrops fetalis,182,58,49,191,25.65
+Hyperactive deep tendon reflexes,28,3,2,29,6.9
+Hyperactivity,565,222,222,565,39.29
+Hyperacusis,29,18,5,42,11.9
+Hyperextensibility of the finger joints,26,15,5,36,13.89
+Hyperkalemia,41,24,21,44,47.73
+Hyperleucinemia,5,3,1,7,14.29
+Hyperlipidemia,166,68,63,171,36.84
+Hypermethioninemia,9,5,5,9,55.56
+Hyperostosis,54,34,25,63,39.68
+Hyperpigmentation in sun-exposed areas,7,4,3,8,37.5
+Hypertelorism,872,161,158,875,18.06
+Hypertension,450,219,218,451,48.34
+Hyperventilation,40,6,6,40,15.0
+Hypocalcemia,87,28,28,87,32.18
+Hypocalcemic tetany,10,7,4,13,30.77
+Hypochloremia,7,5,5,7,71.43
+Hypoglycemic coma,22,4,4,22,18.18
+Hypoglycosylation of alpha-dystroglycan,11,9,9,11,81.82
+Hypohidrosis,75,24,23,76,30.26
+Hypokalemia,102,43,39,106,36.79
+Hypokalemic alkalosis,13,13,10,16,62.5
+Hypokalemic metabolic alkalosis,10,12,7,15,46.67
+Hypoketotic hypoglycemia,15,9,9,15,60.0
+Hypokinesia,57,17,11,63,17.46
+Hypolipoproteinemia,69,15,11,73,15.07
+Hypopigmentation of the skin,215,59,58,216,26.85
+Hypopituitarism,186,49,49,186,26.34
+Hypoplasia of penis,415,37,32,420,7.62
+Hypoplasia of the fovea,36,10,10,36,27.78
+Hypoplasia of the iris,63,15,15,63,23.81
+Hypoplasia of the uterus,53,6,6,53,11.32
+Hypoplastic anemia,7,2,1,8,12.5
+Hypoplastic aortic arch,14,2,1,15,6.67
+Hypoplastic fingernail,53,21,10,64,15.62
+Hypoplastic iris stroma,8,6,4,10,40.0
+Hypoplastic nipples,41,7,7,41,17.07
+Hypoplastic spleen,10,3,1,12,8.33
+Hyporeflexia of upper limbs,10,4,1,13,7.69
+Hyposmia,52,26,24,54,44.44
+Hypotelorism,147,23,20,150,13.33
+Hypotension,112,30,30,112,26.79
+Hypouricemia,17,10,9,18,50.0
+Ileus,34,12,12,34,35.29
+Immotile cilia,13,12,11,14,78.57
+Impaired mastication,52,10,2,60,3.33
+Impaired myocardial contractility,10,21,5,26,19.23
+Impaired pain sensation,84,27,21,90,23.33
+Imperforate hymen,5,5,2,8,25.0
+Impotence,62,10,9,63,14.29
+Increased circulating aldosterone concentration,33,13,13,33,39.39
+Increased circulating androgen concentration,19,6,5,20,25.0
+Increased circulating gonadotropin level,94,8,8,94,8.51
+Increased circulating hemoglobin concentration,14,9,8,15,53.33
+Increased circulating lactate dehydrogenase concentration,84,7,6,85,7.06
+Increased corneal thickness,5,3,2,6,33.33
+Increased density of long bones,573,14,11,576,1.91
+Increased female libido,18,7,2,23,8.7
+Increased inflammatory response,1380,773,763,1390,54.89
+Increased mean platelet volume,28,8,7,29,24.14
+Increased pulmonary vascular resistance,13,18,4,27,14.81
+Increased sensitivity to ionizing radiation,14,5,4,15,26.67
+Infantile spasms,159,61,59,161,36.65
+Infection following live vaccination,25,16,13,28,46.43
+Inflammation of the large intestine,132,48,47,133,35.34
+Inguinal hernia,342,44,44,342,12.87
+Inheritance qualifier,336,8,6,338,1.78
+Insistence on sameness,6,8,1,13,7.69
+Insulin resistance,111,73,72,112,64.29
+Insulinoma,6,4,3,7,42.86
+Intermittent diarrhea,22,4,2,24,8.33
+Intermittent episodes of respiratory insufficiency due to muscle weakness,14,4,3,15,20.0
+Interosseus muscle atrophy,5,5,2,8,25.0
+Interrupted aortic arch,22,11,3,30,10.0
+Intervertebral disk degeneration,6,2,1,7,14.29
+Intestinal atresia,67,18,13,72,18.06
+Intestinal lymphangiectasia,5,3,3,5,60.0
+Intestinal malrotation,155,27,22,160,13.75
+Intraventricular hemorrhage,10,4,3,11,27.27
+Involuntary vocalization,52,11,2,61,3.28
+Iridocyclitis,12,5,2,15,13.33
+Iris coloboma,181,42,38,185,20.54
+Iris hypopigmentation,63,11,11,63,17.46
+Iris melanoma,5,5,4,6,66.67
+Iris transillumination defect,15,15,7,23,30.43
+Iron accumulation in brain,16,12,12,16,75.0
+Irregularly shaped sperm tail,17,9,3,23,13.04
+Joint stiffness,202,57,54,205,26.34
+Juvenile cataract,11,10,7,14,50.0
+Juvenile myelomonocytic leukemia,18,9,6,21,28.57
+Ketotic hypoglycemia,12,10,4,18,22.22
+Knee contracture,140,30,26,144,18.06
+Knee joint hypermobility,5,13,2,16,12.5
+Lacrimal duct aplasia,11,3,3,11,27.27
+Lacrimal duct stenosis,20,3,2,21,9.52
+Lacrimation abnormality,93,12,7,98,7.14
+Lactic acidosis,203,107,96,214,44.86
+Large fontanelles,205,15,15,205,7.32
+Large for gestational age,53,27,9,71,12.68
+Large posterior fontanelle,19,9,1,27,3.7
+Large sella turcica,14,8,1,21,4.76
+Laryngeal edema,5,3,3,5,60.0
+Laryngotracheal stenosis,5,6,2,9,22.22
+Late young adult onset,43,23,14,52,26.92
+Late-onset proximal muscle weakness,7,2,2,7,28.57
+Lateral ventricle dilatation,95,9,8,96,8.33
+Leber optic atrophy,10,17,8,19,42.11
+Left ventricular hypertrophy,117,46,45,118,38.14
+Left ventricular noncompaction cardiomyopathy,22,8,8,22,36.36
+Leiomyosarcoma,28,26,14,40,35.0
+Leukoencephalopathy,238,86,86,238,36.13
+Limb ataxia,92,50,50,92,54.35
+Limb dystonia,86,35,31,90,34.44
+Limb joint contracture,541,28,24,545,4.4
+Limb muscle weakness,364,209,208,365,56.99
+Limb-girdle muscle weakness,102,58,58,102,56.86
+Limitation of knee mobility,65,5,5,65,7.69
+Limitation of neck motion,38,4,3,39,7.69
+Limited neck range of motion,11,17,1,27,3.7
+Localized skin lesion,959,277,270,966,27.95
+Long foot,28,2,1,29,3.45
+Long nasal bridge,5,9,1,13,7.69
+Long nose,42,12,4,50,8.0
+Long toe,46,5,4,47,8.51
+Long upper lip,8,7,1,14,7.14
+Loss of eyelashes,6,19,2,23,8.7
+Loss of subcutaneous adipose tissue in limbs,11,12,3,20,15.0
+Low anterior hairline,146,4,4,146,2.74
+Low back pain,15,17,5,27,18.52
+Low serum calcitriol,7,6,4,9,44.44
+Lower eyelid coloboma,10,6,6,10,60.0
+Lower limb asymmetry,50,5,4,51,7.84
+Lower limb hyperreflexia,91,14,13,92,14.13
+Lower limb spasticity,269,106,104,271,38.38
+Lumbar hyperlordosis,630,11,11,630,1.75
+Lymphangiectasis,10,11,3,18,16.67
+Lymphangioma,11,4,4,11,36.36
+Lymphoproliferative disorder,17,16,15,18,83.33
+Macular hyperpigmentation,7,3,2,8,25.0
+Macular scar,5,3,2,6,33.33
+Macular thickening,108,12,12,108,11.11
+Macule,235,53,50,238,21.01
+Malaise,46,12,4,54,7.41
+Malar flattening,280,8,8,280,2.86
+Malignant neoplasm of the central nervous system,99,78,61,116,52.59
+Mandibular aplasia,13,11,1,23,4.35
+Maternal autoimmune disease,14,15,2,27,7.41
+Maturity-onset diabetes of the young,21,16,16,21,76.19
+Median cleft upper lip,41,25,12,54,22.22
+Medulloblastoma,19,30,16,33,48.48
+Membranoproliferative glomerulonephritis,9,5,4,10,40.0
+Meningioma,44,29,29,44,65.91
+Mental deterioration,397,134,133,398,33.42
+Metabolic alkalosis,19,11,11,19,57.89
+Metamorphopsia,46,11,7,50,14.0
+Metatarsal synostosis,7,4,2,9,22.22
+Methemoglobinemia,6,2,2,6,33.33
+Methylmalonic aciduria,23,14,14,23,60.87
+Microangiopathic hemolytic anemia,15,11,9,17,52.94
+Microcytic anemia,51,20,19,52,36.54
+Microphallus,17,3,2,18,11.11
+Middle age onset,256,45,37,264,14.02
+Midline defect of the nose,17,22,5,34,14.71
+Minicore myopathy,9,9,8,10,80.0
+Mitral valve calcification,36,8,2,42,4.76
+Mitral valve prolapse,138,36,35,139,25.18
+Mixed hearing impairment,40,8,7,41,17.07
+Moderately short stature,5,10,3,12,25.0
+Moon facies,15,3,3,15,20.0
+Motor delay,1492,491,488,1495,32.64
+Motor seizure,459,202,199,462,43.07
+Mottled pigmentation,8,4,3,9,33.33
+Multicystic kidney dysplasia,99,11,6,104,5.77
+Multifocal cerebral white matter abnormalities,16,4,2,18,11.11
+Multinodular goiter,7,2,2,7,28.57
+Multiple gastric polyps,27,11,11,27,40.74
+Multiple myeloma,8,4,3,9,33.33
+Multiple renal cysts,76,45,26,95,27.37
+Multiple suture craniosynostosis,12,3,3,12,25.0
+Muscle abnormality related to mitochondrial dysfunction,105,55,54,106,50.94
+Muscle fiber cytoplasmatic inclusion bodies,33,7,4,36,11.11
+Muscle fiber tubular inclusions,8,4,4,8,50.0
+Muscle flaccidity,16,5,4,17,23.53
+Muscle spasm,189,17,16,190,8.42
+Muscle stiffness,84,30,29,85,34.12
+Muscle weakness,1553,602,599,1556,38.5
+Myeloid leukemia,31,42,25,48,52.08
+Myocardial fibrosis,20,30,12,38,31.58
+Myocarditis,22,11,10,23,43.48
+Myopia,722,183,160,745,21.48
+Myotonia,34,10,10,34,29.41
+Nail dysplasia,199,44,43,200,21.5
+Nail dystrophy,147,57,55,149,36.91
+Narrow internal auditory canal,15,2,1,16,6.25
+Narrow mouth,239,9,8,240,3.33
+Natal tooth,38,10,7,41,17.07
+Nausea,101,24,23,102,22.55
+Neck muscle weakness,95,23,22,96,22.92
+Neonatal alloimmune thrombocytopenia,15,3,3,15,20.0
+Neonatal hyperbilirubinemia,24,7,7,24,29.17
+Neonatal omphalitis,10,5,2,13,15.38
+Neonatal seizure,11,15,8,18,44.44
+Neonatal seizure with electrographic correlate,5,5,4,6,66.67
+Neoplasm of fatty tissue,58,8,7,59,11.86
+Neoplasm of the adrenal cortex,28,12,11,29,37.93
+Neoplasm of the anterior pituitary,66,17,17,66,25.76
+Neoplasm of the eye,49,25,25,49,51.02
+Neoplasm of the large intestine,121,67,61,127,48.03
+Neoplasm of the thymus,6,6,5,7,71.43
+Neoplasm of the tracheobronchial system,23,11,5,29,17.24
+Nephrolithiasis,148,60,55,153,35.95
+Nephrotic syndrome,140,73,70,143,48.95
+Neuroinflammation,27,21,20,28,71.43
+Nocturia,17,3,1,19,5.26
+Nodular regenerative hyperplasia of liver,6,9,1,14,7.14
+Non-midline cleft palate,28,4,4,28,14.29
+Noncompaction cardiomyopathy,30,17,9,38,23.68
+Nonketotic hypoglycemia,13,4,3,14,21.43
+Nonprogressive cerebellar ataxia,10,6,5,11,45.45
+Nonprogressive encephalopathy,5,8,1,12,8.33
+Nontuberculous mycobacterial pulmonary infection,21,4,4,21,19.05
+Normochromic anemia,39,22,15,46,32.61
+Nystagmus,1108,130,129,1109,11.63
+Ocular albinism,29,10,10,29,34.48
+Ocular pain,20,14,5,29,17.24
+Onychomycosis,23,10,4,29,13.79
+Open mouth,125,6,5,126,3.97
+Optic disc coloboma,29,13,9,33,27.27
+Optic nerve compression,578,9,2,585,0.34
+Oral aversion,17,15,1,31,3.23
+Organic aciduria,125,49,48,126,38.1
+Orofacial dyskinesia,28,12,8,32,25.0
+Oromotor apraxia,28,1,1,28,3.57
+Orthokeratotic hyperkeratosis,7,6,4,9,44.44
+Osseous finger syndactyly,6,2,2,6,33.33
+Osteolysis,115,43,38,120,31.67
+Osteopathia striata,5,2,2,5,40.0
+Osteopetrosis,20,12,12,20,60.0
+Ovarian neoplasm,76,76,60,92,65.22
+Overfriendliness,26,6,5,27,18.52
+Overgrowth,47,34,33,48,68.75
+Overgrowth of external genitalia,8,4,2,10,20.0
+Overlapping fingers,85,10,7,88,7.95
+Pain,1319,391,387,1323,29.25
+Palmoplantar blistering,11,14,9,16,56.25
+Pancreatic cysts,37,8,7,38,18.42
+Pancreatic hypoplasia,24,16,13,27,48.15
+Pancreatic islet cell adenoma,9,2,2,9,22.22
+Pancreatic pseudocyst,5,5,4,6,66.67
+Pancreatitis,104,49,40,113,35.4
+Papilledema,28,10,5,33,15.15
+Papilloma,58,30,25,63,39.68
+Parasomnia,45,5,4,46,8.7
+Parathyroid hyperplasia,10,6,5,11,45.45
+Parietal bossing,8,4,2,10,20.0
+Parietal foramina,14,9,6,17,35.29
+Partial anomalous pulmonary venous return,11,8,2,17,11.76
+Past medical history,184,12,12,184,6.52
+Patellar aplasia,22,11,11,22,50.0
+Patellar dislocation,98,8,7,99,7.07
+Patellar subluxation,35,7,2,40,5.0
+Pedal edema,57,7,6,58,10.34
+Pelvic girdle amyotrophy,5,5,2,8,25.0
+Periauricular skin pits,145,14,12,147,8.16
+Perineal hypospadias,6,2,2,6,33.33
+Periodontitis,64,29,17,76,22.37
+Periorbital edema,108,5,4,109,3.67
+Peripheral arterial stenosis,33,11,9,35,25.71
+Peripheral visual field loss,104,54,53,105,50.48
+Peritonitis,47,6,6,47,12.77
+Periventricular cysts,16,3,3,16,18.75
+Periventricular leukomalacia,53,27,8,72,11.11
+Peroneal muscle atrophy,12,5,4,13,30.77
+Peroneal muscle weakness,8,5,4,9,44.44
+Persistently decreased total neutrophil count,9,25,3,31,9.68
+Pes cavus,330,56,54,332,16.27
+Pes planus,865,23,23,865,2.66
+Pharyngitis,17,8,1,24,4.17
+Phenotypic variability,84,55,50,89,56.18
+Pheochromocytoma,28,23,23,28,82.14
+Phocomelia,8,12,6,14,42.86
+Pigmentary retinopathy,394,116,116,394,29.44
+Pilomatrixoma,9,4,4,9,44.44
+Platyspondyly,606,52,51,607,8.4
+Pleural effusion,143,33,33,143,23.08
+Pleuritis,28,18,8,38,21.05
+Polyarticular arthropathy,52,14,8,58,13.79
+Polyembolokoilamania,5,1,1,5,20.0
+Polymorphic ventricular tachycardia,10,9,9,10,90.0
+Polyuria,39,19,19,39,48.72
+Poor appetite,617,14,13,618,2.1
+Poor fine motor coordination,69,2,1,70,1.43
+Portal fibrosis,18,6,5,19,26.32
+Positional foot deformity,530,8,7,531,1.32
+Postaxial foot polydactyly,70,21,21,70,30.0
+Postaxial hand polydactyly,95,36,36,95,37.89
+Posteriorly rotated ears,500,46,40,506,7.91
+Preauricular skin tag,80,18,14,84,16.67
+Premature arteriosclerosis,8,8,7,9,77.78
+Premature loss of teeth,85,15,13,87,14.94
+Premature ovarian insufficiency,66,39,38,67,56.72
+Premature pubarche,13,5,4,14,28.57
+Premature rupture of membranes,17,8,1,24,4.17
+Premature thelarche,17,5,4,18,22.22
+Prematurely aged appearance,200,36,33,203,16.26
+Prenatal death,67,11,10,68,14.71
+Primary hyperaldosteronism,10,5,5,10,50.0
+Primary hyperparathyroidism,14,17,9,22,40.91
+Primary hypothyroidism,5,2,1,6,16.67
+Primary microcephaly,75,43,42,76,55.26
+Proboscis,21,1,1,21,4.76
+Profound global developmental delay,73,29,28,74,37.84
+Progressive cerebellar ataxia,64,51,50,65,76.92
+Progressive distal muscle weakness,19,20,15,24,62.5
+Progressive external ophthalmoplegia,44,24,19,49,38.78
+Progressive hearing impairment,64,32,31,65,47.69
+Progressive macrocephaly,7,7,6,8,75.0
+Progressive microcephaly,92,50,50,92,54.35
+Progressive neurologic deterioration,72,47,41,78,52.56
+Prolonged bleeding following procedure,32,23,23,32,71.88
+Prolonged partial thromboplastin time,84,14,13,85,15.29
+Prominent antihelix,16,3,2,17,11.76
+Prominent forehead,301,55,54,302,17.88
+Prominent interphalangeal joints,6,1,1,6,16.67
+Prominent nasal bridge,240,35,21,254,8.27
+Prostate cancer,32,27,25,34,73.53
+Prostatitis,7,1,1,7,14.29
+Protein-losing enteropathy,20,10,9,21,42.86
+Protrusio acetabuli,37,1,1,37,2.7
+Proximal amyotrophy,60,12,9,63,14.29
+Proximal symphalangism of hands,8,3,3,8,37.5
+Pseudobulbar paralysis,22,4,4,22,18.18
+Pseudoepiphyses of hand bones,16,3,3,16,18.75
+Pseudohypoaldosteronism,6,6,6,6,100.0
+Psychomotor deterioration,20,16,8,28,28.57
+Psychotic episodes,18,4,3,19,15.79
+Pterygium,51,26,15,62,24.19
+Ptosis,822,188,184,826,22.28
+Puberty and gonadal disorders,1047,171,171,1047,16.33
+Pulmonary artery stenosis,112,21,20,113,17.7
+Pulmonary edema,30,8,5,33,15.15
+Pulmonary lymphangiectasia,5,2,1,6,16.67
+Punctate cataract,14,19,6,27,22.22
+Quadriceps muscle atrophy,5,8,3,10,30.0
+Quadriceps muscle weakness,22,14,10,26,38.46
+Radial bowing,41,19,10,50,20.0
+Radial deviation of finger,60,7,4,63,6.35
+Radial deviation of the hand or of fingers of the hand,70,11,6,75,8.0
+Raynaud phenomenon,55,6,6,55,10.91
+Reactive hypoglycemia,7,3,3,7,42.86
+Receptive language delay,16,2,1,17,5.88
+Rectal fistula,26,9,3,32,9.38
+Rectal polyposis,6,14,4,16,25.0
+Rectal prolapse,81,10,10,81,12.35
+Recurrent aspiration pneumonia,32,2,1,33,3.03
+Recurrent cutaneous fungal infections,63,9,9,63,14.29
+Recurrent ear infections,21,8,1,28,3.57
+Recurrent fever,106,18,14,110,12.73
+Recurrent hand flapping,30,3,2,31,6.45
+Recurrent long bone fractures,5,2,1,6,16.67
+Recurrent lower respiratory tract infections,252,58,57,253,22.53
+Recurrent maladaptive behavior,1090,12,9,1093,0.82
+Recurrent opportunistic infections,10,13,9,14,64.29
+Recurrent pancreatitis,25,18,7,36,19.44
+Recurrent paroxysmal headache,32,6,1,37,2.7
+Recurrent protozoan infections,5,2,1,6,16.67
+Recurrent sinusitis,76,10,10,76,13.16
+Recurrent spontaneous abortion,12,22,7,27,25.93
+Recurrent thrombophlebitis,7,9,4,12,33.33
+Recurrent viral infections,61,24,24,61,39.34
+Red hair,8,2,2,8,25.0
+Reduced attention regulation,540,40,40,540,7.41
+Reduced circulating prolactin concentration,22,18,4,36,11.11
+Reduced forced expiratory volume in one second,30,6,6,30,20.0
+Reduced forced vital capacity,39,43,12,70,17.14
+Reduced pancreatic beta cells,7,15,5,17,29.41
+Reduced progressive sperm motility,23,25,16,32,50.0
+Reduced tendon reflexes,624,57,55,626,8.79
+Redundant skin,94,22,16,100,16.0
+Reflex seizure,22,12,8,26,30.77
+Renal agenesis,214,50,47,217,21.66
+Renal atrophy,7,8,2,13,15.38
+Renal salt wasting,22,12,11,23,47.83
+Renal tubular dysfunction,132,57,52,137,37.96
+Repetitive compulsive behavior,13,7,3,17,17.65
+Resting tremor,60,10,10,60,16.67
+Restrictive behavior,17,15,3,29,10.34
+Retinal arteriolar tortuosity,34,24,4,54,7.41
+Retinal hole,7,9,2,14,14.29
+Retinal neovascularization,10,12,8,14,57.14
+Retinal pigment epithelial mottling,48,7,7,48,14.58
+Rhinitis,114,15,14,115,12.17
+Rhizomelic arm shortening,10,2,1,11,9.09
+Rib segmentation abnormalities,13,3,3,13,23.08
+Ridged fingernail,9,2,1,10,10.0
+Right atrial enlargement,25,10,4,31,12.9
+Rotary nystagmus,26,7,2,31,6.45
+Saccadic smooth pursuit,26,2,1,27,3.7
+Sagittal craniosynostosis,26,15,15,26,57.69
+Salivary gland neoplasm,11,9,8,12,66.67
+Sarcoma,165,111,108,168,64.29
+Scaphocephaly,67,4,3,68,4.41
+Scarring,123,73,72,124,58.06
+Scarring alopecia of scalp,19,3,2,20,10.0
+Schwannoma,16,16,8,24,33.33
+Scleral staphyloma,10,13,1,22,4.55
+Sclerocornea,49,8,8,49,16.33
+Scleroderma,12,5,5,12,41.67
+Sclerotic vertebral endplates,6,2,1,7,14.29
+Seborrheic dermatitis,28,4,3,29,10.34
+Secondary amenorrhea,72,24,23,73,31.51
+Secundum atrial septal defect,47,7,6,48,12.5
+Selective tooth agenesis,45,16,15,46,32.61
+Severe global developmental delay,234,98,97,235,41.28
+Severe intrauterine growth retardation,15,7,6,16,37.5
+Severe varicella zoster infection,13,8,2,19,10.53
+Severe viral infection,40,25,25,40,62.5
+Severely reduced visual acuity,45,31,23,53,43.4
+Shagreen patch,5,2,2,5,40.0
+Shallow acetabular fossae,11,3,2,12,16.67
+Shawl scrotum,25,2,1,26,3.85
+Shield chest,32,1,1,32,3.12
+Short clavicles,585,8,8,585,1.37
+Short face,19,7,6,20,30.0
+Short first metatarsal,5,15,2,18,11.11
+Short middle phalanx of the 2nd finger,8,8,5,11,45.45
+Short palpebral fissure,151,31,21,161,13.04
+Short philtrum,257,31,27,261,10.34
+Short sternum,14,12,2,24,8.33
+Short thumb,127,32,26,133,19.55
+Short tibia,27,21,9,39,23.08
+Shoulder dislocation,32,3,3,32,9.38
+Shoulder flexion contracture,9,2,1,10,10.0
+Shoulder girdle muscle weakness,56,15,15,56,26.79
+Silver-gray hair,6,2,2,6,33.33
+Simple febrile seizure,28,2,2,28,7.14
+Single transverse palmar crease,723,14,7,730,0.96
+Sinus bradycardia,30,16,16,30,53.33
+Sinus tachycardia,28,3,2,29,6.9
+Skeletal dysplasia,633,349,348,634,54.89
+Skeletal muscle atrophy,1124,236,228,1132,20.14
+Skin appendage neoplasm,18,3,2,19,10.53
+Skin dimple,126,7,6,127,4.72
+Skin erosion,28,19,19,28,67.86
+Skin rash,173,78,66,185,35.68
+Slender finger,164,11,10,165,6.06
+Sloping forehead,190,11,10,191,5.24
+Slow pupillary light response,39,14,10,43,23.26
+Slowed slurred speech,6,10,1,15,6.67
+Slowly progressive,160,95,84,171,49.12
+Small for gestational age,275,42,41,276,14.86
+Small hand,122,23,22,123,17.89
+Small nail,187,31,23,195,11.79
+Small placenta,9,3,3,9,33.33
+Small vessel vasculitis,5,3,3,5,60.0
+Soft tissue sarcoma,117,75,63,129,48.84
+Sparse eyelashes,78,26,24,80,30.0
+Sparse lateral eyebrow,36,7,5,38,13.16
+Spastic paraplegia,118,70,70,118,59.32
+Spherocytosis,8,7,7,8,87.5
+Spinal canal stenosis,46,17,9,54,16.67
+Spinal cord tumor,13,17,6,24,25.0
+Splanchnic vein thrombosis,24,7,7,24,29.17
+Splenomegaly,495,217,206,506,40.71
+Split foot,13,10,10,13,76.92
+Spotty hyperpigmentation,9,2,1,10,10.0
+Spotty hypopigmentation,9,1,1,9,11.11
+Sprengel anomaly,54,9,7,56,12.5
+Squamous cell carcinoma,70,66,53,83,63.86
+Stapes ankylosis,8,4,2,10,20.0
+Stiff skin,7,14,4,17,23.53
+Stillbirth,32,21,6,47,12.77
+Stomatocytosis,15,13,11,17,64.71
+Subcortical heterotopia,12,7,7,12,58.33
+Subcortical white matter calcifications,6,3,2,7,28.57
+Subcutaneous nodule,92,28,24,96,25.0
+Subdural hemorrhage,15,3,2,16,12.5
+Submucous cleft palate,86,5,5,86,5.81
+Submucous cleft soft palate,11,9,1,19,5.26
+Subvalvular aortic stenosis,23,7,4,26,15.38
+Sudden episodic apnea,19,2,1,20,5.0
+Sudden unexpected death in epilepsy,10,8,3,15,20.0
+Superficial thrombophlebitis,18,13,1,30,3.33
+Supraventricular tachycardia,58,22,16,64,25.0
+Sutural cataract,8,11,5,14,35.71
+Syndactyly,842,67,63,846,7.45
+Synostosis involving digits,17,4,4,17,23.53
+Synostosis of carpal bones,26,4,4,26,15.38
+Syringomyelia,33,17,6,44,13.64
+Talipes equinovarus,461,59,55,465,11.83
+Tapered finger,150,15,9,156,5.77
+Tarsal synostosis,25,6,6,25,24.0
+Temporal cortical atrophy,26,11,9,28,32.14
+Temporal pattern,24,6,6,24,25.0
+Teratoma,11,5,5,11,45.45
+Tessier cleft,20,2,2,20,10.0
+Testicular dysgenesis,13,10,10,13,76.92
+Tetraparesis,123,35,31,127,24.41
+Thenar muscle atrophy,63,9,2,70,2.86
+Thick corpus callosum,19,9,5,23,21.74
+Thick lower lip vermilion,154,8,6,156,3.85
+Thick vermilion border,299,11,10,300,3.33
+Thickened cortex of bones,573,21,21,573,3.66
+Thickened skin,432,60,53,439,12.07
+Thin nail,16,2,1,17,5.88
+Thin ribs,80,20,11,89,12.36
+Thin upper lip vermilion,330,19,19,330,5.76
+Third degree atrioventricular block,12,8,4,16,25.0
+Thoracic kyphoscoliosis,24,2,1,25,4.0
+Thoracic platyspondyly,6,7,1,12,8.33
+Thyroid agenesis,7,9,4,12,33.33
+Tibial bowing,101,18,13,106,12.26
+Tinnitus,71,24,17,78,21.79
+Tissue ischemia,137,73,72,138,52.17
+Toe joint contracture,60,8,7,61,11.48
+Tongue muscle weakness,16,2,1,17,5.88
+Tongue thrusting,17,2,1,18,5.56
+Torsion dystonia,8,4,4,8,50.0
+Total ophthalmoplegia,8,11,1,18,5.56
+Transposition of the great arteries,85,28,14,99,14.14
+Triangular mouth,21,11,4,28,14.29
+Trichorrhexis nodosa,13,5,4,14,28.57
+True hermaphroditism,21,8,3,26,11.54
+Type 2 muscle fiber atrophy,19,7,3,23,13.04
+Ulcerative colitis,17,8,7,18,38.89
+Ulnar deviation of finger,65,5,5,65,7.69
+Ulnar deviation of the hand,33,4,3,34,8.82
+Ulnar deviation of the hand or of fingers of the hand,96,7,7,96,7.29
+Ulnar deviation of the wrist,20,6,5,21,23.81
+Undetectable electroretinogram,29,14,14,29,48.28
+Unilateral cleft palate,20,21,7,34,20.59
+Unilateral cryptorchidism,15,13,3,25,12.0
+Unusual fungal infection,118,8,8,118,6.78
+Unusual viral infection,27,6,5,28,17.86
+Upper airway obstruction,17,16,5,28,17.86
+Upper limb hyperreflexia,27,16,2,41,4.88
+Upper limb postural tremor,11,5,4,12,33.33
+Upper limb spasticity,32,8,7,33,21.21
+Upper motor neuron dysfunction,1236,92,92,1236,7.44
+Ureteropelvic junction obstruction,23,4,4,23,17.39
+Urinary incontinence,150,22,21,151,13.91
+Usual interstitial pneumonia,15,7,7,15,46.67
+Uterus didelphys,12,7,1,18,5.56
+Uveal melanoma,8,13,7,14,50.0
+Varicose veins,112,22,12,122,9.84
+Vascular calcification,33,19,19,33,57.58
+Vascular granular osmiophilic material deposition,7,3,2,8,25.0
+Vascular skin abnormality,633,97,97,633,15.32
+Vasculitis,62,36,35,63,55.56
+Venous malformation,10,7,7,10,70.0
+Venous thrombosis,85,46,46,85,54.12
+Ventilator dependence with inability to wean,5,4,1,8,12.5
+Ventricular fibrillation,59,35,31,63,49.21
+Ventriculomegaly,816,154,147,823,17.86
+Verrucae,34,18,8,44,18.18
+Vertebral arch anomaly,32,2,1,33,3.03
+Vertical supranuclear gaze palsy,32,13,8,37,21.62
+Vestibular hyporeflexia,19,3,2,20,10.0
+Villous atrophy,27,10,7,30,23.33
+Viral hepatitis,13,16,7,22,31.82
+Visual field defect,461,123,121,463,26.13
+Vocal cord paralysis,60,12,10,62,16.13
+Vomiting,393,120,119,394,30.2
+Weakness of facial musculature,251,24,23,252,9.13
+Weakness of long finger extensor muscles,21,12,7,26,26.92
+Weight loss,401,104,103,402,25.62
+Wide mouth,225,20,20,225,8.89
+Wide pubic symphysis,7,1,1,7,14.29
+X-linked inheritance,264,191,191,264,72.35
+Y-shaped metacarpals,15,2,1,16,6.25

@@ -11,12 +11,7 @@ from utils import id_mapping
 # location of the abstracts 
 ABSTRACTS_DIR = "abstracts/gene_annotated_abstracts"
 
-processed_file = "processed_gene_sets_llama.txt"
-if os.path.exists(processed_file):
-    with open(processed_file, "r") as f:
-        processed = {line.strip() for line in f if line.strip()}
-else:
-    processed = set()
+
 
 # normalize & de-duplicate PMIDs
 def _normalize_pmids(pmids_field: Any) -> List[str]:
@@ -131,7 +126,7 @@ def _correct_extracted_pmids_for_phenotype(
     return entries
 
 # LOAD EXTRACTED GENES
-def load_extracted_genes(extracted_dir: str) -> Dict[str, List[dict]]:
+def load_extracted_genes(processed: set, extracted_dir: str) -> Dict[str, List[dict]]:
     pheno_to_extracted: Dict[str, List[dict]] = {}
     if not os.path.exists(extracted_dir):
         print(f"extracted_dir '{extracted_dir}' not found, skipping extracted genes.")
@@ -425,6 +420,13 @@ def save_unmapped(unmapped: Dict[str, List[str]], out_path: str):
 
 
 def main(model_name: str):
+    # determine processed phenotypes
+    processed_file = f"out/processed_phenotypes_{model_name}.txt"
+    if os.path.exists(processed_file):
+        with open(processed_file, "r") as f:
+            processed = {line.strip() for line in f if line.strip()}
+    else:
+        processed = set()
 
     # Directories derived directly from the model name
     extracted_dir = f"out/phenotype_generations/{model_name}"
@@ -434,8 +436,13 @@ def main(model_name: str):
     os.makedirs(out_dir, exist_ok=True)
 
     # Load data
-    extracted = load_extracted_genes(extracted_dir)
+    extracted = load_extracted_genes(processed, extracted_dir)
     verified  = load_verified_genes(verified_dir)
+
+    print(f"Phenotypes with extracted genes: {len(extracted)}")
+    print(f"Phenotypes with verified genes: {len(verified)}")
+    print(f"Phenotypes extracted: {list(extracted.keys())[:5]}")
+    print(f"Phenotypes verified: {list(verified.keys())[:5]}")
 
     # Filter to phenotypes present in both
     common = set(extracted.keys()) & set(verified.keys())
@@ -467,4 +474,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(args.model)
-    main()

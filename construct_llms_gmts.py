@@ -29,7 +29,7 @@ def make_consensus_gmt(qwen_file, deepseek_file, llama_file, out_gmt="consensus_
     l_sets = set(llama.keys())
 
     # gene sets appearing in at least 2 models
-    shared_pairs = ( d_sets & q_sets ) | (l_sets & q_sets) | (l_sets & d_sets)
+    shared_pairs = ( d_sets & q_sets & l_sets) #( d_sets & q_sets ) | (l_sets & q_sets) | (l_sets & d_sets)
 
     with open(out_gmt, "w") as out:
         for gs in sorted(shared_pairs):
@@ -163,17 +163,17 @@ if __name__ == "__main__":
 
     parser.add_argument(
         "--qwen_gmt", type=str, required=False,
-        default="out/genesets/qwen/genesets_entrez_qwen.gmt"
+        default="out/genesets/qwen3:32b/genesets_entrez_qwen3:32b.gmt"
     )
 
     parser.add_argument(
         "--deepseek_gmt", type=str, required=False,
-        default="out/genesets/deepseek/genesets_entrez_deepseek.gmt"
+        default="out/genesets/deepseek-r1:8b/genesets_entrez_deepseek-r1:8b.gmt"
     )
 
     parser.add_argument(
         "--llama_gmt", type=str, required=False,
-        default="out/genesets/llama/genesets_entrez_llama.gmt"
+        default="out/genesets/llama3.1:8b/genesets_entrez_llama3.1:8b.gmt"
     )
 
     args = parser.parse_args()

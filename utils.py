@@ -1,6 +1,6 @@
 import operator
 from typing_extensions import TypedDict
-from typing import List, Annotated
+from typing import Annotated, Dict, List
 ### LLM
 from langchain_ollama import ChatOllama
 import re
@@ -23,18 +23,48 @@ from collections import defaultdict
 #     loop_step: Annotated[int, operator.add]
 #     documents: List[str]  # List of retrieved documents
 
-class GraphState(TypedDict):
+# 1. Define the reducer function
+def merge_dicts(left: Dict, right: Dict) -> Dict:
     """
-    Graph state is a dictionary that contains information we want to propagate to, and modify in, each graph node.
+    Merges two dictionaries. 
+    If keys overlap, the 'right' (new) value overwrites the 'left' (old).
+    Example: {A:1} + {B:2} -> {A:1, B:2}
     """
+    if not left:
+        left = {}
+    if not right:
+        right = {}
+    return {**left, **right}
 
-    phenotype: dict  # User question
-    documents: list
-    generation: list  # LLM generation
-    # max_retries: int  # Max number of retries for answer generation
-    # answers: int  # Number of answers generated
-    # loop_step: Annotated[int, operator.add]
-    # documents: List[str]  # List of retrieved documents
+class GraphState(TypedDict):
+    phenotype: dict 
+    documents: list # Raw documents
+    # This allows multiple LLM nodes to add their specific results 
+    # to this dictionary without deleting others.
+    documents_filtered: Annotated[Dict[str, List], merge_dicts]
+    
+    # You likely want the same pattern for generation results
+    generation: Annotated[Dict[str, List], merge_dicts]
+
+class LLMGraphState(TypedDict):
+    phenotype: dict 
+    documents: list # Raw documents
+    documents_filtered: list
+    llm_name: str
+    generation: list
+
+class AAGraphState(TypedDict):
+    phenotype: dict 
+    num_of_abstracts: int
+    documents: list # Raw documents
+    documents_filtered: list
+    llm_name: str
+    generation: list
+
+class DPGraphState(TypedDict):
+    phenotype: dict
+    llm_name: str
+    generation: list
 
 # Post-processing
 def format_docs(docs):
@@ -130,7 +160,7 @@ def parse_out_json(content):
     
 import json
 
-def phenotype_json_reader(json_file, attributes=["name", "definition", "synonyms"]):
+def phenotype_json_reader(json_file, attributes=["id","name", "definition", "synonyms"]):
     with open(json_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 

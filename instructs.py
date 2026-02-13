@@ -86,6 +86,44 @@ Then return JSON with exactly these keys:
 Do not return any explanation or extra text—only JSON.
 """
 
+direct_prompting_rag_instructions = """
+    List all the known genes directly and indirectly involved in the following
+        phenotype or disease with the following information : {context}. Use the following JSON
+        schema:
+        ```json
+        {{
+            "type": "array",
+            "items": {{
+                "type": "object",
+                "properties": {{
+                    "gene": {{
+                        "type": "string",
+                    }}
+                }},
+                "required": ["gene"]
+            }}
+        }}
+        ```
+        The field `gene` is a gene involved in the following phenotype or disease: {context}. Use the HUGO Gene Nomenclature Committee (HGNC) gene
+        abbreviations. Place the output in a JSON code block. Do not add any comments in
+        the JSON code block.
+"""
+
+direct_prompting_rag_instructions_2 = """
+   Using your internal biological knowledge, list genes that are commonly
+reported in the scientific literature as being directly or indirectly
+associated with the following phenotype or disease:
+
+{context}
+
+The list does NOT need to be complete or exhaustive.
+Only include genes you are confident about based on general biological
+knowledge and well-known gene–phenotype associations.
+
+Return ONLY a JSON array of objects.
+Each object must have exactly one key called gene and the values must be an array of genes.
+The value of "gene" must be an official HGNC-approved human gene symbol.
+"""
 
 # Hallucination Grader
 # Hallucination grader instructions

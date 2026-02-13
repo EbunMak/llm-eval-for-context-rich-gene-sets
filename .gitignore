@@ -3,3 +3,9 @@ ollama.log
 parallel run 2/
 __pycache__/
 .venv/
+abstracts/gene_annotated_abstracts/
+abstracts/gene_related_abstracts/
+out/phenotype_generations/
+out/phenotype_checks/
+out/direct-prompting
+out/aa/

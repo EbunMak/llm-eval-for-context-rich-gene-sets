@@ -1,0 +1,3466 @@
+{
+  "Hyperostosis": [
+    "HLA-B27"
+  ],
+  "Abnormal head movements": [
+    "TrkB"
+  ],
+  "Abnormal cardiac biomarker test": [
+    "A2A",
+    "A3",
+    "AKT",
+    "ERK",
+    "HFABP",
+    "MCT4",
+    "P2X1",
+    "P2X4",
+    "P2X7",
+    "P2Y1",
+    "P2Y2",
+    "miR-106b-5p",
+    "miR-137"
+  ],
+  "Normochromic anemia": [
+    "HBE"
+  ],
+  "Dry skin": [
+    "PPAR\u03b2/\u03b4",
+    "TRP-2",
+    "TYRP-1",
+    "p53"
+  ],
+  "Abnormal blood zinc concentration": [
+    "ERK1",
+    "MT1",
+    "Nrf2"
+  ],
+  "Hyperkalemia": [
+    "CYP3A5*3",
+    "SPAK",
+    "WNK"
+  ],
+  "Schwannoma": [
+    "NSE",
+    "S100"
+  ],
+  "Myeloid leukemia": [
+    "CBFB::MYH11",
+    "IDH1/2"
+  ],
+  "Stillbirth": [
+    "Leiden factor V",
+    "Nkx2.1",
+    "VP2",
+    "prothrombin gene"
+  ],
+  "Rotary nystagmus": [
+    "MCT8"
+  ],
+  "Lower limb spasticity": [
+    "ATP-7B"
+  ],
+  "Short tibia": [
+    "ALP",
+    "HRD1",
+    "NF-kB",
+    "Osteocalcin",
+    "TRACP5b"
+  ],
+  "Reduced circulating prolactin concentration": [
+    "FSHss",
+    "GnRH-I",
+    "LHss"
+  ],
+  "Abnormal peripheral myelination": [
+    "AGC1",
+    "EIF2B"
+  ],
+  "Ocular pain": [
+    "CGRP",
+    "FcepsilonRIalpha",
+    "Nav1.8",
+    "Nrf2",
+    "Substance P",
+    "ZO-1",
+    "c-Fos",
+    "mTORC2",
+    "neuropeptide Y",
+    "vasoactive intestinal peptide"
+  ],
+  "Generalized hyperpigmentation": [
+    "ARNTXR2"
+  ],
+  "Minicore myopathy": [
+    "SEPN1"
+  ],
+  "Hypokinesia": [
+    "miR-71"
+  ],
+  "Calf muscle pseudohypertrophy": [
+    "FUKUTIN"
+  ],
+  "Proximal amyotrophy": [
+    "PABP2",
+    "SMN"
+  ],
+  "Repetitive compulsive behavior": [
+    "5-HT2B"
+  ],
+  "Recurrent paroxysmal headache": [
+    "MAO-A",
+    "MAO-B"
+  ],
+  "Motor seizure": [
+    "GAT1"
+  ],
+  "Blurred vision": [
+    "BCR-ABL1"
+  ],
+  "Hand monodactyly": [
+    "DACTYLIN"
+  ],
+  "Aortic valve calcification": [
+    "IL-6",
+    "NRF2"
+  ],
+  "Abnormal cerebellar cortex morphology": [
+    "ATAD3"
+  ],
+  "Abnormal retinal morphology": [
+    "Snf2h",
+    "miR-96"
+  ],
+  "Helicobacter pylori infection": [
+    "BabA",
+    "Hom",
+    "HopQ",
+    "HopZ",
+    "OipA",
+    "SabA",
+    "cag14",
+    "cag2",
+    "cag24",
+    "cag4",
+    "flaA"
+  ],
+  "Osteolysis": [
+    "MAPK",
+    "NF-kappaB",
+    "NF-kappaB1",
+    "P38",
+    "PTHrP",
+    "RANKL",
+    "miR-144-3p",
+    "miR-210-3p"
+  ],
+  "Diffuse cerebellar atrophy": [
+    "POLG1"
+  ],
+  "Generalized edema": [
+    "BCR-ABL1"
+  ],
+  "Sparse eyelashes": [
+    "EDA1"
+  ],
+  "Abnormal ureter morphology": [
+    "Hox11",
+    "NF-kB",
+    "RIP5",
+    "hsa-miR-185-5p",
+    "hsa-miR-484",
+    "uroplakin 1a",
+    "uroplakin 2-like",
+    "uroplakin 3-like"
+  ],
+  "Colon cancer": [
+    "FAM129A",
+    "GUCY1B3",
+    "STY11",
+    "TNFalpha"
+  ],
+  "Dilatation of the bladder": [
+    "IL-1beta",
+    "IL-6",
+    "NF-kappaB",
+    "TGF-beta1",
+    "TNF-alpha",
+    "VPS34",
+    "alpha-SMA",
+    "collagen I",
+    "collagen III",
+    "fibronectin"
+  ],
+  "Reduced progressive sperm motility": [
+    "HSP70",
+    "chemerin"
+  ],
+  "Laryngotracheal stenosis": [
+    "FIR",
+    "MMP-2",
+    "MMP-9",
+    "MT1-MMP"
+  ],
+  "Hypotelorism": [
+    "bmp7b",
+    "bmpr1ba"
+  ],
+  "Recurrent pancreatitis": [
+    "Nrf2",
+    "OmpC",
+    "PBP3"
+  ],
+  "Renal agenesis": [
+    "KAL1"
+  ],
+  "Abnormality of the intrinsic pathway": [
+    "BCLX",
+    "NFKB",
+    "p21",
+    "p53"
+  ],
+  "Abnormality of jaw muscles": [
+    "LHFP"
+  ],
+  "Abnormal nasal septum morphology": [
+    "Raldh2"
+  ],
+  "Mitral valve prolapse": [
+    "EAG1",
+    "EAG2",
+    "Mineralocorticoid receptor"
+  ],
+  "Discoid lupus rash": [
+    "H2AFX",
+    "KIAA1542",
+    "LINC00657"
+  ],
+  "Abnormality of chromosome segregation": [
+    "STK15"
+  ],
+  "Astrocytoma": [
+    "CSE",
+    "MHC-I"
+  ],
+  "Progressive neurologic deterioration": [
+    "TYROBP/DAP12",
+    "miR-590-3"
+  ],
+  "Calcific stippling": [
+    "ARSE",
+    "EWSR1-SMAD3"
+  ],
+  "Cerebellar atrophy": [
+    "ATAD3",
+    "CARS"
+  ],
+  "Pancreatic hypoplasia": [
+    "GPR56"
+  ],
+  "Short sternum": [
+    "VIPR-1"
+  ],
+  "Reflex seizure": [
+    "H2S",
+    "Sip1",
+    "Vlgr1"
+  ],
+  "Abnormal eosinophil morphology": [
+    "FIP1L1-PDGFRA",
+    "JAK2V617F",
+    "VEGFR-2"
+  ],
+  "Abnormal retinal vascular morphology": [
+    "HIF-1a",
+    "PDGF-B",
+    "PDGFR-beta",
+    "VEGF",
+    "VEGFR",
+    "miR-1249",
+    "miR-155-5p",
+    "miR-29a",
+    "miR-450b-5p"
+  ],
+  "Retinal arteriolar tortuosity": [
+    "ANPT1",
+    "ANPT2",
+    "NEMO",
+    "TIE",
+    "VEGF"
+  ],
+  "Patellar subluxation": [
+    "DTDST"
+  ],
+  "Phenotypic variability": [
+    "16p11.2"
+  ],
+  "Abnormal circulating cholesterol concentration": [
+    "ApoJ",
+    "FETUA",
+    "Gshr"
+  ],
+  "Leiomyosarcoma": [
+    "miR-133a",
+    "miR-221",
+    "miR-320a"
+  ],
+  "Infection following live vaccination": [
+    "AvBD12",
+    "CD8",
+    "HA",
+    "IFN-gamma",
+    "IL-10",
+    "IL-1beta",
+    "IL-6",
+    "IL-8",
+    "IgD",
+    "IgM",
+    "IgT",
+    "MHCI",
+    "MHCII",
+    "ORF-Sh",
+    "ORF2b",
+    "SAA",
+    "T-BET",
+    "TCRbeta",
+    "VP1",
+    "VP2",
+    "cathelicidins 1",
+    "cathelicidins 2"
+  ],
+  "Soft tissue sarcoma": [
+    "EWS"
+  ],
+  "Abnormal bronchoalveolar lavage fluid morphology": [
+    "Nur77",
+    "TGF-beta1"
+  ],
+  "Abnormal circulating bilirubin concentration": [
+    "IFN",
+    "IL-10",
+    "IL-1beta",
+    "IL-4",
+    "IL-6",
+    "IL12beta",
+    "MDA5",
+    "OCT1",
+    "RIG-I",
+    "caspase-8",
+    "caspase-9",
+    "ferrochelatase"
+  ],
+  "Wide mouth": [
+    "Ppa-dpy-6"
+  ],
+  "Maternal autoimmune disease": [
+    "CD107a",
+    "CD8",
+    "GranzymeB",
+    "IL-6",
+    "Il-6",
+    "JAK",
+    "RORgammat"
+  ],
+  "Hypotension": [
+    "AAAS gene",
+    "GMP-AMP synthase (cGAS)",
+    "Glial fibrillary acidic protein (GFAP)",
+    "TSC2 gene",
+    "alpha-synuclein (alpha-syn)",
+    "endothelin-1 (ET-1)",
+    "glucocerebrosidase (GBA)",
+    "nitric oxide synthase (NOS)",
+    "renin",
+    "renin-angiotensin-aldosterone system"
+  ],
+  "Spinal canal stenosis": [
+    "IL-6",
+    "TGF\u03b2"
+  ],
+  "Abnormal morphology of the great vessels": [
+    "TGF\u03b23"
+  ],
+  "Thickened skin": [
+    "IL-17",
+    "IL-17A",
+    "IL-23",
+    "Ki-67",
+    "MAPK",
+    "NF-kappaB",
+    "NXP2",
+    "Th17",
+    "p53"
+  ],
+  "Redundant skin": [
+    "KRT"
+  ],
+  "Hepatitis": [
+    "APOBEC/AID",
+    "CD73",
+    "HBx"
+  ],
+  "Limitation of knee mobility": [
+    "IL-1R1"
+  ],
+  "Multiple suture craniosynostosis": [
+    "R281Q"
+  ],
+  "Neonatal alloimmune thrombocytopenia": [
+    "GPIIIa"
+  ],
+  "Vascular granular osmiophilic material deposition": [
+    "PDGFR-beta"
+  ],
+  "Conjunctival hyperemia": [
+    "IL-4"
+  ],
+  "Orthokeratotic hyperkeratosis": [
+    "Cx26",
+    "IL1F5",
+    "IL1F6",
+    "Matriptase/MT-SP1"
+  ],
+  "Abnormal muscle fiber alpha dystroglycan": [
+    "DYSTROGLYCAN",
+    "DYSTROPHIN",
+    "ISPD"
+  ],
+  "Eruption failure": [
+    "ALK3",
+    "Nestin"
+  ],
+  "Generalized weakness of limb muscles": [
+    "KARS",
+    "PERK",
+    "eIF2\u03b1"
+  ],
+  "Hepatic fibrosis": [
+    "FAK",
+    "FRNK",
+    "MAPK",
+    "MCPIP1",
+    "NF-kappaB",
+    "Ras",
+    "TGF-beta1",
+    "TGFbeta1",
+    "TMEM199",
+    "c-myc"
+  ],
+  "Abnormality of the bladder": [
+    "SNAIL"
+  ],
+  "Rectal fistula": [
+    "IL12",
+    "IL23",
+    "NFKB"
+  ],
+  "Pulmonary edema": [
+    "HCP-1",
+    "MRCKalpha",
+    "NF-kappaB",
+    "NUPL1",
+    "Rap1"
+  ],
+  "Degeneration of anterior horn cells": [
+    "miR-183-5p"
+  ],
+  "Abnormal emotional state": [
+    "5-HT2CR",
+    "5-HTTLPR",
+    "GR",
+    "GSK-3beta",
+    "HERV-W",
+    "IL-17",
+    "IL-1beta",
+    "IL-6",
+    "MR",
+    "RANTES",
+    "TNFalpha"
+  ],
+  "Hyposmia": [
+    "KAL1",
+    "NRF2",
+    "Parkin",
+    "TAC3R"
+  ],
+  "Viral hepatitis": [
+    "HBV polymerase",
+    "HBcAg",
+    "HBsAg",
+    "HBx",
+    "IL-6",
+    "S gene",
+    "SOCS proteins",
+    "preS1 region"
+  ],
+  "Joint stiffness": [
+    "ERp57",
+    "G-CSF",
+    "HLA-B27",
+    "IFN-alpha",
+    "IFN-gamma",
+    "IL-1Ra",
+    "IL-2R",
+    "IL-4",
+    "IL-6",
+    "IL-7",
+    "IL-8",
+    "IP-10",
+    "MCP-1",
+    "MIG",
+    "VEGF"
+  ],
+  "Elevated circulating aldolase concentration": [
+    "ALDO",
+    "FBA1"
+  ],
+  "Ileus": [
+    "GC-C"
+  ],
+  "Entrapment neuropathy": [
+    "AMPK",
+    "VEGFR2"
+  ],
+  "Chronic leukemia": [
+    "BCR-ABL1"
+  ],
+  "Abnormal heart valve morphology": [
+    "Fbln4",
+    "Snai1b",
+    "smarcc1a"
+  ],
+  "Prominent nasal bridge": [
+    "SKIV2L",
+    "TTC37"
+  ],
+  "Total ophthalmoplegia": [
+    "SEPN1"
+  ],
+  "Abnormality of the wrist": [
+    "MDA-5"
+  ],
+  "Recurrent opportunistic infections": [
+    "CagA"
+  ],
+  "Abnormal ventricular axis": [
+    "NCAM-1"
+  ],
+  "Optic disc coloboma": [
+    "RAR"
+  ],
+  "Death in adulthood": [
+    "Calpain-2",
+    "Dystrophin",
+    "ERalpha",
+    "ERbeta",
+    "Hprt",
+    "LC3",
+    "Slc23a4",
+    "p62"
+  ],
+  "Skeletal muscle atrophy": [
+    "AMPK",
+    "BVES",
+    "CoQ10",
+    "IL-6",
+    "MuRF1",
+    "MuRF2",
+    "PGC1alpha"
+  ],
+  "Abnormality of the ovary": [
+    "ATPase",
+    "LmDDX6",
+    "circ_0008285",
+    "cox IV",
+    "cyt c",
+    "miR-18b",
+    "miR-363-3p"
+  ],
+  "Hyporeflexia of upper limbs": [
+    "XPD",
+    "XPG"
+  ],
+  "Osseous finger syndactyly": [
+    "WNT"
+  ],
+  "Punctate cataract": [
+    "Cx50",
+    "HSPB4",
+    "HSPB5",
+    "PKM2",
+    "ephrin-A5"
+  ],
+  "Temporal pattern": [
+    "lepa"
+  ],
+  "Abnormal blood inorganic cation concentration": [
+    "CLDN-10",
+    "CLDN-12",
+    "CLDN-2",
+    "CLDN-4",
+    "CLDN-7",
+    "Calbindin-D9k",
+    "NKA",
+    "TMEM16A",
+    "nrf2"
+  ],
+  "Pleuritis": [
+    "BRCA1-associated protein-1",
+    "RASSF1A",
+    "TGF-beta",
+    "TTF-1",
+    "miR-16-5p",
+    "p16",
+    "uPA",
+    "uPAR"
+  ],
+  "Median cleft upper lip": [
+    "AP-2alpha",
+    "AP-2ss",
+    "GLI",
+    "US9",
+    "WNT",
+    "miR-484"
+  ],
+  "Abnormal fallopian tube morphology": [
+    "YAP",
+    "hTERT",
+    "miR181a"
+  ],
+  "Abnormal chromosome morphology": [
+    "BCR-ABL",
+    "CBFbeta",
+    "EVI1",
+    "IDH1/2",
+    "OsMre11",
+    "PI3K",
+    "hTERT"
+  ],
+  "Decreased circulating androgen concentration": [
+    "ER",
+    "GR",
+    "HSD17B"
+  ],
+  "Decreased testicular size": [
+    "Caspase-3",
+    "Cytochrome-C",
+    "HO-1",
+    "NF-kappaB",
+    "Nrf2",
+    "P53",
+    "TGF-beta1",
+    "TNF-alpha"
+  ],
+  "Amyotrophic lateral sclerosis": [
+    "TDP-43"
+  ],
+  "Acute hepatic failure": [
+    "Beciln1",
+    "Bnip3L/NIX",
+    "MKK4",
+    "YB-1",
+    "iNOS",
+    "miR-146a-5p",
+    "miR-191-5p",
+    "miR-26a-5p"
+  ],
+  "Cirrhosis": [
+    "IFN-gammaR",
+    "miR-101"
+  ],
+  "Craniofacial osteosclerosis": [
+    "WTX"
+  ],
+  "Tibial bowing": [
+    "ALP",
+    "OSTERIX",
+    "Osteocalcin"
+  ],
+  "Hyperacusis": [
+    "CPETR1",
+    "CPETR2",
+    "Ccl12",
+    "Il1beta",
+    "Rev-erbalpha",
+    "TFII-I",
+    "TFII-IRD1",
+    "VGAT",
+    "VGLUT"
+  ],
+  "Scleral staphyloma": [
+    "COL1",
+    "COL4",
+    "Fibronectin (FN)",
+    "IGF-1",
+    "MMP-2",
+    "TIMP-2",
+    "bFGF"
+  ],
+  "Abnormal renal cortex morphology": [
+    "TGF-beta1",
+    "UGT2B"
+  ],
+  "Wide pubic symphysis": [
+    "CBFA1"
+  ],
+  "Histiocytosis": [
+    "Bcl-2",
+    "Bcl-xl",
+    "ERK",
+    "IFN-gamma",
+    "MOZ",
+    "PDGFRbeta",
+    "let-7",
+    "miR-15a-5p"
+  ],
+  "Frontal cortical atrophy": [
+    "NfL"
+  ],
+  "Primary hyperparathyroidism": [
+    "Klotho"
+  ],
+  "Dementia": [
+    "TDP-43",
+    "alpha-synuclein"
+  ],
+  "Abnormal metaphyseal trabeculation": [
+    "Cx43",
+    "TRAP"
+  ],
+  "Intermittent diarrhea": [
+    "CD8",
+    "Fiber",
+    "HER2",
+    "HER3",
+    "HER4",
+    "Hexon",
+    "Penton",
+    "gp350",
+    "thymidine phosphorylase"
+  ],
+  "Decreased urine output": [
+    "CREB",
+    "LSD1",
+    "SERCA2",
+    "TGF-beta1",
+    "TGR5"
+  ],
+  "Periventricular leukomalacia": [
+    "FGFR1OP",
+    "hsa-let-7",
+    "hsa-miR-21-5p",
+    "hsa-miR-22-3p"
+  ],
+  "Persistently decreased total neutrophil count": [
+    "HBS1-like",
+    "IL-6"
+  ],
+  "Localized skin lesion": [
+    "3-MST",
+    "CD103",
+    "CLA",
+    "CSE",
+    "EVER1",
+    "EVER2",
+    "IFN-gamma",
+    "IL-17",
+    "IL-23R",
+    "ORF75",
+    "STING"
+  ],
+  "Subcutaneous nodule": [
+    "CD23",
+    "TCRD"
+  ],
+  "Retinal neovascularization": [
+    "APN",
+    "AdipoRs",
+    "VEGF",
+    "miR-429"
+  ],
+  "Excessive salivation": [
+    "MDR1",
+    "Mdr1"
+  ],
+  "Abnormality of the pancreas": [
+    "GGT",
+    "IGF-1R",
+    "PFK1"
+  ],
+  "Hyperactivity": [
+    "dat"
+  ],
+  "Enlarged epiphyses": [
+    "WISP3"
+  ],
+  "Mitral valve calcification": [
+    "Dickkopf-1 (Dkk-1)",
+    "ECP",
+    "Kir6.1",
+    "OCT4",
+    "Sclerostin",
+    "TREK-1",
+    "miR-29a-5p"
+  ],
+  "Low back pain": [
+    "IL-6"
+  ],
+  "Cerebral arteriovenous malformation": [
+    "ACVRL1/ALK1",
+    "ALK1",
+    "ALK5",
+    "Apelin"
+  ],
+  "Emphysema": [
+    "AAT",
+    "FGFR2b",
+    "HO-1",
+    "MDA5",
+    "MMP-12",
+    "NF-kappaB",
+    "Nrf2",
+    "PAI-1",
+    "TRPML3"
+  ],
+  "Premature rupture of membranes": [
+    "CGB",
+    "CK2A",
+    "CK2B",
+    "PAPP-A",
+    "RAGE"
+  ],
+  "Abnormal palmar dermatoglyphics": [
+    "EVI1"
+  ],
+  "Abnormal macrophage morphology": [
+    "CCDC103",
+    "E-cadherin",
+    "ERalpha",
+    "GM-CSF",
+    "IL-10",
+    "PR",
+    "TGF-beta1",
+    "beta-catenin",
+    "miRNA-132-3p"
+  ],
+  "11 pairs of ribs": [
+    "CBFB2"
+  ],
+  "Impaired myocardial contractility": [
+    "CAMKIID",
+    "G6PDH",
+    "SERCA2",
+    "TALDO"
+  ],
+  "Abnormal metabolism": [
+    "ACC1",
+    "CCDC115",
+    "GDH",
+    "GLUT1",
+    "HIF1alpha",
+    "OGG1-2alpha",
+    "PDK10",
+    "PDK100",
+    "PDK1000",
+    "PDK101",
+    "PDK102",
+    "PDK103",
+    "PDK104",
+    "PDK105",
+    "PDK106",
+    "PDK107",
+    "PDK108",
+    "PDK109",
+    "PDK11",
+    "PDK110",
+    "PDK111",
+    "PDK112",
+    "PDK113",
+    "PDK114",
+    "PDK115",
+    "PDK116",
+    "PDK117",
+    "PDK118",
+    "PDK119",
+    "PDK12",
+    "PDK120",
+    "PDK121",
+    "PDK122",
+    "PDK123",
+    "PDK124",
+    "PDK125",
+    "PDK126",
+    "PDK127",
+    "PDK128",
+    "PDK129",
+    "PDK13",
+    "PDK130",
+    "PDK131",
+    "PDK132",
+    "PDK133",
+    "PDK134",
+    "PDK135",
+    "PDK136",
+    "PDK137",
+    "PDK138",
+    "PDK139",
+    "PDK14",
+    "PDK140",
+    "PDK141",
+    "PDK142",
+    "PDK143",
+    "PDK144",
+    "PDK145",
+    "PDK146",
+    "PDK147",
+    "PDK148",
+    "PDK149",
+    "PDK15",
+    "PDK150",
+    "PDK151",
+    "PDK152",
+    "PDK153",
+    "PDK154",
+    "PDK155",
+    "PDK156",
+    "PDK157",
+    "PDK158",
+    "PDK159",
+    "PDK16",
+    "PDK160",
+    "PDK161",
+    "PDK162",
+    "PDK163",
+    "PDK164",
+    "PDK165",
+    "PDK166",
+    "PDK167",
+    "PDK168",
+    "PDK169",
+    "PDK17",
+    "PDK170",
+    "PDK171",
+    "PDK172",
+    "PDK173",
+    "PDK174",
+    "PDK175",
+    "PDK176",
+    "PDK177",
+    "PDK178",
+    "PDK179",
+    "PDK18",
+    "PDK180",
+    "PDK181",
+    "PDK182",
+    "PDK183",
+    "PDK184",
+    "PDK185",
+    "PDK186",
+    "PDK187",
+    "PDK188",
+    "PDK189",
+    "PDK19",
+    "PDK190",
+    "PDK191",
+    "PDK192",
+    "PDK193",
+    "PDK194",
+    "PDK195",
+    "PDK196",
+    "PDK197",
+    "PDK198",
+    "PDK199",
+    "PDK20",
+    "PDK200",
+    "PDK201",
+    "PDK202",
+    "PDK203",
+    "PDK204",
+    "PDK205",
+    "PDK206",
+    "PDK207",
+    "PDK208",
+    "PDK209",
+    "PDK21",
+    "PDK210",
+    "PDK211",
+    "PDK212",
+    "PDK213",
+    "PDK214",
+    "PDK215",
+    "PDK216",
+    "PDK217",
+    "PDK218",
+    "PDK219",
+    "PDK22",
+    "PDK220",
+    "PDK221",
+    "PDK222",
+    "PDK223",
+    "PDK224",
+    "PDK225",
+    "PDK226",
+    "PDK227",
+    "PDK228",
+    "PDK229",
+    "PDK23",
+    "PDK230",
+    "PDK231",
+    "PDK232",
+    "PDK233",
+    "PDK234",
+    "PDK235",
+    "PDK236",
+    "PDK237",
+    "PDK238",
+    "PDK239",
+    "PDK24",
+    "PDK240",
+    "PDK241",
+    "PDK242",
+    "PDK243",
+    "PDK244",
+    "PDK245",
+    "PDK246",
+    "PDK247",
+    "PDK248",
+    "PDK249",
+    "PDK25",
+    "PDK250",
+    "PDK251",
+    "PDK252",
+    "PDK253",
+    "PDK254",
+    "PDK255",
+    "PDK256",
+    "PDK257",
+    "PDK258",
+    "PDK259",
+    "PDK26",
+    "PDK260",
+    "PDK261",
+    "PDK262",
+    "PDK263",
+    "PDK264",
+    "PDK265",
+    "PDK266",
+    "PDK267",
+    "PDK268",
+    "PDK269",
+    "PDK27",
+    "PDK270",
+    "PDK271",
+    "PDK272",
+    "PDK273",
+    "PDK274",
+    "PDK275",
+    "PDK276",
+    "PDK277",
+    "PDK278",
+    "PDK279",
+    "PDK28",
+    "PDK280",
+    "PDK281",
+    "PDK282",
+    "PDK283",
+    "PDK284",
+    "PDK285",
+    "PDK286",
+    "PDK287",
+    "PDK288",
+    "PDK289",
+    "PDK29",
+    "PDK290",
+    "PDK291",
+    "PDK292",
+    "PDK293",
+    "PDK294",
+    "PDK295",
+    "PDK296",
+    "PDK297",
+    "PDK298",
+    "PDK299",
+    "PDK30",
+    "PDK300",
+    "PDK301",
+    "PDK302",
+    "PDK303",
+    "PDK304",
+    "PDK305",
+    "PDK306",
+    "PDK307",
+    "PDK308",
+    "PDK309",
+    "PDK31",
+    "PDK310",
+    "PDK311",
+    "PDK312",
+    "PDK313",
+    "PDK314",
+    "PDK315",
+    "PDK316",
+    "PDK317",
+    "PDK318",
+    "PDK319",
+    "PDK32",
+    "PDK320",
+    "PDK321",
+    "PDK322",
+    "PDK323",
+    "PDK324",
+    "PDK325",
+    "PDK326",
+    "PDK327",
+    "PDK328",
+    "PDK329",
+    "PDK33",
+    "PDK330",
+    "PDK331",
+    "PDK332",
+    "PDK333",
+    "PDK334",
+    "PDK335",
+    "PDK336",
+    "PDK337",
+    "PDK338",
+    "PDK339",
+    "PDK34",
+    "PDK340",
+    "PDK341",
+    "PDK342",
+    "PDK343",
+    "PDK344",
+    "PDK345",
+    "PDK346",
+    "PDK347",
+    "PDK348",
+    "PDK349",
+    "PDK35",
+    "PDK350",
+    "PDK351",
+    "PDK352",
+    "PDK353",
+    "PDK354",
+    "PDK355",
+    "PDK356",
+    "PDK357",
+    "PDK358",
+    "PDK359",
+    "PDK36",
+    "PDK360",
+    "PDK361",
+    "PDK362",
+    "PDK363",
+    "PDK364",
+    "PDK365",
+    "PDK366",
+    "PDK367",
+    "PDK368",
+    "PDK369",
+    "PDK37",
+    "PDK370",
+    "PDK371",
+    "PDK372",
+    "PDK373",
+    "PDK374",
+    "PDK375",
+    "PDK376",
+    "PDK377",
+    "PDK378",
+    "PDK379",
+    "PDK38",
+    "PDK380",
+    "PDK381",
+    "PDK382",
+    "PDK383",
+    "PDK384",
+    "PDK385",
+    "PDK386",
+    "PDK387",
+    "PDK388",
+    "PDK389",
+    "PDK39",
+    "PDK390",
+    "PDK391",
+    "PDK392",
+    "PDK393",
+    "PDK394",
+    "PDK395",
+    "PDK396",
+    "PDK397",
+    "PDK398",
+    "PDK399",
+    "PDK40",
+    "PDK400",
+    "PDK401",
+    "PDK402",
+    "PDK403",
+    "PDK404",
+    "PDK405",
+    "PDK406",
+    "PDK407",
+    "PDK408",
+    "PDK409",
+    "PDK41",
+    "PDK410",
+    "PDK411",
+    "PDK412",
+    "PDK413",
+    "PDK414",
+    "PDK415",
+    "PDK416",
+    "PDK417",
+    "PDK418",
+    "PDK419",
+    "PDK42",
+    "PDK420",
+    "PDK421",
+    "PDK422",
+    "PDK423",
+    "PDK424",
+    "PDK425",
+    "PDK426",
+    "PDK427",
+    "PDK428",
+    "PDK429",
+    "PDK43",
+    "PDK430",
+    "PDK431",
+    "PDK432",
+    "PDK433",
+    "PDK434",
+    "PDK435",
+    "PDK436",
+    "PDK437",
+    "PDK438",
+    "PDK439",
+    "PDK44",
+    "PDK440",
+    "PDK441",
+    "PDK442",
+    "PDK443",
+    "PDK444",
+    "PDK445",
+    "PDK446",
+    "PDK447",
+    "PDK448",
+    "PDK449",
+    "PDK45",
+    "PDK450",
+    "PDK451",
+    "PDK452",
+    "PDK453",
+    "PDK454",
+    "PDK455",
+    "PDK456",
+    "PDK457",
+    "PDK458",
+    "PDK459",
+    "PDK46",
+    "PDK460",
+    "PDK461",
+    "PDK462",
+    "PDK463",
+    "PDK464",
+    "PDK465",
+    "PDK466",
+    "PDK467",
+    "PDK468",
+    "PDK469",
+    "PDK47",
+    "PDK470",
+    "PDK471",
+    "PDK472",
+    "PDK473",
+    "PDK474",
+    "PDK475",
+    "PDK476",
+    "PDK477",
+    "PDK478",
+    "PDK479",
+    "PDK48",
+    "PDK480",
+    "PDK481",
+    "PDK482",
+    "PDK483",
+    "PDK484",
+    "PDK485",
+    "PDK486",
+    "PDK487",
+    "PDK488",
+    "PDK489",
+    "PDK49",
+    "PDK490",
+    "PDK491",
+    "PDK492",
+    "PDK493",
+    "PDK494",
+    "PDK495",
+    "PDK496",
+    "PDK497",
+    "PDK498",
+    "PDK499",
+    "PDK5",
+    "PDK50",
+    "PDK500",
+    "PDK501",
+    "PDK502",
+    "PDK503",
+    "PDK504",
+    "PDK505",
+    "PDK506",
+    "PDK507",
+    "PDK508",
+    "PDK509",
+    "PDK51",
+    "PDK510",
+    "PDK511",
+    "PDK512",
+    "PDK513",
+    "PDK514",
+    "PDK515",
+    "PDK516",
+    "PDK517",
+    "PDK518",
+    "PDK519",
+    "PDK52",
+    "PDK520",
+    "PDK521",
+    "PDK522",
+    "PDK523",
+    "PDK524",
+    "PDK525",
+    "PDK526",
+    "PDK527",
+    "PDK528",
+    "PDK529",
+    "PDK53",
+    "PDK530",
+    "PDK531",
+    "PDK532",
+    "PDK533",
+    "PDK534",
+    "PDK535",
+    "PDK536",
+    "PDK537",
+    "PDK538",
+    "PDK539",
+    "PDK54",
+    "PDK540",
+    "PDK541",
+    "PDK542",
+    "PDK543",
+    "PDK544",
+    "PDK545",
+    "PDK546",
+    "PDK547",
+    "PDK548",
+    "PDK549",
+    "PDK55",
+    "PDK550",
+    "PDK551",
+    "PDK552",
+    "PDK553",
+    "PDK554",
+    "PDK555",
+    "PDK556",
+    "PDK557",
+    "PDK558",
+    "PDK559",
+    "PDK56",
+    "PDK560",
+    "PDK561",
+    "PDK562",
+    "PDK563",
+    "PDK564",
+    "PDK565",
+    "PDK566",
+    "PDK567",
+    "PDK568",
+    "PDK569",
+    "PDK57",
+    "PDK570",
+    "PDK571",
+    "PDK572",
+    "PDK573",
+    "PDK574",
+    "PDK575",
+    "PDK576",
+    "PDK577",
+    "PDK578",
+    "PDK579",
+    "PDK58",
+    "PDK580",
+    "PDK581",
+    "PDK582",
+    "PDK583",
+    "PDK584",
+    "PDK585",
+    "PDK586",
+    "PDK587",
+    "PDK588",
+    "PDK589",
+    "PDK59",
+    "PDK590",
+    "PDK591",
+    "PDK592",
+    "PDK593",
+    "PDK594",
+    "PDK595",
+    "PDK596",
+    "PDK597",
+    "PDK598",
+    "PDK599",
+    "PDK6",
+    "PDK60",
+    "PDK600",
+    "PDK601",
+    "PDK602",
+    "PDK603",
+    "PDK604",
+    "PDK605",
+    "PDK606",
+    "PDK607",
+    "PDK608",
+    "PDK609",
+    "PDK61",
+    "PDK610",
+    "PDK611",
+    "PDK612",
+    "PDK613",
+    "PDK614",
+    "PDK615",
+    "PDK616",
+    "PDK617",
+    "PDK618",
+    "PDK619",
+    "PDK62",
+    "PDK620",
+    "PDK621",
+    "PDK622",
+    "PDK623",
+    "PDK624",
+    "PDK625",
+    "PDK626",
+    "PDK627",
+    "PDK628",
+    "PDK629",
+    "PDK63",
+    "PDK630",
+    "PDK631",
+    "PDK632",
+    "PDK633",
+    "PDK634",
+    "PDK635",
+    "PDK636",
+    "PDK637",
+    "PDK638",
+    "PDK639",
+    "PDK64",
+    "PDK640",
+    "PDK641",
+    "PDK642",
+    "PDK643",
+    "PDK644",
+    "PDK645",
+    "PDK646",
+    "PDK647",
+    "PDK648",
+    "PDK649",
+    "PDK65",
+    "PDK650",
+    "PDK651",
+    "PDK652",
+    "PDK653",
+    "PDK654",
+    "PDK655",
+    "PDK656",
+    "PDK657",
+    "PDK658",
+    "PDK659",
+    "PDK66",
+    "PDK660",
+    "PDK661",
+    "PDK662",
+    "PDK663",
+    "PDK664",
+    "PDK665",
+    "PDK666",
+    "PDK667",
+    "PDK668",
+    "PDK669",
+    "PDK67",
+    "PDK670",
+    "PDK671",
+    "PDK672",
+    "PDK673",
+    "PDK674",
+    "PDK675",
+    "PDK676",
+    "PDK677",
+    "PDK678",
+    "PDK679",
+    "PDK68",
+    "PDK680",
+    "PDK681",
+    "PDK682",
+    "PDK683",
+    "PDK684",
+    "PDK685",
+    "PDK686",
+    "PDK687",
+    "PDK688",
+    "PDK689",
+    "PDK69",
+    "PDK690",
+    "PDK691",
+    "PDK692",
+    "PDK693",
+    "PDK694",
+    "PDK695",
+    "PDK696",
+    "PDK697",
+    "PDK698",
+    "PDK699",
+    "PDK7",
+    "PDK70",
+    "PDK700",
+    "PDK701",
+    "PDK702",
+    "PDK703",
+    "PDK704",
+    "PDK705",
+    "PDK706",
+    "PDK707",
+    "PDK708",
+    "PDK709",
+    "PDK71",
+    "PDK710",
+    "PDK711",
+    "PDK712",
+    "PDK713",
+    "PDK714",
+    "PDK715",
+    "PDK716",
+    "PDK717",
+    "PDK718",
+    "PDK719",
+    "PDK72",
+    "PDK720",
+    "PDK721",
+    "PDK722",
+    "PDK723",
+    "PDK724",
+    "PDK725",
+    "PDK726",
+    "PDK727",
+    "PDK728",
+    "PDK729",
+    "PDK73",
+    "PDK730",
+    "PDK731",
+    "PDK732",
+    "PDK733",
+    "PDK734",
+    "PDK735",
+    "PDK736",
+    "PDK737",
+    "PDK738",
+    "PDK739",
+    "PDK74",
+    "PDK740",
+    "PDK741",
+    "PDK742",
+    "PDK743",
+    "PDK744",
+    "PDK745",
+    "PDK746",
+    "PDK747",
+    "PDK748",
+    "PDK749",
+    "PDK75",
+    "PDK750",
+    "PDK751",
+    "PDK752",
+    "PDK753",
+    "PDK754",
+    "PDK755",
+    "PDK756",
+    "PDK757",
+    "PDK758",
+    "PDK759",
+    "PDK76",
+    "PDK760",
+    "PDK761",
+    "PDK762",
+    "PDK763",
+    "PDK764",
+    "PDK765",
+    "PDK766",
+    "PDK767",
+    "PDK768",
+    "PDK769",
+    "PDK77",
+    "PDK770",
+    "PDK771",
+    "PDK772",
+    "PDK773",
+    "PDK774",
+    "PDK775",
+    "PDK776",
+    "PDK777",
+    "PDK778",
+    "PDK779",
+    "PDK78",
+    "PDK780",
+    "PDK781",
+    "PDK782",
+    "PDK783",
+    "PDK784",
+    "PDK785",
+    "PDK786",
+    "PDK787",
+    "PDK788",
+    "PDK789",
+    "PDK79",
+    "PDK790",
+    "PDK791",
+    "PDK792",
+    "PDK793",
+    "PDK794",
+    "PDK795",
+    "PDK796",
+    "PDK797",
+    "PDK798",
+    "PDK799",
+    "PDK8",
+    "PDK80",
+    "PDK800",
+    "PDK801",
+    "PDK802",
+    "PDK803",
+    "PDK804",
+    "PDK805",
+    "PDK806",
+    "PDK807",
+    "PDK808",
+    "PDK809",
+    "PDK81",
+    "PDK810",
+    "PDK811",
+    "PDK812",
+    "PDK813",
+    "PDK814",
+    "PDK815",
+    "PDK816",
+    "PDK817",
+    "PDK818",
+    "PDK819",
+    "PDK82",
+    "PDK820",
+    "PDK821",
+    "PDK822",
+    "PDK823",
+    "PDK824",
+    "PDK825",
+    "PDK826",
+    "PDK827",
+    "PDK828",
+    "PDK829",
+    "PDK83",
+    "PDK830",
+    "PDK831",
+    "PDK832",
+    "PDK833",
+    "PDK834",
+    "PDK835",
+    "PDK836",
+    "PDK837",
+    "PDK838",
+    "PDK839",
+    "PDK84",
+    "PDK840",
+    "PDK841",
+    "PDK842",
+    "PDK843",
+    "PDK844",
+    "PDK845",
+    "PDK846",
+    "PDK847",
+    "PDK848",
+    "PDK849",
+    "PDK85",
+    "PDK850",
+    "PDK851",
+    "PDK852",
+    "PDK853",
+    "PDK854",
+    "PDK855",
+    "PDK856",
+    "PDK857",
+    "PDK858",
+    "PDK859",
+    "PDK86",
+    "PDK860",
+    "PDK861",
+    "PDK862",
+    "PDK863",
+    "PDK864",
+    "PDK865",
+    "PDK866",
+    "PDK867",
+    "PDK868",
+    "PDK869",
+    "PDK87",
+    "PDK870",
+    "PDK871",
+    "PDK872",
+    "PDK873",
+    "PDK874",
+    "PDK875",
+    "PDK876",
+    "PDK877",
+    "PDK878",
+    "PDK879",
+    "PDK88",
+    "PDK880",
+    "PDK881",
+    "PDK882",
+    "PDK883",
+    "PDK884",
+    "PDK885",
+    "PDK886",
+    "PDK887",
+    "PDK888",
+    "PDK889",
+    "PDK89",
+    "PDK890",
+    "PDK891",
+    "PDK892",
+    "PDK893",
+    "PDK894",
+    "PDK895",
+    "PDK896",
+    "PDK897",
+    "PDK898",
+    "PDK899",
+    "PDK9",
+    "PDK90",
+    "PDK900",
+    "PDK901",
+    "PDK902",
+    "PDK903",
+    "PDK904",
+    "PDK905",
+    "PDK906",
+    "PDK907",
+    "PDK908",
+    "PDK909",
+    "PDK91",
+    "PDK910",
+    "PDK911",
+    "PDK912",
+    "PDK913",
+    "PDK914",
+    "PDK915",
+    "PDK916",
+    "PDK917",
+    "PDK918",
+    "PDK919",
+    "PDK92",
+    "PDK920",
+    "PDK921",
+    "PDK922",
+    "PDK923",
+    "PDK924",
+    "PDK925",
+    "PDK926",
+    "PDK927",
+    "PDK928",
+    "PDK929",
+    "PDK93",
+    "PDK930",
+    "PDK931",
+    "PDK932",
+    "PDK933",
+    "PDK934",
+    "PDK935",
+    "PDK936",
+    "PDK937",
+    "PDK938",
+    "PDK939",
+    "PDK94",
+    "PDK940",
+    "PDK941",
+    "PDK942",
+    "PDK943",
+    "PDK944",
+    "PDK945",
+    "PDK946",
+    "PDK947",
+    "PDK948",
+    "PDK949",
+    "PDK95",
+    "PDK950",
+    "PDK951",
+    "PDK952",
+    "PDK953",
+    "PDK954",
+    "PDK955",
+    "PDK956",
+    "PDK957",
+    "PDK958",
+    "PDK959",
+    "PDK96",
+    "PDK960",
+    "PDK961",
+    "PDK962",
+    "PDK963",
+    "PDK964",
+    "PDK965",
+    "PDK966",
+    "PDK967",
+    "PDK968",
+    "PDK969",
+    "PDK97",
+    "PDK970",
+    "PDK971",
+    "PDK972",
+    "PDK973",
+    "PDK974",
+    "PDK975",
+    "PDK976",
+    "PDK977",
+    "PDK978",
+    "PDK979",
+    "PDK98",
+    "PDK980",
+    "PDK981",
+    "PDK982",
+    "PDK983",
+    "PDK984",
+    "PDK985",
+    "PDK986",
+    "PDK987",
+    "PDK988",
+    "PDK989",
+    "PDK99",
+    "PDK990",
+    "PDK991",
+    "PDK992",
+    "PDK993",
+    "PDK994",
+    "PDK995",
+    "PDK996",
+    "PDK997",
+    "PDK998",
+    "PDK999",
+    "PKM2",
+    "SDH",
+    "TMEM199"
+  ],
+  "Increased pulmonary vascular resistance": [
+    "HIF2A",
+    "LRP5/6",
+    "miR-124"
+  ],
+  "Foam cells": [
+    "AMPK",
+    "HRG1",
+    "LKB1",
+    "OLR-1",
+    "TGF-beta"
+  ],
+  "Insistence on sameness": [
+    "PHB"
+  ],
+  "Enterocolitis": [
+    "miR-141-3p"
+  ],
+  "Phocomelia": [
+    "BMPR-IB",
+    "Meis"
+  ],
+  "Syringomyelia": [
+    "Fgfr1c",
+    "Klotho",
+    "MAPK",
+    "NF-kappaB"
+  ],
+  "Anal atresia": [
+    "RAR"
+  ],
+  "Decreased miniature endplate potentials": [
+    "A2A receptor",
+    "CaMKII",
+    "ErbB",
+    "HnRNP L",
+    "HnRNP LL",
+    "Neuregulin (NRG)",
+    "Ryanodine receptor",
+    "VAChT",
+    "utrophin"
+  ],
+  "Sutural cataract": [
+    "Cx46",
+    "Cx50",
+    "JAM-C",
+    "gamma-crystallin"
+  ],
+  "Quadriceps muscle weakness": [
+    "MTTK",
+    "desmin"
+  ],
+  "Chronic pain": [
+    "CREB",
+    "IL-1R1",
+    "IRF",
+    "NF-kB"
+  ],
+  "Delayed somatosensory central conduction time": [
+    "GABARs",
+    "SCA1/2/3/7"
+  ],
+  "Oral aversion": [
+    "AMPK",
+    "T1R1",
+    "T1R3"
+  ],
+  "Abnormal bladder morphology": [
+    "TGF-beta",
+    "angiotensinogen"
+  ],
+  "Slow pupillary light response": [
+    "SCA7",
+    "nAChRalpha3"
+  ],
+  "Radial deviation of the hand or of fingers of the hand": [
+    "EVI1"
+  ],
+  "Abnormal pelvis bone morphology": [
+    "Hedgehog cascade pathway"
+  ],
+  "Ventriculomegaly": [
+    "IIIG9"
+  ],
+  "Abnormal larynx morphology": [
+    "NUT"
+  ],
+  "Dehydration": [
+    "GUCY2A"
+  ],
+  "Ebstein anomaly of the tricuspid valve": [
+    "Lamin A/C"
+  ],
+  "Abnormality of the foot musculature": [
+    "MHC",
+    "Myostatin",
+    "Myotilin",
+    "Side",
+    "beat"
+  ],
+  "Hypokalemic alkalosis": [
+    "CCCs",
+    "Kir4.2",
+    "SPAK",
+    "WNK"
+  ],
+  "Ectropion": [
+    "GlialCAM",
+    "SHP2"
+  ],
+  "Pseudohypoaldosteronism": [
+    "ENaC"
+  ],
+  "Thenar muscle atrophy": [
+    "GARS",
+    "TDP-43"
+  ],
+  "Erectile dysfunction": [
+    "AMPK",
+    "HO-1",
+    "IL-17C",
+    "IL-1alpha",
+    "IL-7",
+    "Nrf2",
+    "YAP"
+  ],
+  "Cough": [
+    "CCDC103",
+    "GAS8",
+    "PAI-1"
+  ],
+  "Abnormal circulating lipid concentration": [
+    "Cx43",
+    "Klotho",
+    "MMP-1",
+    "MMP-2",
+    "MMP-9",
+    "VEGF"
+  ],
+  "Chills": [
+    "APX",
+    "APX1",
+    "CAT1",
+    "CaBZR1",
+    "CaLCYB",
+    "CsICE1",
+    "CsNPR1",
+    "DHAR2",
+    "GRAS24",
+    "GST",
+    "MaPPO",
+    "MaSPL4",
+    "SOD",
+    "SlBRI1",
+    "Sly-miR171d",
+    "miR528"
+  ],
+  "Submucous cleft palate": [
+    "TGFbeta3"
+  ],
+  "Myocardial fibrosis": [
+    "TGF\u03b21"
+  ],
+  "Abnormal limb epiphysis morphology": [
+    "DRP1",
+    "ERK"
+  ],
+  "Abnormality of neuronal migration": [
+    "Nkx6.2",
+    "Onecut"
+  ],
+  "Pharyngitis": [
+    "Akt",
+    "NFKB",
+    "SLO",
+    "SpyAD",
+    "SpyCEP"
+  ],
+  "Thick vermilion border": [
+    "MEK2"
+  ],
+  "Cervical kyphosis": [
+    "BMP-2",
+    "Rb"
+  ],
+  "Quadriceps muscle atrophy": [
+    "MAFbx",
+    "MuRF1",
+    "dystrophin",
+    "myogenin",
+    "myostatin"
+  ],
+  "Exstrophy": [
+    "Bmp",
+    "p63"
+  ],
+  "Recurrent protozoan infections": [
+    "Cysteine protease",
+    "IL-17A",
+    "IL-17F",
+    "IL-6",
+    "IL-8",
+    "MHC class II",
+    "RANTES",
+    "TNF-alpha"
+  ],
+  "Follicular hyperplasia": [
+    "ki67",
+    "p53"
+  ],
+  "Peripheral arterial stenosis": [
+    "AMPK",
+    "Fibrinogen",
+    "Lp(a)",
+    "MMP-9",
+    "TNF-alpha",
+    "galectin-3"
+  ],
+  "Abnormal posturing": [
+    "GBA"
+  ],
+  "Abnormal lower limb epiphysis morphology": [
+    "RXR",
+    "TIMP"
+  ],
+  "Exodeviation": [
+    "ANT1",
+    "COL4A3-COL4A5"
+  ],
+  "Abnormal curvature of the vertebral column": [
+    "OPG",
+    "RANKL",
+    "VEGF"
+  ],
+  "Iris transillumination defect": [
+    "CD94",
+    "F4/80"
+  ],
+  "Abnormal circulating copper concentration": [
+    "ATP5H"
+  ],
+  "Thoracic platyspondyly": [
+    "WISP3"
+  ],
+  "Hydrops fetalis": [
+    "Gliomedin",
+    "Zeta-globin"
+  ],
+  "Diarrhea": [
+    "S"
+  ],
+  "Hypolipoproteinemia": [
+    "SAR1"
+  ],
+  "Abnormal shoulder morphology": [
+    "ER-alpha"
+  ],
+  "Recurrent cutaneous fungal infections": [
+    "IL17"
+  ],
+  "Androgen insufficiency": [
+    "DAX-1"
+  ],
+  "Deep venous thrombosis": [
+    "FV"
+  ],
+  "Abnormal fetal morphology": [
+    "ARMC4",
+    "CCDC114",
+    "LXA4",
+    "Sprr2a3"
+  ],
+  "Villous atrophy": [
+    "ADAR1",
+    "CAT1",
+    "DMT1",
+    "PBD114",
+    "SGLT1",
+    "ZO1",
+    "ZO2"
+  ],
+  "Cerebral hemorrhage": [
+    "MEK",
+    "NOTCH",
+    "RASA-1",
+    "TIE2"
+  ],
+  "Tibial torsion": [
+    "Pthrp"
+  ],
+  "Hand muscle weakness": [
+    "GBA"
+  ],
+  "Decreased glomerular filtration rate": [
+    "FOXO3a",
+    "NF-kappaB",
+    "Nrf2",
+    "claudin-1",
+    "p16INK4a",
+    "p21",
+    "p53"
+  ],
+  "Cerebral inclusion bodies": [
+    "Hdh",
+    "NS"
+  ],
+  "Foot oligodactyly": [
+    "Plzf"
+  ],
+  "Periodontitis": [
+    "Act1",
+    "IGF-2",
+    "IL-1",
+    "IL-1beta",
+    "IL-6",
+    "NF-kappaB",
+    "TNF-alpha",
+    "TNFalpha",
+    "VEGF-A",
+    "alpha1-antichymotrypsin"
+  ],
+  "Testicular dysgenesis": [
+    "Gsdf",
+    "eEF1alpha"
+  ],
+  "Abnormal corpus striatum morphology": [
+    "FMRP",
+    "NL3",
+    "ceramide synthase 2"
+  ],
+  "Malaise": [
+    "GPR81",
+    "MDA5",
+    "TIF1G"
+  ],
+  "Trichorrhexis nodosa": [
+    "SKIV2L",
+    "TTC37",
+    "p63"
+  ],
+  "Elevated circulating porphyrin concentration": [
+    "PBGD"
+  ],
+  "Small placenta": [
+    "PPARgamma"
+  ],
+  "Abnormal circulating sex hormone concentration": [
+    "CRY1-2",
+    "GnRH",
+    "IL-1beta",
+    "IL-6",
+    "MCP-1",
+    "P450aromatase",
+    "PER1-2",
+    "Rev-Erbalpha",
+    "TNF-alpha",
+    "estradiol",
+    "steroidogenesis-related genes"
+  ],
+  "Angina pectoris": [
+    "CIRP"
+  ],
+  "Iridocyclitis": [
+    "C3b",
+    "IL-10",
+    "IL-17A",
+    "IL-1beta",
+    "IL-22",
+    "IL-6",
+    "RANTES",
+    "TNF-alpha",
+    "miRNA-hsa-miR-146a",
+    "miRNA-hsa-miR-155-5p",
+    "sIL-2R"
+  ],
+  "Bile duct proliferation": [
+    "BSEP",
+    "CK19",
+    "Cyclin D1",
+    "FGFRs",
+    "GSK3beta",
+    "Notch",
+    "beta-catenin",
+    "c-MYC",
+    "c-Myc",
+    "miR-16"
+  ],
+  "Renal atrophy": [
+    "Akt",
+    "NF-kB",
+    "PI3K",
+    "TGF-beta1",
+    "TNF-alpha",
+    "p53"
+  ],
+  "Easy fatigability": [
+    "Agrin",
+    "CGRP",
+    "ER stress proteins",
+    "FcRn",
+    "FcgammaRIIB",
+    "GAP-43",
+    "PGC-1alpha",
+    "TGF-beta1"
+  ],
+  "Biliary atresia": [
+    "FXR",
+    "NSP1",
+    "Notch",
+    "miR-100"
+  ],
+  "Cholangitis": [
+    "PPARalpha"
+  ],
+  "Abnormality of endocrine pancreas physiology": [
+    "KCNK11"
+  ],
+  "Herpes simplex encephalitis": [
+    "GM130",
+    "ICP0",
+    "IRE1A",
+    "STING",
+    "TLR7/8",
+    "TRIM18"
+  ],
+  "Papilledema": [
+    "ANK6",
+    "CGRP"
+  ],
+  "Abnormal corneal epithelium morphology": [
+    "BCLB",
+    "BCLG",
+    "BCLH",
+    "BCLJ",
+    "BCLN",
+    "BCLP",
+    "BCLW",
+    "BCLXL",
+    "BIM",
+    "CD8",
+    "DR5",
+    "NOXA",
+    "PD1",
+    "PUMA",
+    "TRAIL"
+  ],
+  "Severely reduced visual acuity": [
+    "GPR98/VLGR1",
+    "ND4"
+  ],
+  "Neonatal seizure": [
+    "P2X7"
+  ],
+  "Large for gestational age": [
+    "angiotensinogen",
+    "leptin",
+    "visfatin"
+  ],
+  "Impaired pain sensation": [
+    "CGRP",
+    "Gsalpha",
+    "glutamate",
+    "substance P"
+  ],
+  "Abnormality of the pulmonary veins": [
+    "ARMC4",
+    "CCDC114",
+    "Lamin A/C",
+    "SERCA2",
+    "TG2"
+  ],
+  "Childhood onset sensorineural hearing impairment": [
+    "KARS"
+  ],
+  "Type 2 muscle fiber atrophy": [
+    "Ly6G",
+    "MAO-A",
+    "MuRF1",
+    "TWINKLE",
+    "miR-1290"
+  ],
+  "Dysgammaglobulinemia": [
+    "SLAMF5"
+  ],
+  "Abnormal blistering of the skin": [
+    "HSP70",
+    "HSP90"
+  ],
+  "Hemangioblastoma": [
+    "GLUT1",
+    "HIF-1alpha",
+    "HIF-2alpha",
+    "miR-200 family"
+  ],
+  "Abnormal morphology of the olfactory bulb": [
+    "Lgl1"
+  ],
+  "Gingivitis": [
+    "MMP-9"
+  ],
+  "Neoplasm of the large intestine": [
+    "NF-kappaB",
+    "alk-SMase"
+  ],
+  "Bone marrow hypocellularity": [
+    "CD8"
+  ],
+  "Tetraparesis": [
+    "EWSR1-BEND2",
+    "UBTF1"
+  ],
+  "Recurrent lower respiratory tract infections": [
+    "GAS8"
+  ],
+  "Allodynia": [
+    "Il1beta",
+    "Kv7",
+    "NF-kappaB",
+    "Nrf2",
+    "Tnf-alpha",
+    "alpha7-nAChRs",
+    "iNOS",
+    "p38MAPK"
+  ],
+  "Broad columella": [
+    "CCDC193 (MIPOL1)"
+  ],
+  "Abnormal mitochondria in muscle tissue": [
+    "COX4",
+    "ERRalpha",
+    "IFNgamma",
+    "PGC-1alpha"
+  ],
+  "Abnormality of the tonsils": [
+    "BCL-2",
+    "BCL-6",
+    "C-MYC",
+    "CD10",
+    "CD20",
+    "CD3",
+    "EBER",
+    "IL-23",
+    "IL-6",
+    "LIF/JAK2/STAT1",
+    "LINC00152",
+    "MUM1",
+    "MYD88/CD79B",
+    "TNF-alpha"
+  ],
+  "Abnormal peristalsis": [
+    "AKT",
+    "AMPK",
+    "Nav1.9",
+    "P-ERK",
+    "P-JNK",
+    "PAR2",
+    "PKC",
+    "PKCepsilon",
+    "VEGF",
+    "alpha7nAChR",
+    "beta-Catenin",
+    "nNOS"
+  ],
+  "Abnormal blood gas level": [
+    "SCL12A3"
+  ],
+  "Abnormal circulating insulin concentration": [
+    "AKT",
+    "AMPKalpha",
+    "Asprosin",
+    "Gremlin-1",
+    "Klotho",
+    "NRF2"
+  ],
+  "Female pseudohermaphroditism": [
+    "LHR"
+  ],
+  "Palmoplantar blistering": [
+    "Desmocollin",
+    "Desmoglein",
+    "Desmoplakin",
+    "Plakophilin"
+  ],
+  "Adenocarcinoma of the intestines": [
+    "Dok-3",
+    "EML4-ALK V3",
+    "XPO2"
+  ],
+  "Congenital finger flexion contractures": [
+    "CHD10"
+  ],
+  "Pes planus": [
+    "TGFbeta2"
+  ],
+  "Arthralgia of the hip": [
+    "JAK"
+  ],
+  "Anorexia": [
+    "CGRP"
+  ],
+  "Temporal cortical atrophy": [
+    "AbetaPP",
+    "TDP-43"
+  ],
+  "Focal autonomic seizure": [
+    "CACNA2D"
+  ],
+  "Chronic pulmonary obstruction": [
+    "IL-6"
+  ],
+  "Abnormal proximal phalanx morphology of the hand": [
+    "BMPR-IB"
+  ],
+  "Superficial thrombophlebitis": [
+    "HP1",
+    "TGF\u03b21",
+    "TNFA"
+  ],
+  "Abnormal pelvic girdle bone morphology": [
+    "PAPP-A2"
+  ],
+  "Abnormality of the autonomic nervous system": [
+    "FSP1",
+    "JAK",
+    "OT",
+    "RAS",
+    "alpha-synuclein"
+  ],
+  "Decreased head circumference": [
+    "CENPJ",
+    "CITK",
+    "TBCD122"
+  ],
+  "Recurrent thrombophlebitis": [
+    "B2GPI",
+    "PARP"
+  ],
+  "Impaired mastication": [
+    "CD8",
+    "IL1",
+    "IL8",
+    "NFKB",
+    "TGFbeta1",
+    "Tmc",
+    "nompC",
+    "piezo"
+  ],
+  "Long nasal bridge": [
+    "SKIV2L",
+    "TTC37"
+  ],
+  "Vocal cord paralysis": [
+    "MTRM13/SBF2"
+  ],
+  "Reduced pancreatic beta cells": [
+    "ADCY",
+    "AMPK",
+    "CGRPalpha",
+    "INS2",
+    "NRF2"
+  ],
+  "Abnormality of the vertebral column": [
+    "RORbeta"
+  ],
+  "Abnormal liver metabolite concentration": [
+    "DRP1",
+    "NFKB",
+    "PBGD",
+    "Roralpha",
+    "SMEK2"
+  ],
+  "Muscle weakness": [
+    "BVES",
+    "OCTN2"
+  ],
+  "Fetal ultrasound soft marker": [
+    "CJA5"
+  ],
+  "Abnormal activity of mitochondrial respiratory chain": [
+    "ATP5J",
+    "FAD1",
+    "KARS",
+    "NDUFA4",
+    "PNPLA8/iPLA2gamma"
+  ],
+  "Abnormal liver enzyme activity or concentration": [
+    "NCF",
+    "NRF2",
+    "Nrf2",
+    "caspase-3"
+  ],
+  "Corneal neovascularization": [
+    "FGF-2",
+    "IL-1beta",
+    "MMP-9",
+    "OPN",
+    "RUNX-1",
+    "RUNX-3",
+    "TACE",
+    "TNF-alpha",
+    "p21",
+    "p27",
+    "p53"
+  ],
+  "Teratoma": [
+    "LIN28"
+  ],
+  "Antineutrophil antibody positivity": [
+    "ANPTL2"
+  ],
+  "Centrally nucleated skeletal muscle fibers": [
+    "RAGE"
+  ],
+  "Abnormal salivary gland morphology": [
+    "CRTC1-MAML2",
+    "ETV6-NTRK3",
+    "NTRK",
+    "PDGFR beta",
+    "PMCA4",
+    "PSMA"
+  ],
+  "Papilloma": [
+    "E6",
+    "E7",
+    "P16",
+    "YAP"
+  ],
+  "Late young adult onset": [
+    "ETV",
+    "GR"
+  ],
+  "Frontal balding": [
+    "AKT",
+    "Akt",
+    "Bcl-2",
+    "CREB",
+    "DP2",
+    "ERK",
+    "FGF-7",
+    "GSK3beta",
+    "IGF-1",
+    "PTK2beta",
+    "TGF-beta1",
+    "TGFbeta1",
+    "TGFbeta1I1",
+    "beta-catenin"
+  ],
+  "Congenital onset": [
+    "CCDC103",
+    "CENPJ",
+    "LTB4",
+    "RASopathy"
+  ],
+  "Ovarian neoplasm": [
+    "CD133"
+  ],
+  "Large sella turcica": [
+    "TITF1/NKX2-1"
+  ],
+  "Bifid distal phalanx of the thumb": [
+    "HOXA"
+  ],
+  "Overgrowth of external genitalia": [
+    "HoxD"
+  ],
+  "Nodular regenerative hyperplasia of liver": [
+    "CTLA-4",
+    "IL21-R",
+    "PI3Kdelta pathway"
+  ],
+  "Abnormal muscle tissue metabolite concentration": [
+    "E2F",
+    "Pgk"
+  ],
+  "Pancreatitis": [
+    "D-3-phosphoglycerate dehydrogenase",
+    "HIST2H2AA3",
+    "Nrf2",
+    "PAR2",
+    "TrkA",
+    "ZFP664",
+    "phosphoserine aminotransferase",
+    "phosphoserine phosphatase"
+  ],
+  "Abnormality of the upper limb": [
+    "TrkB"
+  ],
+  "Abnormal circulating lactate dehydrogenase concentration": [
+    "AM",
+    "MCT1"
+  ],
+  "Abnormal fetal cardiovascular morphology": [
+    "ARMC4",
+    "CCDC114",
+    "cul3a"
+  ],
+  "Spinal cord tumor": [
+    "ERK/MAPK",
+    "KIAA1549-BRAF"
+  ],
+  "Middle age onset": [
+    "IL-6",
+    "IL-7",
+    "IL-8",
+    "Klotho",
+    "VEGF"
+  ],
+  "Abnormality of lens shape": [
+    "Gja8 (Cx50)"
+  ],
+  "Recurrent fever": [
+    "CCR1-CCR3"
+  ],
+  "Microcytic anemia": [
+    "HBA",
+    "KARS"
+  ],
+  "Dyskinesia": [
+    "SERT"
+  ],
+  "Nontuberculous mycobacterial pulmonary infection": [
+    "rrl"
+  ],
+  "Interosseus muscle atrophy": [
+    "GARS"
+  ],
+  "Epilepsia partialis continua": [
+    "TDP-43"
+  ],
+  "Scleroderma": [
+    "JAK"
+  ],
+  "Diaphragmatic weakness": [
+    "NOX2",
+    "SEPN1",
+    "SMN"
+  ],
+  "Macular thickening": [
+    "NURR1"
+  ],
+  "Premature loss of teeth": [
+    "AMPK"
+  ],
+  "Raynaud phenomenon": [
+    "CLIMB"
+  ],
+  "Restrictive behavior": [
+    "Gat1",
+    "NRSF",
+    "NSE",
+    "SCG10"
+  ],
+  "Elevated circulating aspartate aminotransferase concentration": [
+    "IL8",
+    "miR-6807"
+  ],
+  "Hypertelorism": [
+    "WTX"
+  ],
+  "Abnormal rapid eye movement sleep": [
+    "GBA",
+    "HSPA1"
+  ],
+  "Exocrine pancreatic insufficiency": [
+    "120del23",
+    "CDKN2A/B",
+    "D572E",
+    "ERK1/2",
+    "G970D",
+    "Gln1100Pro",
+    "I203F",
+    "JNK1/2",
+    "NF-kappaB",
+    "PHE508del",
+    "PUMA",
+    "SMA",
+    "Ser4Ter",
+    "TGFbeta",
+    "Y109D",
+    "YARS",
+    "exon 2-3 deletion"
+  ],
+  "Splenomegaly": [
+    "HLA"
+  ],
+  "Long nose": [
+    "INSYN2",
+    "MMP-3"
+  ],
+  "Abnormal circulating gonadotropin concentration": [
+    "P450 oxidoreductase (POR)"
+  ],
+  "Abnormal cortical bone morphology": [
+    "AKT",
+    "ALP",
+    "Bglap2",
+    "Bglap3",
+    "ERalpha",
+    "OCN",
+    "PI3K",
+    "TRAP"
+  ],
+  "Abnormality on pulmonary function testing": [
+    "IgA"
+  ],
+  "Syndactyly": [
+    "HER2"
+  ],
+  "Abnormality of cytokine secretion": [
+    "Adiponectin",
+    "IFNgamma",
+    "IL-1beta",
+    "IL-33",
+    "IL-9",
+    "IP-10/CXCL10",
+    "MEK5",
+    "NF-kappaB"
+  ],
+  "Decreased number of large peripheral myelinated nerve fibers": [
+    "Nogo-C",
+    "Oct3/4",
+    "c-Myc"
+  ],
+  "Thick corpus callosum": [
+    "APP/APLP1/APLP2",
+    "NF-kappaB"
+  ],
+  "Abnormal renal physiology": [
+    "COX-1",
+    "COX-2",
+    "PHD1",
+    "PHD2",
+    "PHD3",
+    "miR-124-3p"
+  ],
+  "Abnormality of facial musculature": [
+    "Dlx5/6",
+    "Nkx2.7"
+  ],
+  "Autoimmunity": [
+    "PKM2",
+    "SPATA5",
+    "UCMSC"
+  ],
+  "Recurrent spontaneous abortion": [
+    "GTL2",
+    "IGF-2",
+    "KIR2DL5",
+    "Kv",
+    "Purbeta",
+    "circHIPK3",
+    "miR-30a-3p"
+  ],
+  "Gangrene": [
+    "VEGF"
+  ],
+  "Abnormal abdomen morphology": [
+    "Abd-B"
+  ],
+  "Thin ribs": [
+    "MYOD"
+  ],
+  "Abnormality of the parathyroid gland": [
+    "FGF",
+    "OPG",
+    "RANKL"
+  ],
+  "Abnormal pleura morphology": [
+    "KAP1",
+    "PD-L1",
+    "TTF-1",
+    "YAP"
+  ],
+  "Bone cyst": [
+    "PTCH",
+    "RANKL"
+  ],
+  "Interrupted aortic arch": [
+    "AP-2alpha (TCFAP2A)",
+    "Baz1b (BAZ1B)"
+  ],
+  "Sarcoma": [
+    "LANA-1",
+    "RTA",
+    "v-FLIP",
+    "v-GPCR",
+    "v-IL6",
+    "v-cyclin"
+  ],
+  "Chronic infection": [
+    "PD-1",
+    "PD-L1",
+    "bla",
+    "lapA",
+    "nirS"
+  ],
+  "Recurrent maladaptive behavior": [
+    "A2AAR",
+    "D2R",
+    "Dopamine receptor 3",
+    "Glucocorticoid receptor",
+    "Leptin receptor",
+    "PAC1 receptor",
+    "PACAP",
+    "mGluR5"
+  ],
+  "Reduced attention regulation": [
+    "VGluT1",
+    "upd2"
+  ],
+  "Severe varicella zoster infection": [
+    "E2A/PBX1",
+    "IFN-alpha2",
+    "JAK",
+    "ORF61",
+    "VZV gE"
+  ],
+  "Abnormal toenail morphology": [
+    "HoxC"
+  ],
+  "Abnormality of the middle phalanx of the 5th finger": [
+    "miR-92a"
+  ],
+  "Parietal bossing": [
+    "OCRL1"
+  ],
+  "Abnormal incisor morphology": [
+    "SOCE",
+    "STIM",
+    "Tmem2",
+    "c-Fos"
+  ],
+  "Squamous cell carcinoma": [
+    "cyclin D1",
+    "p16INK4a",
+    "p21CIP1",
+    "p27KIP1"
+  ],
+  "Carotid artery stenosis": [
+    "COL8"
+  ],
+  "Abnormal ventricular septum morphology": [
+    "ID1/ID3"
+  ],
+  "Abnormal pericardium morphology": [
+    "Tbx5a",
+    "amhc",
+    "atp2a2a",
+    "bmp2b",
+    "nkx2.5",
+    "sox9b",
+    "vmhc"
+  ],
+  "Increased female libido": [
+    "GPER"
+  ],
+  "Abnormal uterine cervix morphology": [
+    "HER2",
+    "K-ras",
+    "Ki-67"
+  ],
+  "Nephrotic syndrome": [
+    "ADCK4",
+    "IL-4"
+  ],
+  "Increased density of long bones": [
+    "CKIP-1",
+    "CTX",
+    "PINP",
+    "Trap",
+    "miR-149",
+    "miR-98-5p"
+  ],
+  "Cranial nerve compression": [
+    "GLT-1",
+    "miR-192-5p",
+    "miR-431-5p"
+  ],
+  "Abnormal nasopharynx morphology": [
+    "Bcl-2",
+    "EBV",
+    "SPINK-6",
+    "hsa_circ_0066755"
+  ],
+  "Abnormal branching pattern of the aortic arch": [
+    "TGFbeta3"
+  ],
+  "Cerebral cavernous malformation": [
+    "CCM",
+    "CCM1",
+    "CCM3",
+    "Ccm3",
+    "STK24/25",
+    "Trc"
+  ],
+  "Capillary hemangioma": [
+    "HIF1alpha",
+    "miR-138-5p",
+    "miR-206",
+    "miR-33a-5p"
+  ],
+  "Proboscis": [
+    "Inos"
+  ],
+  "Elevated hepatic iron concentration": [
+    "NRF2"
+  ],
+  "Decreased circulating copper concentration": [
+    "MDH",
+    "MT"
+  ],
+  "Functional intestinal obstruction": [
+    "Collagen-I",
+    "TGFbeta",
+    "Wnt",
+    "beta-catenin",
+    "microRNA-155"
+  ],
+  "Diaphyseal dysplasia": [
+    "NPR-2"
+  ],
+  "Abnormal chorioretinal morphology": [
+    "Nrf2",
+    "miR-146"
+  ],
+  "Early young adult onset": [
+    "BVES",
+    "HNF1beta",
+    "hsa-miR-1247-3p",
+    "hsa-miR-148a-3p",
+    "hsa-miR-326"
+  ],
+  "Posteriorly rotated ears": [
+    "DRC3-6",
+    "LLGL1-4RA"
+  ],
+  "Third degree atrioventricular block": [
+    "La/SSB",
+    "Ro/SSA"
+  ],
+  "Abnormal immune serum protein physiology": [
+    "Zn"
+  ],
+  "Abnormal negative emotional state": [
+    "Crf",
+    "DA pathway genes",
+    "LOC100910237",
+    "Orx",
+    "PAC1",
+    "RGD1562890",
+    "Tnxa-ps1"
+  ],
+  "Anosmia": [
+    "KAL1"
+  ],
+  "Abnormal blood sodium concentration": [
+    "CLC-Kb",
+    "ENaC",
+    "NCC",
+    "NKCC2",
+    "Pendrin",
+    "ROMK",
+    "WNKs"
+  ],
+  "Dermatological manifestations of systemic disorders": [
+    "MBL"
+  ],
+  "Abnormal waist to hip ratio": [
+    "FAM214A"
+  ],
+  "Supraventricular tachycardia": [
+    "Connexin43"
+  ],
+  "Coiled sperm flagella": [
+    "Tektin5",
+    "WDY"
+  ],
+  "Torsion dystonia": [
+    "DYT1"
+  ],
+  "Reduced forced vital capacity": [
+    "Beta-Sarcoglycan",
+    "CDK1/2",
+    "CKDNA1A",
+    "GPR56",
+    "HDAC1/2",
+    "MTSS1L"
+  ],
+  "Absent brainstem auditory responses": [
+    "GC-A",
+    "Kv3.3",
+    "NT-3"
+  ],
+  "Adrenal hypoplasia": [
+    "Dax1",
+    "SF-1"
+  ],
+  "Abnormal eating behavior": [
+    "5-HTTLPR",
+    "DAT1",
+    "Dfd",
+    "p75NTR"
+  ],
+  "Abnormality of upper lip vermillion": [
+    "FBLN4"
+  ],
+  "Biliary tract neoplasm": [
+    "CD71",
+    "PD-1",
+    "PD-L1",
+    "VISTA"
+  ],
+  "Visual field defect": [
+    "PDE5",
+    "RIM1",
+    "miR-26a"
+  ],
+  "Abnormal cardiac septum morphology": [
+    "Dystrophin",
+    "REST/NRSF",
+    "T"
+  ],
+  "Arterial thrombosis": [
+    "NF-kappaB",
+    "PPARgamma"
+  ],
+  "Stapes ankylosis": [
+    "OPG"
+  ],
+  "Calvarial hyperostosis": [
+    "ANK",
+    "TGFbeta1"
+  ],
+  "Cheilitis": [
+    "IDO",
+    "IL-6",
+    "PD-L1"
+  ],
+  "Abnormal sclera morphology": [
+    "COL1",
+    "PERK",
+    "TGF\u03b21"
+  ],
+  "Juvenile myelomonocytic leukemia": [
+    "SHP2"
+  ],
+  "Lactic acidosis": [
+    "NDUFA4"
+  ],
+  "Neoplasm of the tracheobronchial system": [
+    "IFN-alpha",
+    "IL-8",
+    "NOTCH",
+    "TGFB",
+    "TRF1",
+    "p53"
+  ],
+  "Hyperlipidemia": [
+    "CASP11",
+    "Smad",
+    "TGF beta",
+    "m-TOR"
+  ],
+  "Lacrimal duct stenosis": [
+    "Pea3"
+  ],
+  "Elevated urinary delta-aminolevulinic acid": [
+    "PBGD"
+  ],
+  "Complete atrioventricular canal defect": [
+    "FURINA",
+    "SMARCC1A"
+  ],
+  "Vascular calcification": [
+    "RANK"
+  ],
+  "Moderately short stature": [
+    "COL1A1/2",
+    "IGF-1"
+  ],
+  "Abnormal neuron morphology": [
+    "WAVE regulatory complex"
+  ],
+  "Irregularly shaped sperm tail": [
+    "SLO3",
+    "TSSKs"
+  ],
+  "Recurrent ear infections": [
+    "GAS8"
+  ],
+  "Abnormal middle phalanx morphology of the hand": [
+    "BMPR-IB"
+  ],
+  "Lumbar hyperlordosis": [
+    "SMN"
+  ],
+  "Focal sensory seizure": [
+    "EAAT2a",
+    "KIF4"
+  ],
+  "Generalized muscle weakness": [
+    "MTTK"
+  ],
+  "Abnormal caudate nucleus morphology": [
+    "CD31"
+  ],
+  "Abnormal portal venous system morphology": [
+    "IL-34",
+    "IL-8",
+    "NF-kappaB"
+  ],
+  "Abnormality of renal excretion": [
+    "MDR1",
+    "STING",
+    "URAT1"
+  ],
+  "Abnormal hemoglobin concentration": [
+    "GIF"
+  ],
+  "Adrenocortical adenoma": [
+    "miR-486-3p"
+  ],
+  "Femur fracture": [
+    "AT1R",
+    "AT2R",
+    "BSP",
+    "MMP6",
+    "MasR",
+    "MiR-595",
+    "OPG"
+  ],
+  "Adipose tissue loss": [
+    "PPARgamma2",
+    "beta-catenin",
+    "leptin"
+  ],
+  "Abnormal circulating amino acid concentration": [
+    "PP2Cm",
+    "p-BCKDHA/BCKDHA"
+  ],
+  "Renal tubular dysfunction": [
+    "HP1",
+    "LKB1",
+    "NRF2",
+    "SGLT2"
+  ],
+  "Late-onset proximal muscle weakness": [
+    "GDF-15"
+  ],
+  "Erythroid hyperplasia": [
+    "CD20",
+    "SCL25A38"
+  ],
+  "Abnormality of superoxide metabolism": [
+    "ACC",
+    "APS",
+    "CATs",
+    "Cystatin-S",
+    "Cytc",
+    "GPRP",
+    "GR",
+    "GSH-Px",
+    "GSTs",
+    "HSP-17.9",
+    "MT1",
+    "MT2",
+    "Mhy2",
+    "Mhy4",
+    "NRF2",
+    "P65",
+    "SOD",
+    "SODs",
+    "SeCys lyase",
+    "glutathione synthetase",
+    "lacritin"
+  ],
+  "Microangiopathic hemolytic anemia": [
+    "MCP/CD46"
+  ],
+  "Weakness of facial musculature": [
+    "DUX4c",
+    "beta-CATENIN",
+    "dystrophin",
+    "utrophin"
+  ],
+  "Small vessel vasculitis": [
+    "PR3"
+  ],
+  "Increased inflammatory response": [
+    "CD206",
+    "CXCL-8",
+    "GAS8",
+    "IL-10",
+    "IL-1Beta",
+    "IL-1beta",
+    "IL-6",
+    "IL-8",
+    "Mfage8",
+    "Nur77",
+    "PPARgamma",
+    "TGF-beta",
+    "TNF-alpha",
+    "integrins alphav/beta5"
+  ],
+  "Conical tooth": [
+    "EVC2/LIMBIN"
+  ],
+  "Absence of secondary sex characteristics": [
+    "KAL1"
+  ],
+  "Nocturia": [
+    "CGRP",
+    "PPARgamma",
+    "miR-29a/b1"
+  ],
+  "Multicystic kidney dysplasia": [
+    "BCL-2",
+    "IGF-II",
+    "IGFBP-2",
+    "IGFBP-3",
+    "TCF2",
+    "TGF-beta",
+    "beta-catenin",
+    "galectin-3",
+    "renin"
+  ],
+  "Abnormal lymphatic vessel morphology": [
+    "BMP9",
+    "VEGF-E"
+  ],
+  "Abnormal muscle fiber morphology": [
+    "BVES"
+  ],
+  "Abnormal vascular morphology": [
+    "Claudin-5",
+    "CsIVP",
+    "PGC-1alpha",
+    "TGF-beta",
+    "Thy-1/CD90"
+  ],
+  "Fair hair": [
+    "BBSome"
+  ],
+  "Varicose veins": [
+    "IL-17",
+    "PARP",
+    "SYN"
+  ],
+  "Intestinal atresia": [
+    "PPARalpha"
+  ],
+  "Biliary tract abnormality": [
+    "HER2",
+    "NTRK"
+  ],
+  "Hemiplegia": [
+    "CD31",
+    "S100",
+    "TGFbeta1"
+  ],
+  "Onychomycosis": [
+    "Citrate Synthase",
+    "DEFB2",
+    "DEFB4",
+    "ERG11",
+    "HLA-DR4",
+    "HLA-DR8",
+    "Isocitrate Lyase",
+    "Malate Synthase",
+    "Metallocarboxypeptidase B",
+    "Metalloprotease 4"
+  ],
+  "Knee contracture": [
+    "WISP3"
+  ],
+  "Abnormal nail attachment": [
+    "Krt90"
+  ],
+  "Aplasia of the ulna": [
+    "BMPR-IB",
+    "HOXD",
+    "LAF4"
+  ],
+  "Midline defect of the nose": [
+    "CATP-8"
+  ],
+  "Abnormal testis morphology": [
+    "GSH-Px",
+    "GnRH",
+    "HO-1",
+    "MIWI",
+    "Nrf-2",
+    "miR-17-92"
+  ],
+  "True hermaphroditism": [
+    "cyp19a1a",
+    "it"
+  ],
+  "Abnormal ossification involving the femoral head and neck": [
+    "OPG",
+    "RANKL",
+    "TGF-beta",
+    "WISP3",
+    "col10alpha1",
+    "col1alpha2",
+    "col2alpha1"
+  ],
+  "Areflexia": [
+    "FVT1"
+  ],
+  "Abnormal pituitary gland morphology": [
+    "L1-CAM"
+  ],
+  "Fatigue": [
+    "AKT",
+    "AMPK",
+    "FoxO",
+    "Nrf2",
+    "PI3K"
+  ],
+  "Tinnitus": [
+    "CGRP"
+  ],
+  "Agammaglobulinemia": [
+    "RAG-2"
+  ],
+  "Loss of subcutaneous adipose tissue in limbs": [
+    "CYP2A19",
+    "ERalpha",
+    "ERbeta",
+    "PPARgamma"
+  ],
+  "Optic nerve compression": [
+    "Chk2",
+    "IGF-1R",
+    "Pit-1",
+    "TARS"
+  ],
+  "Abnormal circulating iron concentration": [
+    "G6PC"
+  ],
+  "Cholangiocarcinoma": [
+    "FAK",
+    "YAP",
+    "hsa-miR-196b-5p",
+    "hsa-miR-96-5p",
+    "hsa_circ_0025636",
+    "hsa_circ_0057335",
+    "miR-615-5p"
+  ],
+  "Nail dystrophy": [
+    "C1orf172",
+    "K35",
+    "K85"
+  ],
+  "Abnormal circulating isoleucine concentration": [
+    "AMPK",
+    "PPARgamma",
+    "dDBT"
+  ],
+  "Abnormal carotid artery morphology": [
+    "Drp1"
+  ],
+  "Aspiration pneumonia": [
+    "HIF-1alpha",
+    "MTRM13"
+  ],
+  "Dermal translucency": [
+    "ednrb1a"
+  ],
+  "Abnormal hard palate morphology": [
+    "CLDN",
+    "FCGR3"
+  ],
+  "Enlarged posterior fossa": [
+    "C5orf42",
+    "ISPD"
+  ],
+  "Hematemesis": [
+    "S100"
+  ],
+  "Limb muscle weakness": [
+    "BVES",
+    "CAG",
+    "CK14",
+    "CK8",
+    "MTMR5",
+    "PGC-1alpha",
+    "SOD",
+    "TNF-alpha",
+    "alphaLNNd",
+    "beta-HAD",
+    "p38 MAPK"
+  ],
+  "Unilateral cleft palate": [
+    "BMP signaling",
+    "ESRP1/2",
+    "Tip60/Ep400",
+    "Wnt signaling"
+  ],
+  "Deviation of toes": [
+    "BMPR-IB",
+    "HOXD cluster",
+    "RANK"
+  ]
+}

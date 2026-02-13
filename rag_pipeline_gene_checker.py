@@ -1,14 +1,13 @@
 import time
-from langgraph.graph import END
-from langgraph.graph import StateGraph
+import json
+import os
+from langgraph.graph import END, StateGraph
 from pubtator import Pubtator
 from utils import GraphState, get_llm, get_llm_json_mode, clean_model_output, save_to_json_list
 from langchain_core.messages import HumanMessage, SystemMessage
 from instructs import rag_prompt2, grade_abstracts_instructions2
-import json
-import os
 
-CHECKED_PMIDS_FILE = "checked_pmids_gene_checker.json"  # optional cache if you want
+CHECKED_PMIDS_FILE = "checked_pmids_gene_checker.json"
 
 def retrieve_pubtator_abstracts(state: GraphState):
     """
@@ -48,21 +47,24 @@ def retrieve_pubtator_abstracts(state: GraphState):
     save_to_json_list(abstracts, cache_file)
     print(f"Saved {len(abstracts)} abstracts to {cache_file}")
 
+    # Return to the shared 'documents' list
     return {"documents": abstracts}
 
 
-def grade_abstracts(state, llm_name):
+def grade_abstracts(state: GraphState, llm_name: str):
     """
-    Grade abstracts for phenotype+gene relevance using ONLY abstracts passed in state["documents"].
-    No file I/O for abstracts here.
+    Grade abstracts for phenotype+gene relevance.
+    Saves to state['documents_filtered'][llm_name].
     """
     phenotype = state["phenotype"]
     gene = phenotype["gene"]
 
+    # 1. Access shared raw documents
     documents = state.get("documents", [])
     if not documents:
         print(f"No abstracts to grade for {phenotype['name']} / {gene}")
-        return {f"documents_{llm_name}": []}
+        # Return empty list for this LLM
+        return {"documents_filtered": {llm_name: []}}
 
     question = (
         f"Does this abstract discuss BOTH the gene '{gene}' "
@@ -77,36 +79,41 @@ def grade_abstracts(state, llm_name):
             f"Title: {doc.get('title', '')}\n"
             f"Abstract: {doc.get('abstract', '')}"
         )
-        result = llm.invoke([
-            SystemMessage(content=grade_abstracts_instructions2),
-            HumanMessage(content=f"Question: {question}\n\nAbstract:\n{abstract_text}")
-        ])
-
+        
         try:
+            result = llm.invoke([
+                SystemMessage(content=grade_abstracts_instructions2),
+                HumanMessage(content=f"Question: {question}\n\nAbstract:\n{abstract_text}")
+            ])
+
             grade = json.loads(result.content)["binary_score"].strip().lower()
             if grade == "yes":
                 filtered.append(doc)
         except Exception as e:
-            print(f"Skipping abstract due to parse error: {e}")
+            print(f"[{llm_name}] Skipping abstract due to parse error: {e}")
             continue
 
-    print(f"Kept {len(filtered)} abstracts after grading for {phenotype['name']} / {gene}")
-    return {f"documents_{llm_name}": filtered}
+    print(f"[{llm_name}] Kept {len(filtered)} abstracts after grading for {phenotype['name']} / {gene}")
+    
+    # 2. Return using the nested structure
+    return {"documents_filtered": {llm_name: filtered}}
 
 
-def generate(state, llm_name):
+def generate(state: GraphState, llm_name: str):
     """
-    Use only the filtered abstracts from the grader (state[f"documents_{llm_name}"])
-    to decide whether the gene is supported for the phenotype.
+    Use only the filtered abstracts for this specific LLM to validate the association.
     """
     phenotype = state["phenotype"]
     gene = phenotype["gene"]
     safe_name = phenotype["name"]
 
-    documents = state.get(f"documents_{llm_name}", [])
+    # 1. Retrieve filtered documents specifically for this LLM
+    all_filtered = state.get("documents_filtered", {})
+    documents = all_filtered.get(llm_name, [])
+
     if not documents:
-        print(f"No filtered abstracts for {safe_name} / {gene}")
-        return {f"generation_{llm_name}": []}
+        print(f"[{llm_name}] No filtered abstracts for {safe_name} / {gene}")
+        return {"generation": {llm_name: []}}
 
     pmids = [d.get("pmid") for d in documents]
     formatted_docs = [
@@ -118,43 +125,65 @@ def generate(state, llm_name):
     question = f"Is gene '{gene}' supported as being associated with phenotype '{phenotype['name']}'?"
 
     llm = get_llm_json_mode(llm_name)
-    result = llm.invoke([
-        SystemMessage(content="You are a precise biomedical reasoning model. Respond only in JSON."),
-        HumanMessage(content=rag_prompt2.format(context=context, question=question))
-    ])
-
+    
     try:
+        result = llm.invoke([
+            SystemMessage(content="You are a precise biomedical reasoning model. Respond only in JSON."),
+            HumanMessage(content=rag_prompt2.format(context=context, question=question))
+        ])
         generation = json.loads(result.content)
     except Exception:
-        generation = json.loads(clean_model_output(result.content))
+        # Fallback cleaning
+        try:
+            generation = json.loads(clean_model_output(result.content))
+        except:
+            generation = {}
 
     generation["PMIDS"] = pmids
 
+    # Save to disk
     outfile = f"out/phenotype_checks/{llm_name}/{safe_name}/{gene}.json"
     os.makedirs(os.path.dirname(outfile), exist_ok=True)
     with open(outfile, "w") as f:
         json.dump(generation, f, indent=2)
-    print(f"Saved generation for {gene} and {safe_name} to {outfile}")
+    print(f"[{llm_name}] Saved generation for {gene} and {safe_name} to {outfile}")
 
-    return {f"generation_{llm_name}": generation}
+    # 2. Return wrapped in a list to match GraphState List type
+    return {"generation": {llm_name: [generation]}}
 
 
 def create_control_flow():
+    # Ensure GraphState in utils.py is updated to include `merge_dicts` logic!
     workflow = StateGraph(GraphState)
 
-    # Step 1: Retrieve abstracts
+    # 1. Retrieve Node
     workflow.add_node("retrieve", retrieve_pubtator_abstracts)
 
-    # Step 2: Grade abstracts for phenotype + gene relevance using llama
-    workflow.add_node("grade_llama", lambda s: grade_abstracts(s, "llama3.1:8b"))
+    # 2. Grading Nodes (Parallel logic supported by StateGraph, though edges here are sequential)
+    workflow.add_node("grade_qwen", lambda s: grade_abstracts(s, "qwen3:32b"))
+    workflow.add_node("grade_deepseek", lambda s: grade_abstracts(s, "deepseek-r1:8b"))
+    workflow.add_node("grade_llama3", lambda s: grade_abstracts(s, "llama3.1:8b"))
 
-    # Step 3: Generate inference (validate gene–phenotype association)
-    workflow.add_node("gen_llama", lambda s: generate(s, "llama3.1:8b"))
+    # 3. Generation Nodes
+    workflow.add_node("generate_qwen", lambda s: generate(s, "qwen3:32b"))
+    workflow.add_node("generate_deepseek", lambda s: generate(s, "deepseek-r1:8b"))
+    workflow.add_node("generate_llama3", lambda s: generate(s, "llama3.1:8b"))
 
-    # Define workflow structure
+    # Entry
     workflow.set_entry_point("retrieve")
-    workflow.add_edge("retrieve", "grade_llama")
-    workflow.add_edge("grade_llama", "gen_llama")
-    workflow.add_edge("gen_llama", END)
+
+    # Flow
+    # Retrieve -> Grade Qwen -> Grade Deepseek -> Grade Llama
+    workflow.add_edge("retrieve", "grade_qwen")
+    workflow.add_edge("grade_qwen", "grade_deepseek")
+    workflow.add_edge("grade_deepseek", "grade_llama3")
+
+    # Grade Llama -> Gen Qwen -> Gen Deepseek -> Gen Llama
+    workflow.add_edge("grade_llama3", "generate_qwen")
+    workflow.add_edge("generate_qwen", "generate_deepseek")
+    workflow.add_edge("generate_deepseek", "generate_llama3")
+
+    # End
+    workflow.add_edge("generate_llama3", END)
 
     return workflow.compile()
