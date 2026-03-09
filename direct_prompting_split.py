@@ -8,14 +8,14 @@ from direct_prompting_utils import create_control_flow as create_maker_flow
 GMT_PATH = "out/phenotype_to_gene_sets.txt"
 
 
-def get_llm_file_paths(llm_name):
+def get_llm_file_paths(llm_name, split_file):
     """Generate LLM-specific file paths and ensure they exist."""
     os.makedirs("out", exist_ok=True)
     
     paths = {
-        "processed_file": f"out/direct-prompting/processed_phenotypes_{llm_name}.txt",
-        "processed_genes_file": f"out/direct-prompting/processed_genes_{llm_name}.json",
-        "processed_sets_file": f"out/direct-prompting/processed_gene_sets_{llm_name}.txt"
+        "processed_file": f"out/direct-prompting/processed_phenotypes_{llm_name}_{split_file}.txt",
+        "processed_genes_file": f"out/direct-prompting/processed_genes_{llm_name}_{split_file}.json",
+        "processed_sets_file": f"out/direct-prompting/processed_gene_sets_{llm_name}_{split_file}.txt"
     }
     
     # Create files if they don't exist
@@ -96,11 +96,19 @@ def main():
         default="deepseek-r1:8b",
         help="LLM to use for grading abstracts."
     )
+    # add arguement for split file to only process a subset of phenotypes
+    parser.add_argument(
+        "--split_file",
+        type=str,
+        default=None,
+        help="Path to a text file containing phenotype names to process (one per line). If not provided, all phenotypes will be processed."
+    )
     args = parser.parse_args()
 
     llm_name = args.llm
+    split_file = os.path.basename(args.split_file) if args.split_file else "out/part_1.txt"
     # Generate LLM-specific file paths
-    file_paths = get_llm_file_paths(llm_name)
+    file_paths = get_llm_file_paths(llm_name, split_file)
 
     # Load phenotypes
     phenotypes = phenotype_json_reader(args.input_file)
@@ -113,21 +121,19 @@ def main():
         raise FileNotFoundError(f"GMT file not found at {GMT_PATH}")
     gene_sets = read_phenotype_to_gene_sets(GMT_PATH)
 
-    # read the phenotypes in "out/lost_genes_phenotypes_dp_llama.txt" and only process those phenotypes that are in that file
-    lost_genes_phenotypes_file = "out/lost_genes_phenotypes_dp_deepseek.txt"  # Change this path for different LLMs
-    if os.path.exists(lost_genes_phenotypes_file):
-        with open(lost_genes_phenotypes_file, "r") as f:
-            lost_genes_phenotypes = set(line.strip() for line in f if line.strip())
-        phenotypes = [p for p in phenotypes if p["name"] in lost_genes_phenotypes]
-        print(f"Filtering to {len(phenotypes)} phenotypes based on {lost_genes_phenotypes_file}")
-    else:
-        print(f"Warning: Lost genes phenotypes file not found at {lost_genes_phenotypes_file}. Processing all phenotypes.")
+    # If a split file is provided, read the phenotype names to process
+    if args.split_file:
+        if not os.path.exists(args.split_file):
+            raise FileNotFoundError(f"Split file not found at {args.split_file}")
+        with open(args.split_file, "r") as f:
+            split_phenotypes = set(line.strip() for line in f if line.strip())
+        # Filter phenotypes to only include those in the split file
+        phenotypes = [p for p in phenotypes if p["name"] in split_phenotypes]
 
     # Intersection logic:
     #   Checker only runs for phenotypes whose name appears in gene_sets.
     # including the processed, make sure it is not more than the first 1500
-    to_process = [p for p in phenotypes if p["name"] not in processed]
-    
+    to_process = [p for p in phenotypes[:1500] if p["name"] not in processed]
 
 
     print(f"Total phenotypes in file: {len(phenotypes)}")

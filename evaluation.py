@@ -186,7 +186,7 @@ if __name__ == "__main__":
     parser.add_argument("--original_gmt", type=str, required=False,
                         default="out/genesets/phenotype_consensus_gene_sets.gmt")
     parser.add_argument("--new_gmt", type=str, required=False,
-                        default="out/genesets/consensus_gene_sets.gmt")
+                        default="out/direct-prompting/gmts/genesets_entrez_llama3.gmt")
 
     args = parser.parse_args()
 

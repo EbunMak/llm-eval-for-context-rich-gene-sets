@@ -4,12 +4,38 @@ from typing import Dict, List
 from utils import id_mapping
 
 
-def extract_llama3_genes(data: dict) -> List[str]:
-    genes = []
-    for entry in data.get("genes", []):
-        if isinstance(entry.get("gene"), list):
-            genes.extend(entry["gene"])
-    return list(dict.fromkeys(genes))
+def extract_deepseek_genes(data: dict) -> List[str]:
+    """
+    Robust extractor for DeepSeek outputs.
+    Handles:
+      - flat lists
+      - nested lists
+      - mixed types
+    """
+    raw = data.get("genes", [])
+    genes: List[str] = []
+
+    if not isinstance(raw, list):
+        return genes
+
+    for item in raw:
+        if isinstance(item, str):
+            genes.append(item)
+        elif isinstance(item, list):
+            for g in item:
+                if isinstance(g, str):
+                    genes.append(g)
+
+    # deduplicate while preserving order
+    seen = set()
+    out = []
+    for g in genes:
+        if g not in seen:
+            seen.add(g)
+            out.append(g)
+
+    return out
+
 
 
 def build_gmts_from_dir(
@@ -22,6 +48,8 @@ def build_gmts_from_dir(
 
     unmapped: Dict[str, List[str]] = {}
 
+    # process json if phenotype is in this list
+
     with open(out_symbols, "w") as f_sym, open(out_entrez, "w") as f_ent:
         for fname in sorted(os.listdir(extracted_dir)):
             if not fname.endswith(".json"):
@@ -33,7 +61,7 @@ def build_gmts_from_dir(
             with open(fpath, "r") as f:
                 data = json.load(f)
 
-            genes = extract_llama3_genes(data)
+            genes = extract_deepseek_genes(data)
             if not genes:
                 continue
 
@@ -47,7 +75,6 @@ def build_gmts_from_dir(
             if not valid_syms:
                 continue
 
-            # SYMBOL GMT
             f_sym.write(
                 phenotype
                 + f"\t{model_tag}_extracted(symbols)\t"
@@ -55,7 +82,6 @@ def build_gmts_from_dir(
                 + "\n"
             )
 
-            # ENTREZ GMT
             f_ent.write(
                 phenotype
                 + f"\t{model_tag}_extracted(entrez)\t"
@@ -67,8 +93,8 @@ def build_gmts_from_dir(
 
 
 def main():
-    model = "llama3"
-    extracted_dir = f"out/direct-prompting/phenotype_generations/llama3.1:8b"
+    model = "qwen"
+    extracted_dir = f"out/gene_generations"
     out_dir = f"out/direct-prompting/gmts"
 
     symbols_gmt = os.path.join(out_dir, f"genesets_symbols_{model}.gmt")

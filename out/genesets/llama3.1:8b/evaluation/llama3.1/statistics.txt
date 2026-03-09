@@ -1,0 +1,93 @@
+
+=== BASIC DATA ===
+Total gene sets compared: 1230
+
+=== OVERLAP STATISTICS (# COMMON GENES) ===
+count    1230.000000
+mean       69.816260
+std       146.375795
+min         1.000000
+25%         8.000000
+50%        19.000000
+75%        61.000000
+max      1269.000000
+Name: # Common, dtype: float64
+
+Gene sets with NO common genes:
+  Count: 0
+  Names: []
+
+Gene sets with HIGH overlap (top 10):
+                            Gene Set Name  # Common
+26          Abnormality of the upper limb      1269
+1061     Abnormality of connective tissue      1251
+962                 Decreased body weight      1212
+908       Increased inflammatory response      1158
+830   Abnormality of the vertebral column      1117
+1071         Decreased head circumference      1000
+590                      Congenital onset       990
+1117         Abnormal vascular morphology       989
+470   Abnormal facial skeleton morphology       943
+831                           Motor delay       922
+
+=== NEW GENE STATISTICS (# NEW GENES) ===
+count    1230.000000
+mean        4.022764
+std         5.407056
+min         0.000000
+25%         0.000000
+50%         1.000000
+75%         6.750000
+max        35.000000
+Name: # New, dtype: float64
+
+Gene sets with NO new genes added (fully consistent):
+  Count: 333
+  Names: ['Raynaud phenomenon', 'Atypical behavior', 'Abnormal circulating citrulline concentration', 'Red hair', 'Abnormal circulating nucleobase concentration', 'Recurrent viral infections', 'Abnormal curvature of the vertebral column', 'Broad metatarsal', 'Chondrocalcinosis', 'Abnormal globus pallidus morphology', 'Absent facial hair', 'Limitation of neck motion', 'Neonatal alloimmune thrombocytopenia', 'Iris hypopigmentation', 'Premature loss of teeth', 'Secondary amenorrhea', 'Abnormal hemoglobin concentration', 'Eclabion', 'Abnormal hallux morphology', 'Peroneal muscle atrophy', 'Recurrent hand flapping', 'Hypouricemia', 'Submucous cleft palate', 'Ulnar deviation of finger', 'Enlarged interphalangeal joints', 'Rib segmentation abnormalities', 'Interosseus muscle atrophy', 'Cafe-au-lait spot', 'Prominent antihelix', 'Methylmalonic aciduria', 'Epileptic spasm', 'Abnormal calcification of the carpal bones', 'Color vision defect', 'Abnormal speech discrimination', 'Absence of the sacrum', 'Ocular albinism', 'Ectodermal dysplasia', 'Ectopia pupillae', 'Congenital giant melanocytic nevus', 'Abnormal phagocytosis', 'Pseudoepiphyses of hand bones', 'Protrusio acetabuli', 'Hypoglycosylation of alpha-dystroglycan', 'Coronal cleft vertebrae', 'Multiple suture craniosynostosis', 'Exudative retinopathy', 'Silver-gray hair', 'Enlarged sylvian cistern', 'Midline defect of the nose', 'Schwannoma', 'Pigmentary retinopathy', 'Prolonged bleeding following procedure', 'Epididymitis', 'Nail dysplasia', 'Choreoathetosis', 'Prolonged partial thromboplastin time', 'Juvenile myelomonocytic leukemia', 'Abnormal branching pattern of the aortic arch', 'Thin upper lip vermilion', 'Neonatal hyperbilirubinemia', 'Generalized dystonia', 'Polyembolokoilamania', 'Demyelinating peripheral neuropathy', 'Stomatocytosis', 'Osteopathia striata', 'Progressive hearing impairment', 'Decreased mean corpuscular hemoglobin concentration', 'Absent hair', 'Intestinal lymphangiectasia', 'Epicanthus', 'Oromotor apraxia', 'Ankle pain', 'Abnormal helix morphology', 'Abnormal circulating lactate dehydrogenase concentration', 'Abnormal nonverbal communicative behavior', 'Failure of eruption of permanent teeth', 'Dental malocclusion', 'Hip dislocation', 'Elbow contracture', 'Broad phalanges of the hand', 'Chiari malformation', 'Macular thickening', 'Abnormal sperm tail morphology', 'Metatarsal synostosis', 'Abnormality of neutrophils', 'Abnormal duodenum morphology', 'Abnormal external nose morphology', 'Abnormal circulating bilirubin concentration', 'Abnormality of humoral immunity', 'Multiple gastric polyps', 'Highly arched eyebrow', 'Broad thumb', 'Seborrheic dermatitis', 'Abnormal circulating serine concentration', 'Bifid distal phalanx of the thumb', 'Digestive system neoplasm', 'Short middle phalanx of the 2nd finger', 'Broad first metatarsal', 'Complete right bundle branch block', 'Abnormality of the middle phalanx of the 5th finger', 'Abnormal immune serum protein physiology', 'Hemiplegia', 'Increased mean platelet volume', 'Large fontanelles', 'Polymorphic ventricular tachycardia', 'Muscle spasm', 'Thin nail', 'Y-shaped metacarpals', 'Split foot', 'Chorioretinal atrophy', 'Abnormal joint morphology', 'Prominent forehead', 'Tessier cleft', 'Increased circulating lactate dehydrogenase concentration', 'Shoulder girdle muscle weakness', 'Platyspondyly', 'Spotty hypopigmentation', 'Abnormality of fibrinolysis', 'Abnormal mean corpuscular volume', 'Bilateral tonic-clonic seizure with focal onset', 'Primary microcephaly', 'Flattened epiphysis', 'Pes planus', 'Abnormal femur morphology', 'Chronic rhinitis', 'Acephalic spermatozoa', 'Polyuria', 'Abnormality of prothrombin', 'Hyperpigmentation in sun-exposed areas', 'Short clavicles', 'Curly hair', 'Proximal symphalangism of hands', 'Congenital hypoplastic anemia', 'Abnormal circulating isoleucine concentration', 'Abnormal endocrine morphology', 'Clitoral hypoplasia', 'Small for gestational age', 'Skin dimple', 'Hand muscle weakness', 'Absence of secondary sex characteristics', 'Distal lower limb amyotrophy', 'Lacrimal duct aplasia', 'Anti-thyroglobulin antibody positivity', 'Increased circulating androgen concentration', 'Metabolic alkalosis', 'Bradycardia', 'Dermal translucency', 'Shallow acetabular fossae', 'Nontuberculous mycobacterial pulmonary infection', 'Gastrointestinal arteriovenous malformation', 'Progressive microcephaly', 'Recurrent sinusitis', 'Ear pain', 'Hypopigmentation of the skin', 'Abnormal head blood vessel morphology', 'Anosmia', 'Abnormal renal morphology', 'Genu valgum', 'Abnormal toe phalanx morphology', 'Saccadic smooth pursuit', 'Protein-losing enteropathy', 'Severe intrauterine growth retardation', 'Proboscis', 'Ankyloblepharon', 'Abnormal circulating gonadotropin concentration', 'Moon facies', 'Abnormal number of teeth', 'Patellar aplasia', 'Recurrent cutaneous fungal infections', 'Convex nasal ridge', 'Delayed epiphyseal ossification', 'Neoplasm of the eye', 'Abnormality of the lower urinary tract', 'Fingerprint intracellular accumulation of autofluorescent lipopigment storage material', 'Atresia of the external auditory canal', 'Elevated urinary delta-aminolevulinic acid', 'Abnormal full-field electroretinogram', 'Phenotypic variability', 'Increased circulating gonadotropin level', 'Sagittal craniosynostosis', '2-hydroxyglutarate aciduria', 'Wide pubic symphysis', 'Receptive language delay', 'Skin erosion', 'Hypoplastic nipples', 'Premature pubarche', 'Abnormal fontanelle morphology', 'Rhinitis', 'Prominent interphalangeal joints', 'Cupped ribs', 'Abnormal electroretinogram', 'Few cafe-au-lait spots', 'Abnormal circulating copper concentration', '11 pairs of ribs', 'Limb-girdle muscle weakness', 'Abnormal circulating lipid concentration', 'Long nose', 'Degeneration of the striatum', 'Chronic leukemia', 'Meningioma', 'Acute myeloid leukemia', 'Nonprogressive cerebellar ataxia', 'Facial hemangioma', 'Pseudobulbar paralysis', 'Abnormal iris pigmentation', 'Splanchnic vein thrombosis', 'Corneal erosion', 'Resting tremor', 'Bruxism', 'Cutaneous melanoma', 'Myotonia', 'Hydrometrocolpos', 'Flared iliac wing', 'Osseous finger syndactyly', 'Abnormality iris morphology', 'Neoplasm of the anterior pituitary', 'Temporal pattern', 'Inheritance qualifier', 'Dimple chin', 'Broad foot', 'Decreased circulating parathyroid hormone level', 'Hypopituitarism', 'Retinal pigment epithelial mottling', 'Deviation of the thumb', 'Abnormal middle phalanx morphology of the hand', 'Wide mouth', 'Malar flattening', 'Abnormal temper tantrums', 'Maturity-onset diabetes of the young', 'Long upper lip', 'Abnormal circulating carboxylic acid concentration', 'Organic aciduria', 'Ulnar deviation of the hand or of fingers of the hand', 'Vascular skin abnormality', 'Hematochezia', 'Neonatal omphalitis', 'Increased corneal thickness', 'Abnormality of the menstrual cycle', 'Caudate atrophy', 'Postaxial foot polydactyly', 'Hamartomatous polyposis', 'Torsion dystonia', 'Periauricular skin pits', 'Puberty and gonadal disorders', 'Abnormal proximal phalanx morphology of the hand', 'Abnormality of the breast', 'Abnormal morphology of the olfactory bulb', 'Mottled pigmentation', 'Abnormal corneal thickness', 'Cutaneous finger syndactyly', 'Upper limb spasticity', 'Cerebellar dentate nucleus calcification', 'X-linked inheritance', 'Neonatal seizure with electrographic correlate', 'Leukoencephalopathy', 'Abnormal neuron morphology', 'Gingivitis', 'Sclerocornea', 'Aplasia cutis congenita', 'Upper motor neuron dysfunction', 'Hypocalcemia', 'Goiter', 'Developmental glaucoma', 'Neuroinflammation', 'Laryngeal edema', 'Embryonal renal neoplasm', 'Increased circulating hemoglobin concentration', 'Abnormal lateral ventricle morphology', 'Scarring alopecia of scalp', 'Enlarged kidney', 'Cerebral visual impairment', 'Increased sensitivity to ionizing radiation', 'Abnormality of cytokine secretion', 'Exercise-induced rhabdomyolysis', 'Acute rhabdomyolysis', 'Poor appetite', 'Lymphangioma', 'Abnormal urine carbohydrate level', 'Barrett esophagus', 'Nonketotic hypoglycemia', 'Athetosis', 'Abnormal eyelash morphology', 'Chorioretinal coloboma', 'Intervertebral disk degeneration', 'Abnormality of connective tissue', 'Abnormality of the dentition', 'Abnormal metaphyseal trabeculation', 'Spastic paraplegia', 'Agyria', 'Abnormality of superoxide metabolism', 'Abnormal nail attachment', 'Thickened cortex of bones', 'Vascular granular osmiophilic material deposition', 'Secundum atrial septal defect', 'Abnormal pelvic girdle bone morphology', 'Glutaric aciduria', 'Premature thelarche', 'Abnormality of alkaline phosphatase level', 'Atrophic scars', 'Abnormal energy expenditure', 'Chills', 'Short first metatarsal', 'Radial deviation of finger', 'Inguinal hernia', 'Combined immunodeficiency', 'Autoimmune thrombocytopenia', 'Muscle abnormality related to mitochondrial dysfunction', 'Humeroradial synostosis', 'Pseudohypoaldosteronism', 'Lateral ventricle dilatation', 'Progressive cerebellar ataxia', 'Decreased circulating renin concentration', 'Upper limb postural tremor', 'Muscle fiber tubular inclusions', 'Elevated circulating growth hormone concentration', 'Albinism', 'Methemoglobinemia', 'Gonadal neoplasm', 'Hemivertebrae', 'Abnormality of the proximal phalanx of the 5th finger', 'Abnormal ear morphology', 'Low anterior hairline', 'Gonadotropin deficiency', 'Abnormal acetabulum morphology', 'Unusual fungal infection', 'Cardiac rhabdomyoma', 'Achilles tendon contracture', 'Tarsal synostosis', 'Gangrene', 'Primary hyperaldosteronism', 'Ileus', 'Achromatopsia', 'Scarring']
+
+Gene sets with MANY new genes added (top 10):
+                                 Gene Set Name  # New
+995                        Abnormal metabolism     35
+1168  Abnormal fetal cardiovascular morphology     34
+551                 Abnormality of the bladder     34
+243                           Myeloid leukemia     33
+561                            Carcinoid tumor     30
+135                            Medulloblastoma     29
+580       Abnormality of the intrinsic pathway     28
+938                  Decreased testicular size     26
+996                    Dilated third ventricle     26
+575                                  Exstrophy     25
+
+=== LOSS STATISTICS (# ORIGINAL GENES NOT IN NEW) ===
+count    1230.000000
+mean       68.274797
+std       158.208088
+min         0.000000
+25%         3.000000
+50%        12.000000
+75%        46.000000
+max      1429.000000
+Name: # Lost, dtype: float64
+
+Gene sets that lost ALL original genes:
+  Count: 0
+  Names: []
+
+Gene sets that retained MOST original genes (lowest loss, top 10):
+                            Gene Set Name  # Lost
+52                Carotid artery stenosis       0
+65                  Pancreatic pseudocyst       0
+1161              Pseudohypoaldosteronism       0
+1101                Abnormal relationship       0
+1108                    Glutaric aciduria       0
+450       Abnormal cardiac biomarker test       0
+451       Cerebral cavernous malformation       0
+295                     Minicore myopathy       0
+417   Polymorphic ventricular tachycardia       0
+1193                       Immotile cilia       0
+
+=== GLOBAL DATABASE-LEVEL GENE DIFFERENCES ===
+Total unique genes in ORIGINAL DB: 5093
+Total unique genes in NEW DB: 6015
+Genes LOST from original DB: 133
+Genes GAINED in new DB: 1055

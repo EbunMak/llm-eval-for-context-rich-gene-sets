@@ -1,1 +1,0 @@
-slurmstepd: error: *** JOB 39351876 ON mmg2 CANCELLED AT 2026-02-06T08:12:49 DUE TO TIME LIMIT ***

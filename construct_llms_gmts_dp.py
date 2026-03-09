@@ -158,6 +158,6 @@ def main():
         out_gmt=args.out_gmt,
     )
 
-
+#python construct_llms_gmts_dp.py   --llama_gmt out/direct-prompting/gmts/genesets_entrez_llama3.gmt   --deepseek_gmt out/direct-prompting/gmts/genesets_entrez_deepseek.gmt   --rag_consensus_gmt out/genesets/consensus_gene_sets.gmt
 if __name__ == "__main__":
     main()

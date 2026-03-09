@@ -1,1 +1,0 @@
-slurmstepd: error: *** JOB 39400486 ON fg5 CANCELLED AT 2026-02-08T19:02:10 ***

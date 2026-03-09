@@ -3,105 +3,103 @@ import argparse
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
 
 
 def add_summary_stats(df):
-    """
-    Print mean and median per construction and metric.
-    """
     metrics = ["Precision", "Recall", "F1"]
     for metric in metrics:
         print("\n=== {} ===".format(metric))
-        stats = df.groupby("Construction")[metric].agg(["mean", "median"])
+        stats = df.groupby("Configuration")[metric].agg(["mean", "median"])
         print(stats.round(3))
 
 
-def plot_metric_boxplots(df, metric, out_dir):
-    """
-    Boxplot of the given metric across constructions.
-    Different colors per construction, plus mean marker and
-    text labels with mean/median.
-    """
+def get_configuration_order(df):
+    f1_medians = df.groupby("Configuration")["F1"].median().sort_values(ascending=False)
+    return list(f1_medians.index)
+
+
+def get_palette(config_order):
+    base_palette = sns.color_palette("Set2", n_colors=len(config_order))
+    return {cfg: color for cfg, color in zip(config_order, base_palette)}
+
+
+def plot_metric_boxplots(df, metric, out_dir, config_order, palette_map):
     os.makedirs(out_dir, exist_ok=True)
 
-    plt.figure(figsize=(7, 4))
-    ax = sns.boxplot(
-        x="Construction",
+    plt.rcParams['font.family'] = 'Liberation Serif'
+    plt.rcParams['font.weight'] = 'bold'
+
+    fig, ax = plt.subplots(figsize=(8, 6))
+
+    sns.boxplot(
+        x="Configuration",
         y=metric,
         data=df,
-        palette="Set2",       # different colors
-        showfliers=False
+        order=config_order,
+        palette=[palette_map[cfg] for cfg in config_order],
+        showfliers=False,
+        notch=True,
+        ax=ax,
+        linewidth=1.8,
     )
 
-    # Compute summary stats
-    grouped = df.groupby("Construction")[metric]
-    means = grouped.mean()
+    # Median labels — bigger and bolder
+    grouped = df.groupby("Configuration")[metric]
     medians = grouped.median()
-
-    # Overlay mean marker
-    x_positions = range(len(means))
-    plt.scatter(
-        x_positions,
-        means.values,
-        color="black",
-        marker="D",
-        s=30,
-        zorder=3,
-        label="Mean"
-    )
-
-    # Add text labels for mean and median
-    for i, (label, mean_val) in enumerate(means.items()):
-        median_val = medians[label]
-        # Slight vertical offsets so text doesn't overlap box/marker
+    for i, cfg in enumerate(config_order):
+        median_val = medians[cfg]
         ax.text(
             i,
-            mean_val + 0.02,
-            "mean={:.2f}".format(mean_val),
+            median_val + 0.02,
+            f"{median_val:.2f}",
             ha="center",
             va="bottom",
-            fontsize=8,
-            color="black",
-            rotation=0,
-        )
-        ax.text(
-            i,
-            median_val - 0.04,
-            "med={:.2f}".format(median_val),
-            ha="center",
-            va="top",
-            fontsize=8,
-            color="dimgray",
-            rotation=0,
+            fontsize=12,
+            fontweight="bold",
+            color="#222222",
         )
 
-    plt.ylim(0, 1)
-    plt.ylabel(metric)
-    plt.xlabel("")
-    plt.title("{} per phenotype".format(metric))
-    plt.xticks(rotation=30, ha="right")
-    plt.legend(loc="lower left", fontsize="small")
+    ax.set_ylim(0, 1.08)
+
+    # Axis labels
+    ax.set_ylabel(metric, fontsize=16, fontweight="bold", labelpad=12)
+    ax.set_xlabel("Configuration", fontsize=16, fontweight="bold", labelpad=12)
+
+    # Tick labels
+    ax.set_xticks(range(len(config_order)))
+    ax.set_xticklabels(
+        config_order,
+        rotation=35,
+        ha="right",
+        fontsize=12,
+        fontweight="bold",
+    )
+    ax.tick_params(axis='y', labelsize=12)
+    for label in ax.get_yticklabels():
+        label.set_fontweight("bold")
+
+    # Grid
+    ax.grid(True, axis='y', linestyle='-', linewidth=0.5, alpha=0.3)
+    ax.set_axisbelow(True)
+
+    sns.despine(trim=True)
     plt.tight_layout()
 
-    out_path = os.path.join(out_dir, "{}_boxplot.png".format(metric.lower()))
-    plt.savefig(out_path, dpi=300)
+    out_path = os.path.join(out_dir, f"{metric.lower()}_boxplot.png")
+    plt.savefig(out_path, dpi=300, bbox_inches="tight")
     plt.close()
-    print("Saved {} boxplot to {}".format(metric, out_path))
+    print(f"Saved {metric} boxplot to {out_path}")
 
 
 def load_prf_tables(csv_paths, labels):
-    """
-    Load multiple per-phenotype PRF tables and add a 'Construction' column.
-    Each CSV must have columns: 'Gene Set Name', 'Precision', 'Recall', 'F1'.
-    """
     all_dfs = []
     for path, label in zip(csv_paths, labels):
         df = pd.read_csv(path)
-        # Basic sanity check
         for col in ["Precision", "Recall", "F1"]:
             if col not in df.columns:
                 raise ValueError("{} not found in {}".format(col, path))
-        df["Construction"] = label
+        df["Configuration"] = label
         all_dfs.append(df)
     return pd.concat(all_dfs, ignore_index=True)
 
@@ -110,24 +108,9 @@ def main():
     parser = argparse.ArgumentParser(
         description="Compare multiple PRF tables via boxplots."
     )
-    parser.add_argument(
-        "--csvs",
-        nargs="+",
-        required=True,
-        help="List of per_phenotype_prf.csv paths (one per construction).",
-    )
-    parser.add_argument(
-        "--labels",
-        nargs="+",
-        required=True,
-        help="List of labels for each construction (same order as --csvs).",
-    )
-    parser.add_argument(
-        "--out_dir",
-        type=str,
-        default="prf_comparison_plots",
-        help="Output directory for plots.",
-    )
+    parser.add_argument("--csvs", nargs="+", required=True)
+    parser.add_argument("--labels", nargs="+", required=True)
+    parser.add_argument("--out_dir", type=str, default="prf_comparison_plots")
     args = parser.parse_args()
 
     if len(args.csvs) != len(args.labels):
@@ -135,8 +118,12 @@ def main():
 
     df = load_prf_tables(args.csvs, args.labels)
     add_summary_stats(df)
+
+    config_order = get_configuration_order(df)
+    palette_map = get_palette(config_order)
+
     for metric in ["Precision", "Recall", "F1"]:
-        plot_metric_boxplots(df, metric, args.out_dir)
+        plot_metric_boxplots(df, metric, args.out_dir, config_order, palette_map)
 
 
 if __name__ == "__main__":

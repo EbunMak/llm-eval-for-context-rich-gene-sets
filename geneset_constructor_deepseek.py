@@ -92,7 +92,7 @@ def build_gmts_from_dir(
 
 def main():
     model = "deepseek"
-    extracted_dir = f"out/direct-prompting/phenotype_generations/deepseek-r1:8b_1.0"
+    extracted_dir = f"out/direct-prompting/phenotype_generations/deepseek-r1:8b"
     out_dir = f"out/direct-prompting/gmts"
 
     symbols_gmt = os.path.join(out_dir, f"genesets_symbols_{model}.gmt")
