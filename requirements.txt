@@ -7,3 +7,4 @@ mygene
 langchain-core
 langchain-ollama
 langgraph
+langchain-groq

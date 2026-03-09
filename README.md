@@ -1,9 +1,8 @@
-# A Multi-Agent Approach to Generating Context-Rich Gene Sets
-
+# Evaluating Retrieval‑Augmented Open‑Source LLMs for Generating Context‑Rich Gene Sets
 This repository contains the full implementation of our pipeline for reconstructing Human Phenotype Ontology (HPO) gene sets using large language models (LLMs), including **Llama 3.1 8B**, **Qwen 3 32B**, and **DeepSeek R-1 8B**.
 It includes all code for phenotype extraction, literature retrieval, gene-set generation, verification, consolidation, and evaluation.
 
-We provide the final reconstructed 437 HPO gene sets in:
+We provide the final reconstructed 1230 HPO gene sets in:
 `out/genesets/consensus_gene_sets.gmt`
 (All genes are represented using Entrez IDs.)
 
@@ -90,7 +89,13 @@ We also include a full list of 5567 phenotypes, representing the intersection be
 Run the main pipeline using:
 
 ```
-python3 main.py --input_file out/phenotype_details.json
+python3 main_llm.py --input_file out/phenotype_details.json --llm <model_name>
+```
+
+For example
+```
+python3 main_llm.py --input_file out/phenotype_details.json --llm deepseek-r1:8b
+
 ```
 
 This performs:
@@ -192,21 +197,39 @@ This produces:
   (containing summary statistics: mean loss, mean new genes, overall similarity)
 
 
+## 6. Direct Prompting
 
-## 6. Plot Generation
-
-The evaluation CSVs can be visualized using:
-
+To run the pipeline to generate the gene sets using only direct prompting run: 
 ```
-python3 similarity_plot.py
-python3 lost_genes_plot.py
-python3 new_genes_plot.py
+python3 direct_prompting.py --input_file out/phenotype_details.json --llm <model_name>
 ```
 
-Plots are saved as SVG, PNG, and PDF under:
+For example
+```
+python3 direct_prompting.py --input_file out/phenotype_details.json --llm deepseek-r1:8b
+```
+
+Note: The Qwen implementaiton of this retunred a huge amount of broken JSONs, was computatioonally slow and hallucinated wrong gene symbols so we have another pipeline that uses GROQ API (you need to configure your api key in the environment to run - one can recreate the 1230 gene sets with the free tier in resonable time)
+```
+
+export GROQ_API_KEY="your key here"
+
+# Batch process all phenotypes from JSON
+python qwen_refix.py --input out/remnant.json --limit 1230 --workers 1
+```
+## Constructing GMTs
+
+`geneset_constructor_deepseek.py`, `geneset_constructor_llama3.py`, and `geneset_constructor_qwen.py` are the scripts to construct the GMTs for DeepSeek R1, Llama 3.1 and Qwen 3 models respectively in the direct prompting configuration.
+
+
+## 7. Plot Generation
+
+The evaluation CSVs of all 7 configurations can be visualized using:
 
 ```
-out/evaluation/plots/
+compare_prf_plots.py #precesion, recall and F1 plots
+python3 lost_genes_plot.py # distribution of % loss plots 
+python3 new_genes_plot.py # distribution of new genes added plots
 ```
 
 
