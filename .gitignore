@@ -1,3 +1,4 @@
+*.sh
 chroma_db/
 ollama.log
 parallel run 2/
@@ -9,6 +10,5 @@ out/phenotype_generations/
 out/phenotype_checks/
 out/direct-prompting
 out/aa/
-*.sh
 sandbox.py
 out/gene_generations/
