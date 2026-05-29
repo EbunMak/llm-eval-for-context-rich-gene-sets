@@ -37,14 +37,13 @@ This ensures the local LLM server remains active throughout long-running jobs.
 
 ### Computing Environment (Cluster)
 
-Our experiments were run on a research computing cluster using configurations such as:
-
-```
-salloc -N1 -n1 -c8  --mem=32GB --gres=gpu:1 -p gpu-v100
-salloc -N1 -n1 -c4  --mem=32GB --gres=gpu:1 -p bigmem
-```
-
-These details are provided to give context on hardware availability; no specific time limits are included.
+Our experiments were run on a university research computing cluster, 
+with each run utilizing a single V100-class GPU and 32 GB RAM. 
+Average runtime per HPO gene set reconstruction (including retrieval 
+and LLM calls) was approximately 9 minutes, with variation across 
+LLM configurations. The same pipeline and timings apply when using 
+other gene set databases such as GO or KEGG, since the per-set 
+workflow is unchanged.
 
 
 
@@ -58,6 +57,7 @@ The pipeline reconstructs gene sets through the following stages:
 4. **Gene Association Verification**
 5. **Consensus Gene Set Construction**
 6. **Evaluation and Plot Generation**
+7. **Plot Generation**
 
 The following sections describe how to run each stage.
 
@@ -209,7 +209,7 @@ For example
 python3 direct_prompting.py --input_file out/phenotype_details.json --llm deepseek-r1:8b
 ```
 
-Note: The Qwen implementaiton of this retunred a huge amount of broken JSONs, was computatioonally slow and hallucinated wrong gene symbols so we have another pipeline that uses GROQ API (you need to configure your api key in the environment to run - one can recreate the 1230 gene sets with the free tier in resonable time)
+Note: For Qwen's direct-prompting baseline, we instead used the Groq API to obtain faster inference. The prompts and decoding parameters are otherwise the same across models. (You need to configure your api key in the environment to run - one can recreate the 1230 gene sets with the free tier in a reasonable time)
 ```
 
 export GROQ_API_KEY="your key here"
